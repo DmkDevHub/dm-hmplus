@@ -14,6 +14,29 @@
 
 ---
 
+## 2026-11-12
+
+- `docs/공통관리-작업대장.md` 생성
+  - 대상 경로: `erp-h/docs/공통관리-작업대장.md`
+  - 근거: `products-erp-h/docs/work/common-admin/공통관리-작업대장_v3.xlsx` (시트 `작업목록`, 216행)
+  - 변경: 엑셀 전 열을 우선순위별 표로 옮기고 마지막에 `검토완료` 열(☐) 추가
+- `docs/공통관리-작업대장.md` 순번 1(ca-role) 검토완료 ☑
+  - 대상 경로: `erp-h/docs/공통관리-작업대장.md`
+  - 이유: 코드 검토 통과(실화면 미구동) — 검토 통과면 구동 없이도 체크하기로 함
+- `docs/공통관리-작업대장.md` 순번 2(ca-role-common) 검토완료 ☑
+  - 대상 경로: `erp-h/docs/공통관리-작업대장.md`
+  - 이유: 코드 검토 통과. 「다국어 그리드 삭제 남음」 항목은 11/12 사용자 결정(hmp 925d0a89a · 언어 행 고정·추가/삭제 제거)으로 대체
+- `docs/공통관리-작업대장.md` 순번 3(ca-role-rule) 검토완료 ☑
+  - 대상 경로: `erp-h/docs/공통관리-작업대장.md`
+  - 이유: 검토 중 결함 1건 수정 — role_condition 조건유형 CHECK 에 DUTY·ORG_UNIT·SCOPE·IP 가 없어 직무 등 조건 저장 실패. hmp install DDL 3방언 + upgrade `2026-11-12-role-condition-type-check-*.sql` 추가(운영 DB 적용은 별도)
+- `docs/공통관리-작업대장.md` 순번 4(ca-user-role) 검토완료 ☑
+  - 대상 경로: `erp-h/docs/공통관리-작업대장.md`
+  - 이유: 코드 검토 통과 · 수정 없음
+- `docs/공통관리-작업대장.md` 1순위 나머지(순번 5~22·24, 19건) 검토완료 ☑
+  - 대상 경로: `erp-h/docs/공통관리-작업대장.md`
+  - 통과(수정 없음): 5·6·7·8·9·10·13·14·15·18·20·22·24
+  - 수정(hmp 소스 · 커밋 안 함): 11 ca-service(→ 버튼 등급 2 · service_type CHECK 에 API 추가 · 열기방식 LINK 코드 use_yn=N + upgrade `2026-11-12-service-type-check-*.sql` · ERP DB 는 LINK 코드 끄기만 적용), 12 ca-role-service(등급 4 이상 저장 전 차단), 16 ca-org-structure(코드 칼럼 type=select), 17 ca-partner(주민번호 보기 등급 3), 19 ca-employee-manage(실화면 hmp-user-manage.js 상태 공통코드·저장 뒤 재선택·발령 날짜 형식), 21 ca-org-assignment(발령 저장 날짜 형식)
+
 ## 2026-11-09
 
 - `docs/menu/` 삭제 (`screens/` 48개 파일, `index.md`)
