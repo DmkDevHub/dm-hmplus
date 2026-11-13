@@ -1,0 +1,20 @@
+{
+ "captured_at": "2026-11-13 15:56:03",
+ "data": {
+  "TQHA_CKLST": {
+   "rows": 118,
+   "COM_CD_QS": 118,
+   "HO_CHK_DIV_CD2_QS": 118
+  },
+  "TQHA_CKLST_ITM": {
+   "rows": 395,
+   "COM_CD_QS": 395,
+   "HO_CHK_DIV_CD2_QS": 395
+  }
+ },
+ "objects": 289,
+ "objects_invalid": [],
+ "source_equals_generated_sql": true,
+ "source_diff": [],
+ "generated_not_in_vplus": []
+}

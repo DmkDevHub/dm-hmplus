@@ -1,0 +1,78 @@
+{
+ "1_status": {
+  "found": 95,
+  "expected": 95,
+  "not_valid": [],
+  "user_errors": 0,
+  "ok": true
+ },
+ "2_source": {
+  "compared": 93,
+  "diff": [],
+  "whitespace_only_diff": [],
+  "ok": true
+ },
+ "3_qs_literals": {
+  "left": [],
+  "left_count": 0,
+  "qh_literal_count": 246,
+  "ok": true
+ },
+ "4_data": {
+  "TQHA_CKLST": {
+   "rows_before": 118,
+   "rows_now": 118,
+   "missing_keys": 0,
+   "extra_keys": 0,
+   "not_qh": 0,
+   "other_column_diff": [],
+   "other_column_diff_count": 0,
+   "codes_missing_in_comcode": [],
+   "ok": true
+  },
+  "TQHA_CKLST_ITM": {
+   "rows_before": 395,
+   "rows_now": 395,
+   "missing_keys": 0,
+   "extra_keys": 0,
+   "not_qh": 0,
+   "other_column_diff": [],
+   "other_column_diff_count": 0,
+   "codes_missing_in_comcode": [],
+   "ok": true
+  }
+ },
+ "5_baseline": {
+  "objects": {
+   "before": 886,
+   "now": 886,
+   "added": [],
+   "removed": [],
+   "changed": 95,
+   "changed_outside_targets": [],
+   "targets_not_changed": []
+  },
+  "source": {
+   "before": 510,
+   "now": 510,
+   "added": [],
+   "removed": [],
+   "changed": 93,
+   "changed_outside_93": [],
+   "93_not_changed": []
+  },
+  "constraints": {
+   "before": 565,
+   "now": 565,
+   "diff": []
+  },
+  "table_counts": {
+   "tables": 191,
+   "tables_now": 191,
+   "diff": []
+  },
+  "ok": true
+ },
+ "all_ok": true,
+ "checked_at": "2026-11-13 16:06:21"
+}
