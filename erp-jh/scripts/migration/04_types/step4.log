@@ -1,0 +1,5 @@
+[2026-11-13 12:51:35] === 4단계 시작 ===
+[2026-11-13 12:51:36] TYPE QSSITEOBJ01 생성
+[2026-11-13 12:51:36] TYPE QSSITETAB01 생성
+[2026-11-13 12:51:36] 검증: 모두 OK {'QSSITEOBJ01': {'vplus_status': 'VALID', 'errors': 0, 'same_as_jh': {'type': True, 'attrs': True, 'coll': True}}, 'QSSITETAB01': {'vplus_status': 'VALID', 'errors': 0, 'same_as_jh': {'type': True, 'attrs': True, 'coll': True}}}
+[2026-11-13 12:51:36] === 4단계 종료 ===

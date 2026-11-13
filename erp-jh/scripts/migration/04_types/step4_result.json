@@ -1,0 +1,20 @@
+{
+ "QSSITEOBJ01": {
+  "vplus_status": "VALID",
+  "errors": 0,
+  "same_as_jh": {
+   "type": true,
+   "attrs": true,
+   "coll": true
+  }
+ },
+ "QSSITETAB01": {
+  "vplus_status": "VALID",
+  "errors": 0,
+  "same_as_jh": {
+   "type": true,
+   "attrs": true,
+   "coll": true
+  }
+ }
+}
