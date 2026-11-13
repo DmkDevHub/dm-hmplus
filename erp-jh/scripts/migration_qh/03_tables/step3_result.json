@@ -1,0 +1,131 @@
+{
+ "copied": {
+  "TQHA_CKLST": 118,
+  "TQHA_CKLST_ITM": 395,
+  "TQHA_CTP": 182,
+  "TQHA_CTPUNT_CHKITM": 12485,
+  "TQHA_DEEDU_CD": 145,
+  "TQHA_DISASTER_CD": 124,
+  "TQHA_DISASTER_DIV": 42,
+  "TQHA_EDU_CD": 9,
+  "TQHA_MSDS_CD": 3,
+  "TQHA_AREC_CD": 3,
+  "TQHA_SAFE_PERM_CD": 6,
+  "TQHA_SAFE_PERM_CPLN": 27,
+  "TQHB_CTPUNT_CHKITM": 12484,
+  "TQHA_CTPUNT": 1227
+ },
+ "data": [
+  [
+   "TQSA_AREC_CD",
+   "TQHA_AREC_CD",
+   3,
+   3,
+   true
+  ],
+  [
+   "TQSA_CKLST",
+   "TQHA_CKLST",
+   118,
+   118,
+   true
+  ],
+  [
+   "TQSA_CKLST_ITM",
+   "TQHA_CKLST_ITM",
+   395,
+   395,
+   true
+  ],
+  [
+   "TQSA_CTP",
+   "TQHA_CTP",
+   182,
+   182,
+   true
+  ],
+  [
+   "TQSA_CTPUNT",
+   "TQHA_CTPUNT",
+   1227,
+   1227,
+   true
+  ],
+  [
+   "TQSA_CTPUNT_CHKITM",
+   "TQHA_CTPUNT_CHKITM",
+   12485,
+   12485,
+   true
+  ],
+  [
+   "TQSA_DEEDU_CD",
+   "TQHA_DEEDU_CD",
+   145,
+   145,
+   true
+  ],
+  [
+   "TQSA_DISASTER_CD",
+   "TQHA_DISASTER_CD",
+   124,
+   124,
+   true
+  ],
+  [
+   "TQSA_DISASTER_DIV",
+   "TQHA_DISASTER_DIV",
+   42,
+   42,
+   true
+  ],
+  [
+   "TQSA_EDU_CD",
+   "TQHA_EDU_CD",
+   9,
+   9,
+   true
+  ],
+  [
+   "TQSA_MSDS_CD",
+   "TQHA_MSDS_CD",
+   3,
+   3,
+   true
+  ],
+  [
+   "TQSA_SAFE_PERM_CD",
+   "TQHA_SAFE_PERM_CD",
+   6,
+   6,
+   true
+  ],
+  [
+   "TQSA_SAFE_PERM_CPLN",
+   "TQHA_SAFE_PERM_CPLN",
+   27,
+   27,
+   true
+  ],
+  [
+   "TQSB_CTPUNT_CHKITM",
+   "TQHB_CTPUNT_CHKITM",
+   12484,
+   12484,
+   true
+  ]
+ ],
+ "nonzero_structure_only": [],
+ "column_diff": [],
+ "pk_count": 95,
+ "fk_count": 31,
+ "cons_not_enabled_validated": [],
+ "cons_name_mismatch": [],
+ "comments": {
+  "jh_table": 107,
+  "vplus_table": 107,
+  "jh_column": 2140,
+  "vplus_column": 2140
+ },
+ "new_tables_in_vplus": 108
+}

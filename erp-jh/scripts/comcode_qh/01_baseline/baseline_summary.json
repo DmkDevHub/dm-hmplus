@@ -1,0 +1,20 @@
+{
+ "captured_at": "2026-11-13 15:16:34",
+ "vplus": {
+  "total_rows": 19340,
+  "hrnk_qs_rows": 776,
+  "hrnk_qh_rows": 0,
+  "com_or_hrnk_qs_qh_rows": 779,
+  "qh_rows": [
+   [
+    "QH",
+    "*",
+    "(신)안전"
+   ]
+  ]
+ },
+ "jh": {
+  "total_rows": 19326,
+  "hrnk_qs_rows": 1032
+ }
+}

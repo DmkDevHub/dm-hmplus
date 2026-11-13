@@ -2,7 +2,6 @@
 
 > 작성일: 2026-11-13 · 원본: JH `JH202610` · 대상: vplus `VPLUS202611A` (둘 다 192.168.1.25:1521:ORCLU)
 > 근거 수치는 두 DB의 데이터 딕셔너리를 조회한 결과다(조회 전용, 아직 DB를 바꾸지 않았다).
-> 관련 문서: [TQS_COPY_TO_VPLUS_REVIEW_V2.md](TQS_COPY_TO_VPLUS_REVIEW_V2.md)(테이블 이름 충돌 검토)
 
 ## 0. 기본 원칙 (최우선)
 
