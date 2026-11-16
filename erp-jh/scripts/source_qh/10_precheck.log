@@ -1,0 +1,30 @@
+OK   원본 파일 수 783 (기대 783)
+     확장자: html 6, java 474, jsp 185, xml 118
+OK   대상 경로 없음: java/com/hs/hub/qh
+OK   대상 경로 없음: resources/sqlmap/mybatis/qh
+OK   대상 경로 없음: webapp/WEB-INF/jsp/qh
+OK   대상 경로 없음: webapp/WEB-INF/jsp/cont/qh
+OK   vplus에 Qh로 시작하는 클래스 없음 (0개)
+OK   새 클래스 이름 474개가 서로 겹치지 않음 (겹침 [])
+OK   새 클래스 이름이 vplus 기존 클래스와 겹치지 않음 (겹침 [])
+OK   qs 밖 import 24종이 vplus에 있음 (없음 [])
+OK   qs 밖 import의 클래스 이름이 qs 클래스 이름과 겹치지 않음 (겹침 [])
+OK   원본이 모두 UTF-8 (아닌 파일 0: [])
+     BOM 0개, CRLF 파일 783개, LF 파일 0개 (원본 그대로 유지)
+OK   예외 허용 파일 있음: resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml
+OK   예외 허용 파일 있음: resources/sqlmap/mybatis/co/selectbox/QhSelectBind.xml
+OK   예외 허용 파일 있음: webapp/resources/js/module/qh.lib.js
+OK   예외 허용 파일 있음: webapp/WEB-INF/tiles/tiles.xml
+OK   예외 허용 파일 있음: webapp/WEB-INF/tiles/view/approvalinside/header.jsp
+OK   예외 허용 파일 있음: webapp/WEB-INF/tiles/view/approvalinside/footer.jsp
+OK   header.jsp의 "/qs/aprv/" 8곳 (기대 8)
+OK   footer.jsp의 "/qs/aprv/" 2곳 (기대 2)
+OK   tiles.xml에 /qs/aprv/* 정의만 있음
+OK   결재 레이아웃에 aprvBase가 아직 없음
+OK   매핑 자료 있음: dm-hmplus/erp-jh/scripts/migration_qh/02_generate/mapping.csv
+OK   매핑 자료 있음: dm-hmplus/erp-jh/scripts/migration_qh/01_baseline/jh_qs_objects.csv
+OK   매핑 자료 있음: dm-hmplus/erp-jh/scripts/migration_qh/01_baseline/vplus_objects.csv
+OK   매핑 자료 있음: dm-hmplus/erp-jh/scripts/comcode_qh/02_generate/mapping.csv
+OK   vplus git 작업 트리가 깨끗함 ()
+
+결과: 통과

@@ -1,0 +1,116 @@
+﻿OLD,NEW,IN_QH_COMCODE,ACTION,FILE_CNT,FILES
+QS001,QH001,Y,CHANGE,3,webapp/WEB-INF/jsp/qs/qsa/riskPlanLst.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanRegPopup.jsp
+QS002,QH002,Y,CHANGE,14,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml webapp/WEB-INF/jsp/qs/qsa/currPlnLst.jsp webapp/WEB-INF/jsp/qs/qsa/meetDrft.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/preIssueLst.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS003,QH003,Y,CHANGE,15,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml webapp/WEB-INF/jsp/qs/qsa/currPlnLst.jsp webapp/WEB-INF/jsp/qs/qsa/meetDrft.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS004,QH004,Y,CHANGE,15,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml webapp/WEB-INF/jsp/qs/qsa/currPlnLst.jsp webapp/WEB-INF/jsp/qs/qsa/meetDrft.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS005,QH005,Y,CHANGE,21,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/MeetInfo.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml resources/sqlmap/mybatis/qs/qsb/RiskChk.xml resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp webapp/WEB-INF/jsp/qs/qsa/mainMngItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/meetDrft.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanLst.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskSchdMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskSchdMngCo.jsp webapp/WEB-INF/jsp/qs/qsa/safeCostRpt1.jsp webapp/WEB-INF/jsp/qs/qsb/riskDgrMainList.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS006,QH006,Y,CHANGE,5,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/preIssueLst.jsp
+QS007,QH007,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp
+QS01,QS01,N,KEEP,1,java/com/jh/erp/qs/qsa/svc/impl/SafeCostRegServiceImpl.java
+QS011,QH011,Y,CHANGE,5,java/com/jh/erp/qs/qsa/svc/impl/ChkItmManageServiceImpl.java resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml webapp/WEB-INF/jsp/qs/qsa/apprMng2.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmReg2.jsp
+QS012,QH012,Y,CHANGE,2,java/com/jh/erp/qs/qsa/svc/impl/ChkItmManageServiceImpl.java resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+QS013,QH013,Y,CHANGE,8,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml resources/sqlmap/mybatis/qs/qsa/ChkItmSchedule.xml webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst2.jsp webapp/WEB-INF/jsp/qs/qsa/safeCostRpt1.jsp webapp/WEB-INF/jsp/qs/qsa/siteMaClose.jsp webapp/WEB-INF/jsp/qs/qsa/siteMaCurst.jsp
+QS014,QH014,Y,CHANGE,15,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml resources/sqlmap/mybatis/qs/qsa/ObjCd.xml webapp/WEB-INF/jsp/qs/qsa/actionRsltLst.jsp webapp/WEB-INF/jsp/qs/qsa/actionRsltLst1.jsp webapp/WEB-INF/jsp/qs/qsa/baseCd.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmReg2.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmSchedule.jsp webapp/WEB-INF/jsp/qs/qsa/emgTrnList.jsp webapp/WEB-INF/jsp/qs/qsa/jobCd.jsp webapp/WEB-INF/jsp/qs/qsa/jobResult.jsp webapp/WEB-INF/jsp/qs/qsa/objCd.jsp webapp/WEB-INF/jsp/qs/qsa/riskcipifReg.jsp webapp/WEB-INF/jsp/qs/qsa/workEnvMon.jsp
+QS015,QH015,Y,CHANGE,6,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml resources/sqlmap/mybatis/qs/qsa/ChkItmSchedule.xml webapp/WEB-INF/jsp/qs/qsa/actionRsltLst.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmSchedule.jsp webapp/WEB-INF/jsp/qs/qsa/safeCostRpt1.jsp
+QS024,QH024,Y,CHANGE,15,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml webapp/WEB-INF/jsp/qs/qsa/currPlnLst.jsp webapp/WEB-INF/jsp/qs/qsa/mainMngItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/meetDrft.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS025,QH025,Y,CHANGE,6,webapp/WEB-INF/jsp/qs/qsa/addRiskLst.jsp webapp/WEB-INF/jsp/qs/qsa/addRiskReg.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/preIssueLst.jsp webapp/WEB-INF/jsp/qs/qsa/riskNcrLst.jsp webapp/WEB-INF/jsp/qs/qsa/riskNcrReg.jsp
+QS026,QH026,Y,CHANGE,6,java/com/jh/erp/qs/qsa/svc/impl/SafeCostRegServiceImpl.java java/com/jh/erp/qs/qsa/web/SafeCostRegController.java resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml webapp/WEB-INF/jsp/qs/qsa/safeCostReg.jsp webapp/WEB-INF/jsp/qs/qsa/safeCostRpt1.jsp
+QS027,QH027,Y,CHANGE,1,java/com/jh/erp/qs/qsa/svc/impl/LavorMngChkServiceImpl.java
+QS028,QH028,Y,CHANGE,4,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmManage.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml webapp/WEB-INF/jsp/qs/qsa/actionRsltLst1.jsp
+QS031,QH031,Y,CHANGE,10,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml webapp/WEB-INF/jsp/qs/qsa/dayHealtLogLst.jsp webapp/WEB-INF/jsp/qs/qsa/daySafeLogLst.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst2.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgArslt.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanStf.jsp
+QS035,QH035,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskWkMng.xml webapp/WEB-INF/jsp/qs/qsa/riskWkMng.jsp
+QS036,QH036,Y,CHANGE,19,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml webapp/WEB-INF/jsp/qs/qsa/currPlnLst.jsp webapp/WEB-INF/jsp/qs/qsa/industAcciSiteDsvc.jsp webapp/WEB-INF/jsp/qs/qsa/industAcciSiteLst.jsp webapp/WEB-INF/jsp/qs/qsa/meetDrft.jsp webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp webapp/WEB-INF/jsp/qs/qsb/riskDgrMainList.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS037,QH037,Y,CHANGE,6,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml webapp/WEB-INF/jsp/qs/qsa/apprMng2.jsp webapp/WEB-INF/jsp/qs/qsa/dayHealtLogLst.jsp webapp/WEB-INF/jsp/qs/qsa/dayHealtLogReg.jsp webapp/WEB-INF/jsp/qs/qsa/daySafeLogLst.jsp webapp/WEB-INF/jsp/qs/qsa/daySafeLogReg.jsp
+QS038,QH038,Y,CHANGE,6,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml resources/sqlmap/mybatis/qs/qsa/ChkItmSchedule.xml webapp/WEB-INF/jsp/qs/qsa/actionRsltLst.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmSchedule.jsp webapp/WEB-INF/jsp/qs/qsa/safeCostRpt1.jsp
+QS039,QH039,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/apprMng2.jsp
+QS040,QH040,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml webapp/WEB-INF/jsp/qs/qsa/aprsItmManage.jsp webapp/WEB-INF/jsp/qs/qsa/objCd.jsp
+QS041,QH041,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml webapp/WEB-INF/jsp/qs/qsa/aprsItmManage.jsp
+QS042,QH042,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml webapp/WEB-INF/jsp/qs/qsa/aprsItmSite.jsp
+QS043,QH043,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml webapp/WEB-INF/jsp/qs/qsa/aprsItmSite.jsp
+QS046,QH046,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/QsAnncBrd.xml webapp/WEB-INF/jsp/qs/qsa/anncBrdLst.jsp
+QS047,QH047,Y,CHANGE,2,webapp/WEB-INF/jsp/qs/qsa/fineLst.jsp webapp/WEB-INF/jsp/qs/qsa/fineReg.jsp
+QS048,QH048,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/FineLst.xml webapp/WEB-INF/jsp/qs/qsa/fineReg.jsp
+QS049,QH049,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/jobResult.jsp
+QS050,QH050,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp webapp/WEB-INF/jsp/qs/qsa/industAcciSiteReg.jsp
+QS051,QH051,Y,CHANGE,2,webapp/WEB-INF/jsp/qs/qsa/apprMng2.jsp webapp/WEB-INF/jsp/qs/qsa/daySafeLogReg.jsp
+QS052,QH052,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/jobCd.jsp
+QS053,QH053,Y,CHANGE,3,webapp/WEB-INF/jsp/qs/qsa/jobResult.jsp webapp/WEB-INF/jsp/qs/qsa/objCd.jsp webapp/WEB-INF/jsp/qs/qsa/riskcipifReg.jsp
+QS054,QH054,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml webapp/WEB-INF/jsp/qs/qsa/industAcciSiteDsvc.jsp
+QS055,QH055,Y,CHANGE,5,resources/sqlmap/mybatis/qs/qsa/ChkItmManage.xml webapp/WEB-INF/jsp/qs/qsa/actionRsltLst.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmManage.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/chkItmSchedule.jsp
+QS056,QH056,Y,CHANGE,2,webapp/WEB-INF/jsp/qs/qsa/jobCd.jsp webapp/WEB-INF/jsp/qs/qsa/jobResult.jsp
+QS057,QH057,Y,CHANGE,1,resources/sqlmap/mybatis/qs/qsa/RollMngChkLst.xml
+QS058,QH058,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/chkItmSchedule.jsp
+QS059,QH059,Y,CHANGE,2,webapp/WEB-INF/jsp/qs/qsa/coInfo.jsp webapp/WEB-INF/jsp/qs/qsa/qszSiteMngCp.jsp
+QS060,QH060,Y,CHANGE,4,webapp/WEB-INF/jsp/qs/qsa/drmHis.jsp webapp/WEB-INF/jsp/qs/qsa/drmLst.jsp webapp/WEB-INF/jsp/qs/qsa/drmReg.jsp webapp/WEB-INF/jsp/qs/qsa/drmViewAplAprv.jsp
+QS061,QH061,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/drmViewAplAprv.jsp
+QS063,QH063,Y,CHANGE,9,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml webapp/WEB-INF/jsp/qs/qsa/meetInfo.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmMng.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmReg.jsp webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp webapp/WEB-INF/jsp/qs/qsa/riskPlanReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
+QS064,QH064,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml webapp/WEB-INF/jsp/qs/qsa/wrkPdoc.jsp
+QS065,QH065,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/wrkPmpp.jsp
+QS066,QH066,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hlthChkupList.jsp
+QS067,QH067,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hlthChkupList.jsp
+QS068,QH068,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hlthChkupList.jsp
+QS0690101,QH0690101,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp
+QS0690102,QH0690102,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp
+QS0690103,QH0690103,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp
+QS0690201,QH0690201,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp
+QS0690202,QH0690202,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp
+QS070,QH070,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/industAcciReg.jsp
+QS071,QH071,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/saftPgmList.jsp
+QS073,QH073,Y,CHANGE,5,webapp/WEB-INF/jsp/qs/qsa/ckLstItm.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp webapp/WEB-INF/jsp/qs/qsa/siteMa.jsp webapp/WEB-INF/jsp/qs/qsa/siteMaClose.jsp webapp/WEB-INF/jsp/qs/qsa/siteMaCurst.jsp
+QS07301,QH07301,Y,CHANGE,6,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst2.jsp webapp/WEB-INF/jsp/qs/qsa/siteMa.jsp webapp/WEB-INF/jsp/qs/qsa/siteMaClose.jsp webapp/WEB-INF/jsp/qs/qsa/siteMaCurst.jsp
+QS0730101,QH0730101,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0730102,QH0730102,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS07302,QH07302,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/aprv/siteMaAprv.jsp
+QS0730201,QH0730201,Y,CHANGE,2,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp webapp/WEB-INF/jsp/qs/qsa/hoChk4Curst2.jsp
+QS07401,QH07401,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740101,QH0740101,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740102,QH0740102,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740103,QH0740103,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS07402,QH07402,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740201,QH0740201,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740202,QH0740202,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740203,QH0740203,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS0740204,QH0740204,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS075,QH075,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/hoChk4.jsp
+QS076,QH076,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/eqmTabk.jsp
+QS077,QH077,Y,CHANGE,2,webapp/WEB-INF/jsp/qs/qsa/coInfo.jsp webapp/WEB-INF/jsp/qs/qsa/qszSiteMngCp.jsp
+QS07702,QH07702,Y,CHANGE,3,webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp webapp/WEB-INF/jsp/qs/qsb/riskDgrMng.jsp
+QS07703,QH07703,Y,CHANGE,4,webapp/WEB-INF/jsp/qs/qsa/apprMng2.jsp webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp webapp/WEB-INF/jsp/qs/qsa/siteMa.jsp webapp/WEB-INF/jsp/qs/qsb/riskDgrMng.jsp
+QS07705,QH07705,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp
+QS090,QH090,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp
+QS09001,QH09001,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp
+QS09002,QH09002,Y,CHANGE,6,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml resources/sqlmap/mybatis/qs/qsb/RiskChk.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp webapp/WEB-INF/jsp/qs/qsb/riskDgrMainList.jsp
+QS0900201,QH0900201,Y,CHANGE,2,java/com/jh/erp/qs/qsa/web/DaySaftChkRegController.java webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp
+QS0900202,QH0900202,Y,CHANGE,2,java/com/jh/erp/qs/qsa/web/DaySaftChkRegController.java webapp/WEB-INF/jsp/qs/qsa/daySaftChkReg.jsp
+QS09003,QH09003,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml
+QS09004,QH09004,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml
+QSA01,QSA01,N,KEEP,3,webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanStf.jsp
+QSA010,QSA010,N,KEEP,2,webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp
+QSA01010,QSA01010,N,KEEP,2,webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp
+QSA01050,QSA01050,N,KEEP,2,webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp
+QSA01090,QSA01090,N,KEEP,2,webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp
+QSA01095,QSA01095,N,KEEP,2,webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp
+QSA02,QSA02,N,KEEP,1,webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp
+QSC01,QHC01,Y,CHANGE,1,webapp/WEB-INF/jsp/qs/qsa/mmEduPlan.jsp
+QSC6040,QSC6040,N,KEEP,1,java/com/jh/erp/qs/qsa/svc/impl/EqmTabkServiceImpl.java
+QSI01,QSI01,N,KEEP,1,resources/sqlmap/mybatis/qs/qsa/EqmTabk.xml
+QSI02,QSI02,N,KEEP,1,resources/sqlmap/mybatis/qs/qsa/EqmTabk.xml
+QSK03,QSK03,N,KEEP,4,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Err.xml
+QSM01,QHM01,Y,CHANGE,1,resources/sqlmap/mybatis/qs/qsa/hoChk4Dtl.xml
+QSM02,QHM02,Y,CHANGE,4,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Err.xml
+QSM03,QHM03,Y,CHANGE,4,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Err.xml
+QSM04,QHM04,Y,CHANGE,2,resources/sqlmap/mybatis/qs/qsa/hoChk1Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Chk.xml
+QSZ03,QHZ03,Y,CHANGE,11,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/hoChk1Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Dtl.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Photo.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Err.xml webapp/WEB-INF/jsp/qs/qsa/siteMaCurst.jsp
+QSZ0310,QHZ0310,Y,CHANGE,3,resources/sqlmap/mybatis/qs/qsa/hoChk1Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Chk.xml
+QSZ05,QHZ05,Y,CHANGE,3,webapp/WEB-INF/jsp/qs/qsa/qszSiteMng.jsp webapp/WEB-INF/jsp/qs/qsa/qszSiteMngCp.jsp webapp/WEB-INF/jsp/qs/qsa/siteCurst.jsp
+QSZ080,QSZ080,N,KEEP,1,java/com/jh/erp/qs/qsa/svc/impl/EqmTabkServiceImpl.java
+QSZ09010,QSZ09010,N,KEEP,1,java/com/jh/erp/qs/qsa/svc/impl/QszSiteMngServiceImpl.java
+QSZ110,QSZ110,N,KEEP,1,java/com/jh/erp/qs/qsa/svc/impl/QszSiteMngCpServiceImpl.java
+QSZ1210,QSZ1210,N,KEEP,2,webapp/WEB-INF/jsp/qs/qsa/yyTrgArslt.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp
+QSZ1220,QSZ1220,N,KEEP,1,webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp
+QSZ1230,QSZ1230,N,KEEP,1,webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp
+QSZ1240,QSZ1240,N,KEEP,1,webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp
+QSZ14,QSZ14,N,KEEP,6,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml webapp/WEB-INF/jsp/qs/qsa/yyTrgArslt.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanStf.jsp
+QSZ1410,QSZ1410,N,KEEP,3,webapp/WEB-INF/jsp/qs/qsa/yyTrgArslt.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp
+QSZ1420,QSZ1420,N,KEEP,5,webapp/WEB-INF/jsp/qs/qsa/yyTrgArslt.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanStf.jsp
+QSZ1490,QSZ1490,N,KEEP,5,webapp/WEB-INF/jsp/qs/qsa/yyTrgArslt.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgArsltSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlan.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanSeq.jsp webapp/WEB-INF/jsp/qs/qsa/yyTrgPlanStf.jsp

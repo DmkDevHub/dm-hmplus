@@ -1,0 +1,46 @@
+== resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml (34731 -> 34731 bytes)
+     4  code:QS028 -> QH028
+     1  code:QS077 -> QH077
+     1  code:QSZ05 -> QHZ05
+     1  code:QSZ0599 -> QHZ0599
+     1  obj:TQSA_AREC_CD -> TQHA_AREC_CD
+     2  obj:TQSA_CTP -> TQHA_CTP
+     1  obj:TQSA_CTP_PSN -> TQHA_CTP_PSN
+     1  obj:TQSA_DEEDU_CD -> TQHA_DEEDU_CD
+     1  obj:TQSA_DISASTER_CD -> TQHA_DISASTER_CD
+     2  obj:TQSA_DISASTER_DIV -> TQHA_DISASTER_DIV
+     1  obj:TQSA_EDU_CD -> TQHA_EDU_CD
+     1  obj:TQSA_MSDS_CD -> TQHA_MSDS_CD
+     1  obj:TQSA_RISK_CHK -> TQHA_RISK_CHK
+     1  obj:TQSA_RISK_VNDR -> TQHA_RISK_VNDR
+     1  obj:TQSA_SAFT_SIT -> TQHA_SAFT_SIT
+     1  obj:TQSA_SITENAM -> TQHA_SITENAM
+     3  obj:TQSA_VNDR -> TQHA_VNDR
+     1  obj_unmapped:PQSA_JOB_OBJ_USER_POP_Q
+     2  obj_unmapped:TQSA_HOCHK_ITM
+     2  obj_unmapped:TQSA_JOB_CD
+     2  obj_unmapped:TQSA_JOB_CTS
+     2  obj_unmapped:TQSA_JOB_ITEM
+     1  obj_unmapped:TQSA_JOIN_OBJ
+     1  obj_unmapped:TQSC_BSAS_REG
+     2  rule:(<select id=")get_QS_ -> \1get_QH_
+     1  rule:com\.jh\.erp\. -> com.hs.hub.
+== resources/sqlmap/mybatis/co/selectbox/QhSelectBind.xml (5447 -> 5447 bytes)
+     1  code:QS07301 -> QH07301
+     1  code:QS0730201 -> QH0730201
+     1  obj:TQSA_CTP -> TQHA_CTP
+     1  obj:TQSA_CTPUNT -> TQHA_CTPUNT
+     1  obj:TQSB_RISK_DGR -> TQHB_RISK_DGR
+     1  obj_unmapped:TQSA_JOB_CD
+     1  rule:(<select id=")get_QS_ -> \1get_QH_
+     1  rule:com\.jh\.erp\. -> com.hs.hub.
+== webapp/resources/js/module/qh.lib.js (103579 -> 103579 bytes)
+     1  code:QS031 -> QH031
+     1  code:QSZ14 -> QHZ14 (QH 코드 없음)
+     1  code:QSZ1420 -> QHZ1420 (QH 코드 없음)
+     1  code:QSZ1490 -> QHZ1490 (QH 코드 없음)
+     2  rule:"/qsa/ -> "/qha/
+     1  rule:"/qsb/ -> "/qhb/
+     3  rule:\[qsa/ -> [qha/
+     2  rule:\[qsb/ -> [qhb/
+   193  rule:\bqsf -> qhf

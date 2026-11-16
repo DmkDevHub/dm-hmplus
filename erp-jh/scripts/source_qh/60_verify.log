@@ -1,0 +1,27 @@
+OK   새 파일 783개가 경로 매핑과 같음
+OK   수정(M)은 예외 허용 6개뿐 (6개)
+OK   새 파일(??)은 qh 경로 4곳뿐 (['erp/src/main/java/com/hs/hub/qh', 'erp/src/main/resources/sqlmap/mybatis/qh', 'erp/src/main/webapp/WEB-INF/jsp/cont/qh', 'erp/src/main/webapp/WEB-INF/jsp/qh'])
+OK   그 밖의 변경 없음 ([])
+OK   기존 qs 소스 수정 0건
+OK   새 파일에 com.jh.erp 0곳
+OK   새 파일에 "/qsa 0곳
+OK   새 파일에 "/qsb 0곳
+OK   새 파일에 "/qs/aprv 0곳
+OK   새 파일에 /QS/ 0곳
+OK   새 파일에 QS_ 항목 이름 0곳
+OK   남은 QS DB 이름이 모두 NOT_MAPPED/EXCLUDE 목록에 있음 (밖 {})
+OK   새 파일 줄바꿈 모두 CRLF (아님 [])
+OK   header/footer 결재 주소 10곳이 aprvBase로 바뀜
+OK   tiles.xml에 /qh/aprv/* 정의 1개
+OK   Qh 파일 3개에 QS_ 항목 이름·/QS/ 0곳
+OK   새 JSP의 QH_ 항목 이름 4종이 Qh 모듈에 있음 (없음 [])
+OK   Qh 클래스 이름이 vplus 전체에서 하나뿐 (겹침 [])
+
+결과: 통과
+
+컴파일: mvn -q -o -DskipTests compile (JDK 11) 성공. target/classes/com/hs/hub/qh 클래스 474개
+  (첫 실행은 maven-resources-plugin이 qm/qma/EtcQntMng.xml 복사에 실패. VS Code Java 확장이 target/classes를 함께 쓰면서 생긴 일시 잠금으로 보이며, 다시 실행해 성공)
+기동: mvn -o -DskipTests spring-boot:run (JDK 11, 프로필 loc) 성공. "Started Application in 575.313 seconds", Tomcat 9076. 빈 충돌·URL 충돌·MyBatis 중복 오류 없음
+  로그의 오류 1건: FileNotFoundException classpath:tradesign3280_loc.properties (전자서명 설정, 이번 작업과 무관)
+  로그인 없이 /qha/addRiskLst, /qh/aprv/assLogAprv 요청은 /qsa와 같이 403(보안 필터). URL 등록 여부는 로그인 후 확인 필요
+화면: 하지 않음 (메뉴 등록 전)

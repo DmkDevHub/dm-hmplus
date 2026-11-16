@@ -1,0 +1,404 @@
+﻿JH_NAME,ACTION,NEW_NAME,MAPPING_NOTE,BASELINE,FILE_CNT,FILES
+FQSZ_USR_INFO,EXCLUDE,FQSZ_USR_INFO,vplus에 같은 이름이 있음(vplus 것을 그대로 사용),"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+PQSA_ADDRISK_NCR_CNC_S,CREATE,PQHA_ADDRISK_NCR_CNC_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/AddRisk.xml
+PQSA_ADDRISK_ORD_Q,CREATE,PQHA_ADDRISK_ORD_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/AddRisk.xml
+PQSA_ADDRISK_ORD_S,CREATE,PQHA_ADDRISK_ORD_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/AddRisk.xml
+PQSA_ADDRISK_ORD_W,CREATE,PQHA_ADDRISK_ORD_W,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/AddRisk.xml
+PQSA_APROV_INFO_Q,CREATE,PQHA_APROV_INFO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APROV_LINE_Q,CREATE,PQHA_APROV_LINE_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APROV_PAGE_NM_Q,CREATE,PQHA_APROV_PAGE_NM_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APROV_STATS_Q,CREATE,PQHA_APROV_STATS_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRS_AGG_W,NOT_MAPPED,PQSA_APRS_AGG_W,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobResult.xml
+PQSA_APRS_COPY_W,NOT_MAPPED,PQSA_APRS_COPY_W,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_APRS_DTL_S,NOT_MAPPED,PQSA_APRS_DTL_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_APRS_ITM_Q,NOT_MAPPED,PQSA_APRS_ITM_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_APRS_ITM_S,NOT_MAPPED,PQSA_APRS_ITM_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_APRS_Q,NOT_MAPPED,PQSA_APRS_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_APRVLINE_DTL_S,CREATE,PQHA_APRVLINE_DTL_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRVLINE_S,CREATE,PQHA_APRVLINE_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRVLST_YYTRGPLAN_S,NOT_MAPPED,PQSA_APRVLST_YYTRGPLAN_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml
+PQSA_APRV_ATFL_S,CREATE,PQHA_APRV_ATFL_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRV_B1,CREATE,PQHA_APRV_B1,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRV_CANCEL_S,CREATE,PQHA_APRV_CANCEL_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml
+PQSA_APRV_CREATE,CREATE,PQHA_APRV_CREATE,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRV_LINE_S,CREATE,PQHA_APRV_LINE_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_APRV_Q,CREATE,PQHA_APRV_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ApprMng2Repository.xml
+PQSA_APRV_SCHF_B,CREATE,PQHA_APRV_SCHF_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml
+PQSA_AREC_CD_Q,CREATE,PQHA_AREC_CD_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ArecCd.xml
+PQSA_AREC_CD_S,CREATE,PQHA_AREC_CD_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ArecCd.xml
+PQSA_ARND_CHK_DRY_Q,CREATE,PQHA_ARND_CHK_DRY_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/ArndChkDryList.xml
+PQSA_ARND_CHK_DRY_S,CREATE,PQHA_ARND_CHK_DRY_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/ArndChkDryList.xml
+PQSA_ASSLOG_CIRC_Q,CREATE,PQHA_ASSLOG_CIRC_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MeetInfo.xml
+PQSA_ASSLOG_CIRC_S,CREATE,PQHA_ASSLOG_CIRC_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MeetInfo.xml
+PQSA_BASE_CD_Q,NOT_MAPPED,PQSA_BASE_CD_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/BaseCd.xml
+PQSA_BASE_CD_S,NOT_MAPPED,PQSA_BASE_CD_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/BaseCd.xml
+PQSA_BON_ORG_S,CREATE,PQHA_BON_ORG_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_CAR_LIST_Q,NOT_MAPPED,PQSA_CAR_LIST_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/RollMngChkLst.xml
+PQSA_CAR_LIST_S,NOT_MAPPED,PQSA_CAR_LIST_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/RollMngChkLst.xml
+PQSA_CHKITMANA1_Q,NOT_MAPPED,PQSA_CHKITMANA1_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ChkItmAna1.xml
+PQSA_CKLST_ITM_S,CREATE,PQHA_CKLST_ITM_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ckLstItm.xml
+PQSA_CKLST_Q,CREATE,PQHA_CKLST_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ckLstItm.xml
+PQSA_CKLS_S,CREATE,PQHA_CKLS_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ckLstItm.xml
+PQSA_CTPUNT_S,CREATE,PQHA_CTPUNT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskWkMng.xml
+PQSA_CTP_PSN_Q,CREATE,PQHA_CTP_PSN_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_CTP_PSN_S,CREATE,PQHA_CTP_PSN_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_CTP_S,CREATE,PQHA_CTP_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskWkMng.xml
+PQSA_DANGEROUS_Q,NOT_MAPPED,PQSA_DANGEROUS_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_DANGEROUS_S,NOT_MAPPED,PQSA_DANGEROUS_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_DASHBOARD_CO_Q,CREATE,PQHA_DASHBOARD_CO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QsAnncBrd.xml
+PQSA_DAYSAFE_CHKLST_B1,CREATE,PQHA_DAYSAFE_CHKLST_B1,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSA_DAYSAFE_CHKLST_Q,CREATE,PQHA_DAYSAFE_CHKLST_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSA_DAYSAFE_DT_B,CREATE,PQHA_DAYSAFE_DT_B,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml resources/sqlmap/mybatis/qs/qsa/MainMngItmReg.xml
+PQSA_DAY_SAFT_CHK_REG_OTHER_Q,CREATE,PQHA_DAY_SAFT_CHK_REG_OTHER_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSA_DEEDU_CD_Q,CREATE,PQHA_DEEDU_CD_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduCd.xml
+PQSA_DEEDU_CD_S,CREATE,PQHA_DEEDU_CD_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduCd.xml
+PQSA_DISASTER_CD_Q,CREATE,PQHA_DISASTER_CD_Q,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/qsa/BaseCd.xml resources/sqlmap/mybatis/qs/qsa/DisCdMng.xml
+PQSA_DISASTER_CD_S,CREATE,PQHA_DISASTER_CD_S,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/qsa/BaseCd.xml resources/sqlmap/mybatis/qs/qsa/DisCdMng.xml
+PQSA_DISASTER_DIV_Q,NOT_MAPPED,PQSA_DISASTER_DIV_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/BaseCd.xml
+PQSA_DISASTER_DIV_S,CREATE,PQHA_DISASTER_DIV_S,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/qsa/BaseCd.xml resources/sqlmap/mybatis/qs/qsa/DisCdMng.xml
+PQSA_DRM_ANNC_Q,CREATE,PQHA_DRM_ANNC_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml
+PQSA_DRM_ANNC_S,CREATE,PQHA_DRM_ANNC_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml
+PQSA_DRM_Q,CREATE,PQHA_DRM_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml
+PQSA_DRM_S,CREATE,PQHA_DRM_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml
+PQSA_EDU_B,CREATE,PQHA_EDU_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduLst.xml
+PQSA_EDU_CD_Q,CREATE,PQHA_EDU_CD_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduCd.xml
+PQSA_EDU_CD_S,CREATE,PQHA_EDU_CD_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduCd.xml
+PQSA_EDU_DRY_Q,CREATE,PQHA_EDU_DRY_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/EduDryList.xml
+PQSA_EDU_DRY_S,CREATE,PQHA_EDU_DRY_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/EduDryList.xml
+PQSA_EDU_MSDS_Q,CREATE,PQHA_EDU_MSDS_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/EduLst.xml
+PQSA_EDU_MSDS_S,CREATE,PQHA_EDU_MSDS_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/EduLst.xml
+PQSA_EDU_Q,CREATE,PQHA_EDU_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduLst.xml
+PQSA_EDU_S,CREATE,PQHA_EDU_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EduLst.xml
+PQSA_EMG_TRN_Q,CREATE,PQHA_EMG_TRN_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/EmgTrnList.xml
+PQSA_EMG_TRN_S,CREATE,PQHA_EMG_TRN_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/EmgTrnList.xml
+PQSA_EQMTABK_Q,CREATE,PQHA_EQMTABK_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EqmTabk.xml
+PQSA_EQMTABK_S,CREATE,PQHA_EQMTABK_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/EqmTabk.xml
+PQSA_FINE_OBJ_Q,NOT_MAPPED,PQSA_FINE_OBJ_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+PQSA_FINE_OBJ_S,NOT_MAPPED,PQSA_FINE_OBJ_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+PQSA_FINE_Q,NOT_MAPPED,PQSA_FINE_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+PQSA_FINE_S,NOT_MAPPED,PQSA_FINE_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+PQSA_FINE_VLT_Q,NOT_MAPPED,PQSA_FINE_VLT_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+PQSA_FINE_VLT_S,NOT_MAPPED,PQSA_FINE_VLT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+PQSA_HLTH_CHKUP_EXCEL_DEL_S,CREATE,PQHA_HLTH_CHKUP_EXCEL_DEL_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HlthChkup.xml
+PQSA_HLTH_CHKUP_EXCEL_S,CREATE,PQHA_HLTH_CHKUP_EXCEL_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HlthChkup.xml
+PQSA_HLTH_CHKUP_LIST_Q,CREATE,PQHA_HLTH_CHKUP_LIST_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HlthChkup.xml
+PQSA_HLTH_CHKUP_LIST_S,CREATE,PQHA_HLTH_CHKUP_LIST_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HlthChkup.xml
+PQSA_HLTH_CHKUP_Q,CREATE,PQHA_HLTH_CHKUP_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HlthChkup.xml
+PQSA_HLTH_CHKUP_S,CREATE,PQHA_HLTH_CHKUP_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HlthChkup.xml
+PQSA_HOCHKRPT_CK_Q,CREATE,PQHA_HOCHKRPT_CK_Q,이름 규칙 적용,"JH,vplus",3,resources/sqlmap/mybatis/qs/qsa/hoChk1Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Chk.xml
+PQSA_HOCHKRPT_CK_S,CREATE,PQHA_HOCHKRPT_CK_S,이름 규칙 적용,"JH,vplus",3,resources/sqlmap/mybatis/qs/qsa/hoChk1Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Chk.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Chk.xml
+PQSA_HOCHKRPT_DETAIL_Q,NOT_MAPPED,PQSA_HOCHKRPT_DETAIL_Q,,vplus,1,resources/sqlmap/mybatis/qs/qsa/hoChk4Dtl.xml
+PQSA_HOCHKRPT_DETAIL_S,NOT_MAPPED,PQSA_HOCHKRPT_DETAIL_S,,vplus,1,resources/sqlmap/mybatis/qs/qsa/hoChk4Dtl.xml
+PQSA_HOCHKRPT_ERR_PHOTO_S,CREATE,PQHA_HOCHKRPT_ERR_PHOTO_S,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml
+PQSA_HOCHKRPT_ERR_Q,CREATE,PQHA_HOCHKRPT_ERR_Q,이름 규칙 적용,"JH,vplus",3,resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Err.xml
+PQSA_HOCHKRPT_ERR_S,CREATE,PQHA_HOCHKRPT_ERR_S,이름 규칙 적용,"JH,vplus",4,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/hoChk1Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Err.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Err.xml
+PQSA_HOCHKRPT_PHOTO_Q,CREATE,PQHA_HOCHKRPT_PHOTO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/hoChk4Photo.xml
+PQSA_HOCHKRPT_PHOTO_S,CREATE,PQHA_HOCHKRPT_PHOTO_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/hoChk4Photo.xml
+PQSA_HOCHKRPT_Q,CREATE,PQHA_HOCHKRPT_Q,이름 규칙 적용,"JH,vplus",4,resources/sqlmap/mybatis/qs/qsa/hoChk1Curst.xml resources/sqlmap/mybatis/qs/qsa/hoChk4.xml resources/sqlmap/mybatis/qs/qsa/hoChk4Curst.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Curst.xml
+PQSA_HOCHKRPT_S,CREATE,PQHA_HOCHKRPT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/hoChk4.xml
+PQSA_HOCHK_ITM_Q,NOT_MAPPED,PQSA_HOCHK_ITM_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ChkItmManage.xml
+PQSA_HOCHK_ITM_S,NOT_MAPPED,PQSA_HOCHK_ITM_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ChkItmManage.xml
+PQSA_HOCHK_MA_Q,NOT_MAPPED,PQSA_HOCHK_MA_Q,,없음,2,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+PQSA_HOCHK_MA_S,NOT_MAPPED,PQSA_HOCHK_MA_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml
+PQSA_HOCHK_REG_ANTM_S,NOT_MAPPED,PQSA_HOCHK_REG_ANTM_S,,없음,2,java/com/jh/erp/qs/qsa/web/ChkItmRegController.java resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+PQSA_HOCHK_REG_RGL_S,NOT_MAPPED,PQSA_HOCHK_REG_RGL_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+PQSA_HOCHK_RSLT_S,NOT_MAPPED,PQSA_HOCHK_RSLT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml
+PQSA_HOCHK_RSLT_W,NOT_MAPPED,PQSA_HOCHK_RSLT_W,,없음,1,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml
+PQSA_HOCHK_SCHD_Q,NOT_MAPPED,PQSA_HOCHK_SCHD_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ChkItmSchedule.xml
+PQSA_HOCHK_SCHD_S,NOT_MAPPED,PQSA_HOCHK_SCHD_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ChkItmSchedule.xml
+PQSA_HOCHK_SCHD_SMRY_Q,NOT_MAPPED,PQSA_HOCHK_SCHD_SMRY_Q,,없음,2,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+PQSA_HODCAB_Q,CREATE,PQHA_HODCAB_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/HodCab.xml
+PQSA_HODCAB_S,CREATE,PQHA_HODCAB_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/HodCab.xml
+PQSA_IDAC_DSVC_B,CREATE,PQHA_IDAC_DSVC_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_DSVC_Q,CREATE,PQHA_IDAC_DSVC_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_DSVC_S,CREATE,PQHA_IDAC_DSVC_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_MAIN_APRV_W,CREATE,PQHA_IDAC_MAIN_APRV_W,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_MINUS_Q,NOT_MAPPED,PQSA_IDAC_MINUS_Q,,vplus,1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_MINUS_S,NOT_MAPPED,PQSA_IDAC_MINUS_S,,vplus,1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_Q,CREATE,PQHA_IDAC_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_IDAC_S,CREATE,PQHA_IDAC_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_INDUST_ACCI_APRV_INFO_Q,CREATE,PQHA_INDUST_ACCI_APRV_INFO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_INDUST_ACCI_APRV_INFO_S,CREATE,PQHA_INDUST_ACCI_APRV_INFO_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/IndustAcciLst.xml
+PQSA_JOB_CD_Q,NOT_MAPPED,PQSA_JOB_CD_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_JOB_CD_S,NOT_MAPPED,PQSA_JOB_CD_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_JOB_CTSRESULT_Q,NOT_MAPPED,PQSA_JOB_CTSRESULT_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobResult.xml
+PQSA_JOB_CTSRESULT_S,NOT_MAPPED,PQSA_JOB_CTSRESULT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobResult.xml
+PQSA_JOB_CTS_Q,NOT_MAPPED,PQSA_JOB_CTS_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_JOB_CTS_S,NOT_MAPPED,PQSA_JOB_CTS_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_JOB_ITEM_Q,NOT_MAPPED,PQSA_JOB_ITEM_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_JOB_ITEM_S,NOT_MAPPED,PQSA_JOB_ITEM_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobCd.xml
+PQSA_JOB_OBJ_Q,NOT_MAPPED,PQSA_JOB_OBJ_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_JOB_OBJ_S,NOT_MAPPED,PQSA_JOB_OBJ_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_JOB_RESULT_DET_Q,NOT_MAPPED,PQSA_JOB_RESULT_DET_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobResult.xml
+PQSA_JOB_RESULT_Q,NOT_MAPPED,PQSA_JOB_RESULT_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobResult.xml
+PQSA_JOB_RESULT_S,NOT_MAPPED,PQSA_JOB_RESULT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/JobResult.xml
+PQSA_JOB_SITE_Q,NOT_MAPPED,PQSA_JOB_SITE_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_JOB_SITE_S,NOT_MAPPED,PQSA_JOB_SITE_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_JOB_SITE_W,NOT_MAPPED,PQSA_JOB_SITE_W,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_JOIN_OBJ_Q,NOT_MAPPED,PQSA_JOIN_OBJ_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_JOIN_OBJ_S,NOT_MAPPED,PQSA_JOIN_OBJ_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ObjCd.xml
+PQSA_LABOR_JOINT_INSP_Q,CREATE,PQHA_LABOR_JOINT_INSP_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/LaborJointInsp.xml
+PQSA_LABOR_JOINT_INSP_S,CREATE,PQHA_LABOR_JOINT_INSP_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/LaborJointInsp.xml
+PQSA_LABOR_LIST_Q,CREATE,PQHA_LABOR_LIST_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RollMngChkLst.xml
+PQSA_LABOR_LIST_S,CREATE,PQHA_LABOR_LIST_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RollMngChkLst.xml
+PQSA_LABOR_MNG_CNCL_Q,CREATE,PQHA_LABOR_MNG_CNCL_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/LaborMngCncl.xml
+PQSA_LABOR_MNG_CNCL_S,CREATE,PQHA_LABOR_MNG_CNCL_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/LaborMngCncl.xml
+PQSA_LAB_AREC_B,CREATE,PQHA_LAB_AREC_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/LavorMngConv.xml
+PQSA_LAB_AREC_Q,CREATE,PQHA_LAB_AREC_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/LavorMngConv.xml
+PQSA_LAB_AREC_S,CREATE,PQHA_LAB_AREC_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/LavorMngConv.xml
+PQSA_LBR_CHK_ITM_S,CREATE,PQHA_LBR_CHK_ITM_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/LavorMngChk.xml
+PQSA_LBR_CHK_Q,CREATE,PQHA_LBR_CHK_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/LavorMngChk.xml
+PQSA_LBR_CHK_S,CREATE,PQHA_LBR_CHK_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/LavorMngChk.xml
+PQSA_MAIN_MNG_ITM_REG_OTHER_Q,CREATE,PQHA_MAIN_MNG_ITM_REG_OTHER_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MainMngItmReg.xml
+PQSA_MMEDUPLAN_Q,CREATE,PQHA_MMEDUPLAN_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/MmEduPlan.xml resources/sqlmap/mybatis/qs/qsa/MmEduPlanCurst.xml
+PQSA_MON_PSN_B,NOT_MAPPED,PQSA_MON_PSN_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_PSN_Q,NOT_MAPPED,PQSA_MON_PSN_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_PSN_S,NOT_MAPPED,PQSA_MON_PSN_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_RSLT_B,NOT_MAPPED,PQSA_MON_RSLT_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_RSLT_DTL_Q,NOT_MAPPED,PQSA_MON_RSLT_DTL_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_RSLT_LST_Q,NOT_MAPPED,PQSA_MON_RSLT_LST_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthRsltLst.xml
+PQSA_MON_RSLT_Q,NOT_MAPPED,PQSA_MON_RSLT_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_RSLT_S,NOT_MAPPED,PQSA_MON_RSLT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_SUBPSN_Q,NOT_MAPPED,PQSA_MON_SUBPSN_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_SUBPSN_S,NOT_MAPPED,PQSA_MON_SUBPSN_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MON_SUBPSN_W,NOT_MAPPED,PQSA_MON_SUBPSN_W,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+PQSA_MOVE_Q,NOT_MAPPED,PQSA_MOVE_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/MoveReg.xml
+PQSA_MOVE_S,NOT_MAPPED,PQSA_MOVE_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/MoveReg.xml
+PQSA_MSDSMNG_ATFL_S,CREATE,PQHA_MSDSMNG_ATFL_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MsdsMng.xml
+PQSA_MSDSMNG_Q,CREATE,PQHA_MSDSMNG_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MsdsMng.xml
+PQSA_MSDSMNG_S,CREATE,PQHA_MSDSMNG_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MsdsMng.xml
+PQSA_MSDS_CD_Q,CREATE,PQHA_MSDS_CD_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/MsdsCd.xml
+PQSA_MSDS_CD_S,CREATE,PQHA_MSDS_CD_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/MsdsCd.xml
+PQSA_NCR_REP_APRV_W,CREATE,PQHA_NCR_REP_APRV_W,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskNcr.xml
+PQSA_NCR_REP_Q,CREATE,PQHA_NCR_REP_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskNcr.xml
+PQSA_NCR_REP_S,CREATE,PQHA_NCR_REP_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskNcr.xml
+PQSA_ODAYHEALT_LOG_B,NOT_MAPPED,PQSA_ODAYHEALT_LOG_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_ODAYHEALT_LOG_Q,NOT_MAPPED,PQSA_ODAYHEALT_LOG_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_ODAYHEALT_LOG_S,NOT_MAPPED,PQSA_ODAYHEALT_LOG_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_ODAYSAFE_LOG_APRV_S,NOT_MAPPED,PQSA_ODAYSAFE_LOG_APRV_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ApprMng2Repository.xml
+PQSA_ODAYSAFE_LOG_B,NOT_MAPPED,PQSA_ODAYSAFE_LOG_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/DaySafeLogLst.xml
+PQSA_ODAYSAFE_LOG_Q,NOT_MAPPED,PQSA_ODAYSAFE_LOG_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/DaySafeLogLst.xml
+PQSA_ODAYSAFE_LOG_S,NOT_MAPPED,PQSA_ODAYSAFE_LOG_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/DaySafeLogLst.xml
+PQSA_ODAYSAFE_NCR_B,CREATE,PQHA_ODAYSAFE_NCR_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSA_ODAYSAFE_STOP_Q,NOT_MAPPED,PQSA_ODAYSAFE_STOP_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/DaySafeLogLst.xml
+PQSA_ODAYSAFE_STOP_S,NOT_MAPPED,PQSA_ODAYSAFE_STOP_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/DaySafeLogLst.xml
+PQSA_PERF_BONSA_Q,NOT_MAPPED,PQSA_PERF_BONSA_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+PQSA_PERF_OBJ_Q,NOT_MAPPED,PQSA_PERF_OBJ_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+PQSA_PERF_OBJ_S,NOT_MAPPED,PQSA_PERF_OBJ_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+PQSA_PERF_SAFE_Q,NOT_MAPPED,PQSA_PERF_SAFE_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+PQSA_PERF_SITE_Q,NOT_MAPPED,PQSA_PERF_SITE_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+PQSA_PERF_VNDR_Q,CREATE,PQHA_PERF_VNDR_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+PQSA_PRES_SITE_CST_Q,CREATE,PQHA_PRES_SITE_CST_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_PRES_SITE_Q,CREATE,PQHA_PRES_SITE_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_PRES_SITE_S,CREATE,PQHA_PRES_SITE_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_RISKPLAN_D_B,CREATE,PQHA_RISKPLAN_D_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_RISKPLAN_D_B1,CREATE,PQHA_RISKPLAN_D_B1,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_RISKPLAN_D_S,CREATE,PQHA_RISKPLAN_D_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_RISKPLAN_Q,CREATE,PQHA_RISKPLAN_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_RISKPLAN_S,CREATE,PQHA_RISKPLAN_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_RISKSITE_CIPIFUPLD_Q,NOT_MAPPED,PQSA_RISKSITE_CIPIFUPLD_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/OdaycipifReg.xml
+PQSA_RISKSITE_CIPIFUPLD_S,NOT_MAPPED,PQSA_RISKSITE_CIPIFUPLD_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/OdaycipifReg.xml
+PQSA_RISKSITE_CIPIF_B,NOT_MAPPED,PQSA_RISKSITE_CIPIF_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/OdaycipifReg.xml
+PQSA_RISKSITE_CIPIF_Q,NOT_MAPPED,PQSA_RISKSITE_CIPIF_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/OdaycipifReg.xml
+PQSA_RISKSITE_CIPIF_S,NOT_MAPPED,PQSA_RISKSITE_CIPIF_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/OdaycipifReg.xml
+PQSA_RISK_AB_S,CREATE,PQHA_RISK_AB_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
+PQSA_RISK_AREC_B,NOT_MAPPED,PQSA_RISK_AREC_B,,vplus,1,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+PQSA_RISK_AREC_S,NOT_MAPPED,PQSA_RISK_AREC_S,,vplus,2,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml
+PQSA_RISK_CHK_AGO_Q,CREATE,PQHA_RISK_CHK_AGO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/PreIssueLst.xml
+PQSA_RISK_CHK_B,CREATE,PQHA_RISK_CHK_B,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
+PQSA_RISK_CHK_B1,CREATE,PQHA_RISK_CHK_B1,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+PQSA_RISK_CHK_Q,CREATE,PQHA_RISK_CHK_Q,이름 규칙 적용,"JH,vplus",3,resources/sqlmap/mybatis/qs/qsa/CurrPlnLst.xml resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+PQSA_RISK_CHK_S,CREATE,PQHA_RISK_CHK_S,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
+PQSA_RISK_CIPIFUPLD_Q,NOT_MAPPED,PQSA_RISK_CIPIFUPLD_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/RiskcipifReg.xml
+PQSA_RISK_CIPIFUPLD_S,NOT_MAPPED,PQSA_RISK_CIPIFUPLD_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/RiskcipifReg.xml
+PQSA_RISK_CIPIF_B,NOT_MAPPED,PQSA_RISK_CIPIF_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/RiskcipifReg.xml
+PQSA_RISK_CIPIF_Q,NOT_MAPPED,PQSA_RISK_CIPIF_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/RiskcipifReg.xml
+PQSA_RISK_CIPIF_S,NOT_MAPPED,PQSA_RISK_CIPIF_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/RiskcipifReg.xml
+PQSA_RISK_DGR_AREC_CTS_S,CREATE,PQHA_RISK_DGR_AREC_CTS_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml
+PQSA_RISK_DGR_MEET_S,CREATE,PQHA_RISK_DGR_MEET_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MeetInfo.xml
+PQSA_RISK_DGR_Q,CREATE,PQHA_RISK_DGR_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMng.xml
+PQSA_RISK_DGR_S,CREATE,PQHA_RISK_DGR_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMng.xml
+PQSA_RISK_ITM_LIST_OTHER_Q,CREATE,PQHA_RISK_ITM_LIST_OTHER_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+PQSA_RISK_ITM_MNG_Q,CREATE,PQHA_RISK_ITM_MNG_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml
+PQSA_RISK_ITM_OPIN_S,CREATE,PQHA_RISK_ITM_OPIN_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+PQSA_RISK_OPIN_LIST_Q,CREATE,PQHA_RISK_OPIN_LIST_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+PQSA_RISK_PLAN_OTHER_Q,CREATE,PQHA_RISK_PLAN_OTHER_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskPlan.xml
+PQSA_RISK_PRRTCHK_B,NOT_MAPPED,PQSA_RISK_PRRTCHK_B,,vplus,1,resources/sqlmap/mybatis/qs/qsa/MainMngItmReg.xml
+PQSA_RISK_PRRTCHK_C,NOT_MAPPED,PQSA_RISK_PRRTCHK_C,,vplus,1,resources/sqlmap/mybatis/qs/qsa/MainMngItmReg.xml
+PQSA_RISK_PRRTCHK_Q,NOT_MAPPED,PQSA_RISK_PRRTCHK_Q,,vplus,1,resources/sqlmap/mybatis/qs/qsa/MainMngItmReg.xml
+PQSA_RISK_PRRTCHK_S,NOT_MAPPED,PQSA_RISK_PRRTCHK_S,,vplus,1,resources/sqlmap/mybatis/qs/qsa/MainMngItmReg.xml
+PQSA_RISK_SCHD_REG_OTHER_Q,CREATE,PQHA_RISK_SCHD_REG_OTHER_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMng.xml
+PQSA_RISK_VNDR_ATFL_S,CREATE,PQHA_RISK_VNDR_ATFL_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
+PQSA_RISK_VNDR_S,CREATE,PQHA_RISK_VNDR_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMng.xml
+PQSA_RISK_VNDR_S2,CREATE,PQHA_RISK_VNDR_S2,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMng.xml
+PQSA_RISK_WK_MNG_Q,CREATE,PQHA_RISK_WK_MNG_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskWkMng.xml
+PQSA_SAFEAPRV_AB_S,CREATE,PQHA_SAFEAPRV_AB_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq2.xml
+PQSA_SAFECOST_APRV_ATFL_S,CREATE,PQHA_SAFECOST_APRV_ATFL_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_APRV_Q,CREATE,PQHA_SAFECOST_APRV_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_APRV_S,CREATE,PQHA_SAFECOST_APRV_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_ARSLT_CO_DIV_Q,CREATE,PQHA_SAFECOST_ARSLT_CO_DIV_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_ARSLT_CO_Q,CREATE,PQHA_SAFECOST_ARSLT_CO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostLst.xml
+PQSA_SAFECOST_ARSLT_Q,CREATE,PQHA_SAFECOST_ARSLT_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_ARSLT_S,CREATE,PQHA_SAFECOST_ARSLT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_BGTYM_CHG_BGT_S,CREATE,PQHA_SAFECOST_BGTYM_CHG_BGT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_BGTYM_Q,CREATE,PQHA_SAFECOST_BGTYM_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_BGTYM_S,CREATE,PQHA_SAFECOST_BGTYM_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_BGT_Q,CREATE,PQHA_SAFECOST_BGT_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_BGT_S,CREATE,PQHA_SAFECOST_BGT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_INFO_Q,CREATE,PQHA_SAFECOST_INFO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_INFO_S,CREATE,PQHA_SAFECOST_INFO_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_MMARSLT_CO_W,CREATE,PQHA_SAFECOST_MMARSLT_CO_W,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_PROCRT_S,NOT_MAPPED,PQSA_SAFECOST_PROCRT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFECOST_REG2_Q,CREATE,PQHA_SAFECOST_REG2_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_REG_CO_Q,CREATE,PQHA_SAFECOST_REG_CO_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+PQSA_SAFECOST_VNDR_Q,CREATE,PQHA_SAFECOST_VNDR_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostCont.xml
+PQSA_SAFE_AB_S,CREATE,PQHA_SAFE_AB_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq3.xml
+PQSA_SAFE_ANALYSIS_Q,CREATE,PQHA_SAFE_ANALYSIS_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeAnalysisList.xml
+PQSA_SAFE_APRS_Q,CREATE,PQHA_SAFE_APRS_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeAprsLst.xml
+PQSA_SAFE_COST_MNG_Q,CREATE,PQHA_SAFE_COST_MNG_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+PQSA_SAFE_PERM_CD_S,CREATE,PQHA_SAFE_PERM_CD_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReqCd.xml
+PQSA_SAFE_PERM_CPLN_Q,CREATE,PQHA_SAFE_PERM_CPLN_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReqCd.xml
+PQSA_SAFE_PERM_CPLN_S,CREATE,PQHA_SAFE_PERM_CPLN_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReqCd.xml
+PQSA_SAFE_PERREQ_B1,CREATE,PQHA_SAFE_PERREQ_B1,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq2.xml
+PQSA_SAFE_PERREQ_OBJLST_S,CREATE,PQHA_SAFE_PERREQ_OBJLST_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq3.xml
+PQSA_SAFE_PERREQ_OBJ_S,CREATE,PQHA_SAFE_PERREQ_OBJ_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq3.xml
+PQSA_SAFE_PERREQ_S,CREATE,PQHA_SAFE_PERREQ_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq3.xml
+PQSA_SAFE_WORK_REQ2_Q,CREATE,PQHA_SAFE_WORK_REQ2_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq2.xml
+PQSA_SAFE_WORK_REQ3_Q,CREATE,PQHA_SAFE_WORK_REQ3_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeWorkReq3.xml
+PQSA_SAFT_PGM_Q,CREATE,PQHA_SAFT_PGM_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SaftPgmList.xml
+PQSA_SAFT_PGM_S,CREATE,PQHA_SAFT_PGM_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SaftPgmList.xml
+PQSA_SAFT_RGLN_Q,CREATE,PQHA_SAFT_RGLN_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SaftRgln.xml
+PQSA_SAFT_RGLN_S,CREATE,PQHA_SAFT_RGLN_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SaftRgln.xml
+PQSA_SAFT_SIT_S,CREATE,PQHA_SAFT_SIT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml
+PQSA_SEALED_Q,NOT_MAPPED,PQSA_SEALED_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_SEALED_S,NOT_MAPPED,PQSA_SEALED_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/DayHealtLogLst.xml
+PQSA_SELECT_Q,NOT_MAPPED,PQSA_SELECT_Q,,없음,1,resources/sqlmap/mybatis/qs/qsa/SelectMngChkLst.xml
+PQSA_SELECT_Q1,CREATE,PQHA_SELECT_Q1,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SelectMngChkLst.xml
+PQSA_SELECT_S,NOT_MAPPED,PQSA_SELECT_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/SelectMngChkLst.xml
+PQSA_SEL_LST_S,CREATE,PQHA_SEL_LST_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml
+PQSA_SEND_SMS_Q,CREATE,PQHA_SEND_SMS_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/QsSendSms.xml
+PQSA_SITEAPRS_B,NOT_MAPPED,PQSA_SITEAPRS_B,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_SITEAPRS_DTL_S,NOT_MAPPED,PQSA_SITEAPRS_DTL_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_SITEAPRS_S,NOT_MAPPED,PQSA_SITEAPRS_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_SITEAPRS_VNDR_S,NOT_MAPPED,PQSA_SITEAPRS_VNDR_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+PQSA_SITECURST_Q,CREATE,PQHA_SITECURST_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml resources/sqlmap/mybatis/qs/qsa/SiteCurst.xml
+PQSA_SITEDOC_Q,CREATE,PQHA_SITEDOC_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SiteCab.xml
+PQSA_SITEDOC_S,CREATE,PQHA_SITEDOC_S,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/HodCab.xml resources/sqlmap/mybatis/qs/qsa/SiteCab.xml
+PQSA_SITEMA_CLOSE_Q,CREATE,PQHA_SITEMA_CLOSE_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml
+PQSA_SITEMA_CLOSE_S,CREATE,PQHA_SITEMA_CLOSE_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml
+PQSA_SITEMA_NAM_Q,CREATE,PQHA_SITEMA_NAM_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml
+PQSA_SITEMA_Q,CREATE,PQHA_SITEMA_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/SiteMaCurst.xml
+PQSA_SITENAM_Q,CREATE,PQHA_SITENAM_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml
+PQSA_SITENAM_S,CREATE,PQHA_SITENAM_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml
+PQSA_SITERSK_EVL_CURST_Q,CREATE,PQHA_SITERSK_EVL_CURST_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SiterskEvlCurst.xml
+PQSA_SUBJECT_Q,CREATE,PQHA_SUBJECT_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QsAnncBrd.xml
+PQSA_SUBJECT_S,CREATE,PQHA_SUBJECT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QsAnncBrd.xml
+PQSA_VIEW_HIS_S,CREATE,PQHA_VIEW_HIS_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml
+PQSA_VIEW_REQ_LST_Q,CREATE,PQHA_VIEW_REQ_LST_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml resources/sqlmap/mybatis/qs/qsa/DrmViewAplAprv.xml
+PQSA_VIEW_REQ_Q,CREATE,PQHA_VIEW_REQ_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml resources/sqlmap/mybatis/qs/qsa/DrmViewAplAprv.xml
+PQSA_VIEW_REQ_S,CREATE,PQHA_VIEW_REQ_S,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/DrmLst.xml resources/sqlmap/mybatis/qs/qsa/DrmViewAplAprv.xml
+PQSA_VNDR_PWD_S,CREATE,PQHA_VNDR_PWD_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/CoInfo.xml
+PQSA_VNDR_Q,CREATE,PQHA_VNDR_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/CoInfo.xml
+PQSA_VNDR_S,CREATE,PQHA_VNDR_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/CoInfo.xml
+PQSA_WEEK_WORK_GET_HAZARD_S,CREATE,PQHA_WEEK_WORK_GET_HAZARD_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogRegHo.xml
+PQSA_WEEK_WORK_LOG_HO_Q,CREATE,PQHA_WEEK_WORK_LOG_HO_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogHo.xml
+PQSA_WEEK_WORK_LOG_HO_S,CREATE,PQHA_WEEK_WORK_LOG_HO_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogHo.xml
+PQSA_WEEK_WORK_LOG_PLAN_HO_Q,CREATE,PQHA_WEEK_WORK_LOG_PLAN_HO_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogRegHo.xml
+PQSA_WEEK_WORK_LOG_PLAN_HO_S,CREATE,PQHA_WEEK_WORK_LOG_PLAN_HO_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogRegHo.xml
+PQSA_WEEK_WORK_LOG_PLAN_Q,CREATE,PQHA_WEEK_WORK_LOG_PLAN_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogReg.xml
+PQSA_WEEK_WORK_LOG_PLAN_S,CREATE,PQHA_WEEK_WORK_LOG_PLAN_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogReg.xml
+PQSA_WEEK_WORK_LOG_Q,CREATE,PQHA_WEEK_WORK_LOG_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLog.xml
+PQSA_WEEK_WORK_LOG_REG_Q,CREATE,PQHA_WEEK_WORK_LOG_REG_Q,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/aprv/QsAproval.xml resources/sqlmap/mybatis/qs/qsa/WeekWorkLogReg.xml
+PQSA_WEEK_WORK_LOG_REG_S,CREATE,PQHA_WEEK_WORK_LOG_REG_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WeekWorkLogReg.xml
+PQSA_WORK_ENV_MON_Q,CREATE,PQHA_WORK_ENV_MON_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WorkEnvMon.xml
+PQSA_WORK_ENV_MON_S,CREATE,PQHA_WORK_ENV_MON_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WorkEnvMon.xml
+PQSA_WRK_PDOC_Q,CREATE,PQHA_WRK_PDOC_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WrkPdoc.xml
+PQSA_WRK_PDOC_S,CREATE,PQHA_WRK_PDOC_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WrkPdoc.xml
+PQSA_WRK_PMPP_Q,CREATE,PQHA_WRK_PMPP_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WrkPmpp.xml
+PQSA_WRK_PMPP_S,CREATE,PQHA_WRK_PMPP_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/WrkPmpp.xml
+PQSA_YYTRGARSLTCHK_S,CREATE,PQHA_YYTRGARSLTCHK_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgArsltSeq.xml
+PQSA_YYTRGARSLTSEQ_Q,CREATE,PQHA_YYTRGARSLTSEQ_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgArsltSeq.xml
+PQSA_YYTRGARSLTSEQ_S,CREATE,PQHA_YYTRGARSLTSEQ_S,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml resources/sqlmap/mybatis/qs/qsa/YyTrgArsltSeq.xml
+PQSA_YYTRGARSLT_ATFL_S,CREATE,PQHA_YYTRGARSLT_ATFL_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml
+PQSA_YYTRGARSLT_Q,CREATE,PQHA_YYTRGARSLT_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml
+PQSA_YYTRGARSLT_S,CREATE,PQHA_YYTRGARSLT_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml
+PQSA_YYTRGPLNCHR_Q,CREATE,PQHA_YYTRGPLNCHR_Q,이름 규칙 적용,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml resources/sqlmap/mybatis/qs/qsa/YyTrgPlanStf.xml
+PQSA_YYTRGPLNCHR_S,NOT_MAPPED,PQSA_YYTRGPLNCHR_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml
+PQSA_YYTRGPLNCHR_STF_S,CREATE,PQHA_YYTRGPLNCHR_STF_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgPlanStf.xml
+PQSA_YYTRGPLNSEQ_Q,CREATE,PQHA_YYTRGPLNSEQ_Q,이름 규칙 적용,"JH,vplus",3,resources/sqlmap/mybatis/qs/qsa/YyTrgArsltSeq.xml resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml resources/sqlmap/mybatis/qs/qsa/YyTrgPlanSeq.xml
+PQSA_YYTRGPLNSEQ_S,CREATE,PQHA_YYTRGPLNSEQ_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgPlanSeq.xml
+PQSA_YYTRGPLN_Q,CREATE,PQHA_YYTRGPLN_Q,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml
+PQSA_YYTRGPLN_S,CREATE,PQHA_YYTRGPLN_S,이름 규칙 적용,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/YyTrgPlan.xml
+PQSB_CTPUNT_CHKITM_S,CREATE,PQHB_CTPUNT_CHKITM_S,이름 규칙 적용,JH,3,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml resources/sqlmap/mybatis/qs/qsa/RiskItmMng.xml resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
+PQSB_DAYSAFE_CHKLST_S,CREATE,PQHB_DAYSAFE_CHKLST_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSB_DAYSAFE_DT_S,CREATE,PQHB_DAYSAFE_DT_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSB_DAYSAFE_NAM_S,CREATE,PQHB_DAYSAFE_NAM_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml
+PQSB_RISK_CHK_Q,CREATE,PQHB_RISK_CHK_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml
+PQSB_RISK_CHK_S,CREATE,PQHB_RISK_CHK_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml
+PQSB_RISK_CHK_W,CREATE,PQHB_RISK_CHK_W,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml
+PQSB_RISK_DGR_Q,CREATE,PQHB_RISK_DGR_Q,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_DGR_S,CREATE,PQHB_RISK_DGR_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_DGR_W,CREATE,PQHB_RISK_DGR_W,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_LST_Q,CREATE,PQHB_RISK_LST_Q,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml resources/sqlmap/mybatis/qs/qsb/RiskLst.xml
+PQSB_RISK_LST_S,CREATE,PQHB_RISK_LST_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskLst.xml
+PQSB_RISK_NAM_Q,CREATE,PQHB_RISK_NAM_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_NAM_S,CREATE,PQHB_RISK_NAM_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_SCHD_MNG_CO_Q,CREATE,PQHB_RISK_SCHD_MNG_CO_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
+PQSB_RISK_USER_LIST_Q,CREATE,PQHB_RISK_USER_LIST_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_VNDR_Q,CREATE,PQHB_RISK_VNDR_Q,이름 규칙 적용,JH,2,resources/sqlmap/mybatis/qs/qsa/MeetDrft.xml resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_VNDR_S,CREATE,PQHB_RISK_VNDR_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSB_RISK_VNDR_W,CREATE,PQHB_RISK_VNDR_W,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskChk.xml
+PQSB_SAFT_MNG_ASSIGN_Q,CREATE,PQHB_SAFT_MNG_ASSIGN_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml
+PQSB_SAFT_MNG_ASSIGN_S,CREATE,PQHB_SAFT_MNG_ASSIGN_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml
+PQSB_SAFT_MNG_COPY_W,CREATE,PQHB_SAFT_MNG_COPY_W,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/SaftMngAssign.xml
+PQSB_SAFT_MNG_ITEM_Q,CREATE,PQHB_SAFT_MNG_ITEM_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/DaySaftChkReg.xml
+PQSB_STOP_WK_Q,CREATE,PQHB_STOP_WK_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/StopWk.xml
+PQSB_STOP_WK_S,CREATE,PQHB_STOP_WK_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/StopWk.xml
+PQSB_VNDRNAM_Q,CREATE,PQHB_VNDRNAM_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/CoInfo.xml
+PQSB_VNDRNAM_S,CREATE,PQHB_VNDRNAM_S,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsa/CoInfo.xml
+PQSB_VNDR_NAM_INFO_Q,CREATE,PQHB_VNDR_NAM_INFO_Q,이름 규칙 적용,JH,1,resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
+PQSC_MMEDUPLAN_S,EXCLUDE,PQSC_MMEDUPLAN_S,vplus에 같은 이름이 있음(vplus 것을 그대로 사용),"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MmEduPlan.xml
+PQSD_SUBCONT_Q,EXCLUDE,PQSD_SUBCONT_Q,vplus에 같은 이름이 있음(vplus 것을 그대로 사용),"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/CoInfo.xml
+PQSZ_APRVLST_S,NOT_MAPPED,PQSZ_APRVLST_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/YyTrgArslt.xml
+PQSZ_IMPORT_EMPS_S,CREATE,PQHZ_IMPORT_EMPS_S,QS -> QH (결정 7),JH,1,resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml
+PQSZ_SITENAM_S,NOT_MAPPED,PQSZ_SITENAM_S,,없음,1,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml
+PQSZ_SITESNSBDTS_S,NOT_MAPPED,PQSZ_SITESNSBDTS_S,,없음,2,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml
+TQSA_ADDRISK_ORD,CREATE,TQHA_ADDRISK_ORD,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+TQSA_APRS_DTL,NOT_MAPPED,TQSA_APRS_DTL,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+TQSA_APRS_ITM,NOT_MAPPED,TQSA_APRS_ITM,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+TQSA_DAYSAFE_CHKLST,CREATE,TQHA_DAYSAFE_CHKLST,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+TQSA_FINE,NOT_MAPPED,TQSA_FINE,,없음,1,resources/sqlmap/mybatis/qs/qsa/FineLst.xml
+TQSA_HOCHK_ITM,NOT_MAPPED,TQSA_HOCHK_ITM,,없음,3,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmManage.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_HOCHK_MA,NOT_MAPPED,TQSA_HOCHK_MA,,없음,1,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml
+TQSA_HOCHK_REG_ANTM,NOT_MAPPED,TQSA_HOCHK_REG_ANTM,,없음,2,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_HOCHK_REG_RGL,NOT_MAPPED,TQSA_HOCHK_REG_RGL,,없음,2,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_HOCHK_RSLT,NOT_MAPPED,TQSA_HOCHK_RSLT,,없음,1,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml
+TQSA_HOCHK_SCHD,NOT_MAPPED,TQSA_HOCHK_SCHD,,없음,2,resources/sqlmap/mybatis/qs/qsa/ActionRsltLst.xml resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_JOB_CD,NOT_MAPPED,TQSA_JOB_CD,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsCts.xml
+TQSA_JOB_CTS,NOT_MAPPED,TQSA_JOB_CTS,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsCts.xml
+TQSA_JOB_ITEM,NOT_MAPPED,TQSA_JOB_ITEM,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsCts.xml
+TQSA_MMEDUPLAN,CREATE,TQHA_MMEDUPLAN,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/MmEduPlan.xml
+TQSA_MON_RSLT,NOT_MAPPED,TQSA_MON_RSLT,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSiteReg.xml
+TQSA_MON_SAFE,NOT_MAPPED,TQSA_MON_SAFE,,없음,1,resources/sqlmap/mybatis/qs/qsa/MonthSafeReg.xml
+TQSA_PERF_OBJ,NOT_MAPPED,TQSA_PERF_OBJ,,없음,1,resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
+TQSA_RISK_VNDR,CREATE,TQHA_RISK_VNDR,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/RiskItmLst.xml
+TQSA_SAFECOST_APRV,CREATE,TQHA_SAFECOST_APRV,구조만,"JH,vplus",1,java/com/jh/erp/qs/aprv/svc/impl/QsAprovalServiceImpl.java
+TQSA_SAFECOST_ARSLT,CREATE,TQHA_SAFECOST_ARSLT,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_SAFECOST_ARSLT_CO,CREATE,TQHA_SAFECOST_ARSLT_CO,구조만,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
+TQSA_SAFECOST_BGTYM,CREATE,TQHA_SAFECOST_BGTYM,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_SAFECOST_INFO,CREATE,TQHA_SAFECOST_INFO,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_SAFECOST_MMARSLT_CO,CREATE,TQHA_SAFECOST_MMARSLT_CO,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/ChkItmReg.xml
+TQSA_SAFECOST_PROCRT,NOT_MAPPED,TQSA_SAFECOST_PROCRT,,없음,1,resources/sqlmap/mybatis/qs/qsa/SafeCostMng.xml
+TQSA_SITEAPRS,NOT_MAPPED,TQSA_SITEAPRS,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+TQSA_SITEAPRS_DTL,NOT_MAPPED,TQSA_SITEAPRS_DTL,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+TQSA_SITEAPRS_VNDR,NOT_MAPPED,TQSA_SITEAPRS_VNDR,,없음,1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+TQSA_SITENAM,CREATE,TQHA_SITENAM,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml
+TQSA_SUBJECT,CREATE,TQHA_SUBJECT,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/QsAnncBrd.xml
+TQSA_VNDR,CREATE,TQHA_VNDR,구조만,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/SafeCostCont.xml
+TQSB_RSKEVLNAM,NOT_MAPPED,TQSB_RSKEVLNAM,,없음,1,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml
+TQSM_HOCHKRPT,NOT_MAPPED,TQSM_HOCHKRPT,,없음,3,resources/sqlmap/mybatis/qs/qsa/SiteMa.xml resources/sqlmap/mybatis/qs/qsa/hoChk4.xml resources/sqlmap/mybatis/qs/qsa/hoChk5Curst.xml
+TQSN_CK_DD,NOT_MAPPED,TQSN_CK_DD,,없음,1,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml
+TQSZ_SITENAM,NOT_MAPPED,TQSZ_SITENAM,,없음,2,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml resources/sqlmap/mybatis/qs/qsa/hoChk4.xml
+TQSZ_SITESNSBDTS,NOT_MAPPED,TQSZ_SITESNSBDTS,,없음,2,resources/sqlmap/mybatis/qs/qsa/QszSiteMng.xml resources/sqlmap/mybatis/qs/qsa/QszSiteMngCp.xml
+VQSZ_SUBCONT,NOT_MAPPED,VQSZ_SUBCONT,,"JH,vplus",1,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml
+VQSZ_TRADE,NOT_MAPPED,VQSZ_TRADE,,"JH,vplus",2,resources/sqlmap/mybatis/qs/qsa/AprsItmManage.xml resources/sqlmap/mybatis/qs/qsa/ResultChkObj.xml
