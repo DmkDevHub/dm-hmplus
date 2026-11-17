@@ -1,0 +1,1759 @@
+--- JH/java/com/jh/partner/qs/qsa/rps/AddRiskCoRepository.java
++++ B/java/com/hs/partner/qh/qha/rps/QhAddRiskCoRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.rps;
++package com.hs.partner.qh.qha.rps;
+@@ -26 +26 @@
+-public interface AddRiskCoRepository {
++public interface QhAddRiskCoRepository {
+--- JH/java/com/jh/partner/qs/qsa/rps/RiskNcrActRsltCoRepository.java
++++ B/java/com/hs/partner/qh/qha/rps/QhRiskNcrActRsltCoRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.rps;
++package com.hs.partner.qh.qha.rps;
+@@ -26 +26 @@
+-public interface RiskNcrActRsltCoRepository {
++public interface QhRiskNcrActRsltCoRepository {
+--- JH/java/com/jh/partner/qs/qsa/rps/RiskSchdMngCoRepository.java
++++ B/java/com/hs/partner/qh/qha/rps/QhRiskSchdMngCoRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.rps;
++package com.hs.partner.qh.qha.rps;
+@@ -26 +26 @@
+-public interface RiskSchdMngCoRepository {
++public interface QhRiskSchdMngCoRepository {
+--- JH/java/com/jh/partner/qs/qsa/rps/SafeCostRegRepository.java
++++ B/java/com/hs/partner/qh/qha/rps/QhSafeCostRegRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.rps;
++package com.hs.partner.qh.qha.rps;
+@@ -26 +26 @@
+-public interface SafeCostRegRepository {
++public interface QhSafeCostRegRepository {
+--- JH/java/com/jh/partner/qs/qsa/rps/SafeWorkReqCoRepository.java
++++ B/java/com/hs/partner/qh/qha/rps/QhSafeWorkReqCoRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.rps;
++package com.hs.partner.qh.qha.rps;
+@@ -26 +26 @@
+-public interface SafeWorkReqCoRepository {
++public interface QhSafeWorkReqCoRepository {
+--- JH/java/com/jh/partner/qs/qsa/svc/AddRiskCoService.java
++++ B/java/com/hs/partner/qh/qha/svc/QhAddRiskCoService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc;
++package com.hs.partner.qh.qha.svc;
+@@ -23 +23 @@
+-public interface AddRiskCoService {
++public interface QhAddRiskCoService {
+--- JH/java/com/jh/partner/qs/qsa/svc/RiskNcrActRsltCoService.java
++++ B/java/com/hs/partner/qh/qha/svc/QhRiskNcrActRsltCoService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc;
++package com.hs.partner.qh.qha.svc;
+@@ -23 +23 @@
+-public interface RiskNcrActRsltCoService {
++public interface QhRiskNcrActRsltCoService {
+--- JH/java/com/jh/partner/qs/qsa/svc/RiskSchdMngCoService.java
++++ B/java/com/hs/partner/qh/qha/svc/QhRiskSchdMngCoService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc;
++package com.hs.partner.qh.qha.svc;
+@@ -23 +23 @@
+-public interface RiskSchdMngCoService {
++public interface QhRiskSchdMngCoService {
+--- JH/java/com/jh/partner/qs/qsa/svc/SafeCostRegService.java
++++ B/java/com/hs/partner/qh/qha/svc/QhSafeCostRegService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc;
++package com.hs.partner.qh.qha.svc;
+@@ -23 +23 @@
+-public interface SafeCostRegService {
++public interface QhSafeCostRegService {
+--- JH/java/com/jh/partner/qs/qsa/svc/SafeWorkReqCoService.java
++++ B/java/com/hs/partner/qh/qha/svc/QhSafeWorkReqCoService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc;
++package com.hs.partner.qh.qha.svc;
+@@ -23 +23 @@
+-public interface SafeWorkReqCoService {
++public interface QhSafeWorkReqCoService {
+--- JH/java/com/jh/partner/qs/qsa/svc/impl/AddRiskCoServiceImpl.java
++++ B/java/com/hs/partner/qh/qha/svc/impl/QhAddRiskCoServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc.impl;
++package com.hs.partner.qh.qha.svc.impl;
+@@ -11,5 +11,5 @@
+-import com.jh.partner.co.file.svc.FileService;
+-import com.jh.partner.co.file.vo.FileInfoVO;
+-import com.jh.partner.qs.qsa.rps.AddRiskCoRepository;
+-import com.jh.partner.qs.qsa.svc.AddRiskCoService;
+-import com.jh.partner.sys.utility.BaseUtils;
++import com.hs.partner.co.file.svc.FileService;
++import com.hs.partner.co.file.vo.FileInfoVO;
++import com.hs.partner.qh.qha.rps.QhAddRiskCoRepository;
++import com.hs.partner.qh.qha.svc.QhAddRiskCoService;
++import com.hs.partner.sys.utility.BaseUtils;
+@@ -35 +35 @@
+-public class AddRiskCoServiceImpl extends BaseUtils implements AddRiskCoService {
++public class QhAddRiskCoServiceImpl extends BaseUtils implements QhAddRiskCoService {
+@@ -40 +40 @@
+-    private AddRiskCoRepository rpsAddRiskCo;
++    private QhAddRiskCoRepository rpsAddRiskCo;
+--- JH/java/com/jh/partner/qs/qsa/svc/impl/RiskNcrActRsltCoServiceImpl.java
++++ B/java/com/hs/partner/qh/qha/svc/impl/QhRiskNcrActRsltCoServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc.impl;
++package com.hs.partner.qh.qha.svc.impl;
+@@ -11,5 +11,5 @@
+-import com.jh.partner.co.file.svc.FileService;
+-import com.jh.partner.co.file.vo.FileInfoVO;
+-import com.jh.partner.qs.qsa.rps.RiskNcrActRsltCoRepository;
+-import com.jh.partner.qs.qsa.svc.RiskNcrActRsltCoService;
+-import com.jh.partner.sys.utility.BaseUtils;
++import com.hs.partner.co.file.svc.FileService;
++import com.hs.partner.co.file.vo.FileInfoVO;
++import com.hs.partner.qh.qha.rps.QhRiskNcrActRsltCoRepository;
++import com.hs.partner.qh.qha.svc.QhRiskNcrActRsltCoService;
++import com.hs.partner.sys.utility.BaseUtils;
+@@ -35 +35 @@
+-public class RiskNcrActRsltCoServiceImpl extends BaseUtils implements RiskNcrActRsltCoService {
++public class QhRiskNcrActRsltCoServiceImpl extends BaseUtils implements QhRiskNcrActRsltCoService {
+@@ -40 +40 @@
+-    private RiskNcrActRsltCoRepository rpsRiskNcrActRsltCo;
++    private QhRiskNcrActRsltCoRepository rpsRiskNcrActRsltCo;
+--- JH/java/com/jh/partner/qs/qsa/svc/impl/RiskSchdMngCoServiceImpl.java
++++ B/java/com/hs/partner/qh/qha/svc/impl/QhRiskSchdMngCoServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc.impl;
++package com.hs.partner.qh.qha.svc.impl;
+@@ -12,5 +12,5 @@
+-import com.jh.partner.co.file.svc.FileService;
+-import com.jh.partner.co.file.vo.FileInfoVO;
+-import com.jh.partner.qs.qsa.rps.RiskSchdMngCoRepository;
+-import com.jh.partner.qs.qsa.svc.RiskSchdMngCoService;
+-import com.jh.partner.sys.utility.BaseUtils;
++import com.hs.partner.co.file.svc.FileService;
++import com.hs.partner.co.file.vo.FileInfoVO;
++import com.hs.partner.qh.qha.rps.QhRiskSchdMngCoRepository;
++import com.hs.partner.qh.qha.svc.QhRiskSchdMngCoService;
++import com.hs.partner.sys.utility.BaseUtils;
+@@ -36 +36 @@
+-public class RiskSchdMngCoServiceImpl extends BaseUtils implements RiskSchdMngCoService {
++public class QhRiskSchdMngCoServiceImpl extends BaseUtils implements QhRiskSchdMngCoService {
+@@ -41 +41 @@
+-    private RiskSchdMngCoRepository rpsRiskSchdMngCo;
++    private QhRiskSchdMngCoRepository rpsRiskSchdMngCo;
+--- JH/java/com/jh/partner/qs/qsa/svc/impl/SafeCostRegServiceImpl.java
++++ B/java/com/hs/partner/qh/qha/svc/impl/QhSafeCostRegServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc.impl;
++package com.hs.partner.qh.qha.svc.impl;
+@@ -11,5 +11,5 @@
+-import com.jh.partner.co.file.svc.FileService;
+-import com.jh.partner.co.file.vo.FileInfoVO;
+-import com.jh.partner.qs.qsa.rps.SafeCostRegRepository;
+-import com.jh.partner.qs.qsa.svc.SafeCostRegService;
+-import com.jh.partner.sys.base.BaseService;
++import com.hs.partner.co.file.svc.FileService;
++import com.hs.partner.co.file.vo.FileInfoVO;
++import com.hs.partner.qh.qha.rps.QhSafeCostRegRepository;
++import com.hs.partner.qh.qha.svc.QhSafeCostRegService;
++import com.hs.partner.sys.base.BaseService;
+@@ -35 +35 @@
+-public class SafeCostRegServiceImpl extends BaseService implements SafeCostRegService {
++public class QhSafeCostRegServiceImpl extends BaseService implements QhSafeCostRegService {
+@@ -38 +38 @@
+-    private SafeCostRegRepository safeCostRegRepository;
++    private QhSafeCostRegRepository safeCostRegRepository;
+--- JH/java/com/jh/partner/qs/qsa/svc/impl/SafeWorkReqCoServiceImpl.java
++++ B/java/com/hs/partner/qh/qha/svc/impl/QhSafeWorkReqCoServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.svc.impl;
++package com.hs.partner.qh.qha.svc.impl;
+@@ -12,3 +12,3 @@
+-import com.jh.partner.qs.qsa.rps.SafeWorkReqCoRepository;
+-import com.jh.partner.qs.qsa.svc.SafeWorkReqCoService;
+-import com.jh.partner.sys.utility.BaseUtils;
++import com.hs.partner.qh.qha.rps.QhSafeWorkReqCoRepository;
++import com.hs.partner.qh.qha.svc.QhSafeWorkReqCoService;
++import com.hs.partner.sys.utility.BaseUtils;
+@@ -34 +34 @@
+-public class SafeWorkReqCoServiceImpl extends BaseUtils implements SafeWorkReqCoService {
++public class QhSafeWorkReqCoServiceImpl extends BaseUtils implements QhSafeWorkReqCoService {
+@@ -39 +39 @@
+-    private SafeWorkReqCoRepository rpsSafeWorkReqCo;
++    private QhSafeWorkReqCoRepository rpsSafeWorkReqCo;
+--- JH/java/com/jh/partner/qs/qsa/web/AddRiskCoController.java
++++ B/java/com/hs/partner/qh/qha/web/QhAddRiskCoController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.web;
++package com.hs.partner.qh.qha.web;
+@@ -15,2 +15,2 @@
+-import com.jh.partner.qs.qsa.svc.AddRiskCoService;
+-import com.jh.partner.sys.base.BaseController;
++import com.hs.partner.qh.qha.svc.QhAddRiskCoService;
++import com.hs.partner.sys.base.BaseController;
+@@ -37,2 +37,2 @@
+-@RequestMapping(value = "/qsa")
+-public class AddRiskCoController  extends BaseController  {
++@RequestMapping(value = "/qha")
++public class QhAddRiskCoController  extends BaseController  {
+@@ -42 +42 @@
+-    private AddRiskCoService svcAddRiskCo;
++    private QhAddRiskCoService svcAddRiskCo;
+@@ -58 +58 @@
+-        return "qs/qsa/addRiskLstCo";
++        return "qh/qha/addRiskLstCo";
+@@ -72 +72 @@
+-        return "qs/qsa/addRiskRegCo";
++        return "qh/qha/addRiskRegCo";
+--- JH/java/com/jh/partner/qs/qsa/web/RiskNcrActRsltCoController.java
++++ B/java/com/hs/partner/qh/qha/web/QhRiskNcrActRsltCoController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.web;
++package com.hs.partner.qh.qha.web;
+@@ -15,2 +15,2 @@
+-import com.jh.partner.qs.qsa.svc.RiskNcrActRsltCoService;
+-import com.jh.partner.sys.base.BaseController;
++import com.hs.partner.qh.qha.svc.QhRiskNcrActRsltCoService;
++import com.hs.partner.sys.base.BaseController;
+@@ -37,2 +37,2 @@
+-@RequestMapping(value = "/qsa")
+-public class RiskNcrActRsltCoController  extends BaseController  {
++@RequestMapping(value = "/qha")
++public class QhRiskNcrActRsltCoController  extends BaseController  {
+@@ -42 +42 @@
+-    private RiskNcrActRsltCoService svcRiskNcrActRsltCo;
++    private QhRiskNcrActRsltCoService svcRiskNcrActRsltCo;
+@@ -58 +58 @@
+-        return "qs/qsa/riskNcrActRsltLstCo";
++        return "qh/qha/riskNcrActRsltLstCo";
+@@ -72 +72 @@
+-        return "qs/qsa/riskNcrActRsltRegCo";
++        return "qh/qha/riskNcrActRsltRegCo";
+--- JH/java/com/jh/partner/qs/qsa/web/RiskSchdMngCoController.java
++++ B/java/com/hs/partner/qh/qha/web/QhRiskSchdMngCoController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.web;
++package com.hs.partner.qh.qha.web;
+@@ -16,2 +16,2 @@
+-import com.jh.partner.qs.qsa.svc.RiskSchdMngCoService;
+-import com.jh.partner.sys.base.BaseController;
++import com.hs.partner.qh.qha.svc.QhRiskSchdMngCoService;
++import com.hs.partner.sys.base.BaseController;
+@@ -38,2 +38,2 @@
+-@RequestMapping(value = "/qsa")
+-public class RiskSchdMngCoController  extends BaseController  {
++@RequestMapping(value = "/qha")
++public class QhRiskSchdMngCoController  extends BaseController  {
+@@ -43 +43 @@
+-    private RiskSchdMngCoService svcRiskSchdMngCo;
++    private QhRiskSchdMngCoService svcRiskSchdMngCo;
+@@ -59 +59 @@
+-        return "qs/qsa/riskSchdMngCo";
++        return "qh/qha/riskSchdMngCo";
+@@ -73 +73 @@
+-        return "qs/qsa/riskItmRegCo";
++        return "qh/qha/riskItmRegCo";
+--- JH/java/com/jh/partner/qs/qsa/web/SafeCostRegController.java
++++ B/java/com/hs/partner/qh/qha/web/QhSafeCostRegController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.web;
++package com.hs.partner.qh.qha.web;
+@@ -16,2 +16,2 @@
+-import com.jh.partner.qs.qsa.svc.SafeCostRegService;
+-import com.jh.partner.sys.base.BaseController;
++import com.hs.partner.qh.qha.svc.QhSafeCostRegService;
++import com.hs.partner.sys.base.BaseController;
+@@ -37,2 +37,2 @@
+-@RequestMapping(value = "/qsa")
+-public class SafeCostRegController extends BaseController {
++@RequestMapping(value = "/qha")
++public class QhSafeCostRegController extends BaseController {
+@@ -41 +41 @@
+-    SafeCostRegService safeCostRegService;
++    QhSafeCostRegService safeCostRegService;
+@@ -54 +54 @@
+-        return "qs/qsa/safeCostReg1Co";
++        return "qh/qha/safeCostReg1Co";
+--- JH/java/com/jh/partner/qs/qsa/web/SafeWorkReqCoController.java
++++ B/java/com/hs/partner/qh/qha/web/QhSafeWorkReqCoController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsa.web;
++package com.hs.partner.qh.qha.web;
+@@ -16,2 +16,2 @@
+-import com.jh.partner.qs.qsa.svc.SafeWorkReqCoService;
+-import com.jh.partner.sys.base.BaseController;
++import com.hs.partner.qh.qha.svc.QhSafeWorkReqCoService;
++import com.hs.partner.sys.base.BaseController;
+@@ -38,2 +38,2 @@
+-@RequestMapping(value = "/qsa")
+-public class SafeWorkReqCoController  extends BaseController  {
++@RequestMapping(value = "/qha")
++public class QhSafeWorkReqCoController  extends BaseController  {
+@@ -43 +43 @@
+-    private SafeWorkReqCoService svcSafeWorkReqCo;
++    private QhSafeWorkReqCoService svcSafeWorkReqCo;
+@@ -59 +59 @@
+-        return "qs/qsa/safeWorkReqLstCo";
++        return "qh/qha/safeWorkReqLstCo";
+@@ -73 +73 @@
+-        return "qs/qsa/safeWorkReqRegCo";
++        return "qh/qha/safeWorkReqRegCo";
+--- JH/java/com/jh/partner/qs/qsb/rps/RiskChkRepository.java
++++ B/java/com/hs/partner/qh/qhb/rps/QhRiskChkRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.rps;
++package com.hs.partner.qh.qhb.rps;
+@@ -25 +25 @@
+-public interface RiskChkRepository {
++public interface QhRiskChkRepository {
+--- JH/java/com/jh/partner/qs/qsb/rps/RiskDgrRepository.java
++++ B/java/com/hs/partner/qh/qhb/rps/QhRiskDgrRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.rps;
++package com.hs.partner.qh.qhb.rps;
+@@ -25 +25 @@
+-public interface RiskDgrRepository {
++public interface QhRiskDgrRepository {
+--- JH/java/com/jh/partner/qs/qsb/rps/RiskLstRepository.java
++++ B/java/com/hs/partner/qh/qhb/rps/QhRiskLstRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.rps;
++package com.hs.partner.qh.qhb.rps;
+@@ -25 +25 @@
+-public interface RiskLstRepository {
++public interface QhRiskLstRepository {
+--- JH/java/com/jh/partner/qs/qsb/svc/RiskChkService.java
++++ B/java/com/hs/partner/qh/qhb/svc/QhRiskChkService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.svc;
++package com.hs.partner.qh.qhb.svc;
+@@ -23 +23 @@
+-public interface RiskChkService {
++public interface QhRiskChkService {
+--- JH/java/com/jh/partner/qs/qsb/svc/RiskDgrService.java
++++ B/java/com/hs/partner/qh/qhb/svc/QhRiskDgrService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.svc;
++package com.hs.partner.qh.qhb.svc;
+@@ -23 +23 @@
+-public interface RiskDgrService {
++public interface QhRiskDgrService {
+--- JH/java/com/jh/partner/qs/qsb/svc/RiskLstService.java
++++ B/java/com/hs/partner/qh/qhb/svc/QhRiskLstService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.svc;
++package com.hs.partner.qh.qhb.svc;
+@@ -23 +23 @@
+-public interface RiskLstService {
++public interface QhRiskLstService {
+--- JH/java/com/jh/partner/qs/qsb/svc/impl/RiskChkServiceImpl.java
++++ B/java/com/hs/partner/qh/qhb/svc/impl/QhRiskChkServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.svc.impl;
++package com.hs.partner.qh.qhb.svc.impl;
+@@ -11,3 +11,3 @@
+-import com.jh.partner.qs.qsb.rps.RiskChkRepository;
+-import com.jh.partner.qs.qsb.svc.RiskChkService;
+-import com.jh.partner.sys.base.BaseService;
++import com.hs.partner.qh.qhb.rps.QhRiskChkRepository;
++import com.hs.partner.qh.qhb.svc.QhRiskChkService;
++import com.hs.partner.sys.base.BaseService;
+@@ -33 +33 @@
+-public class RiskChkServiceImpl extends BaseService implements RiskChkService {
++public class QhRiskChkServiceImpl extends BaseService implements QhRiskChkService {
+@@ -38 +38 @@
+-    private RiskChkRepository rpsRiskChk;
++    private QhRiskChkRepository rpsRiskChk;
+--- JH/java/com/jh/partner/qs/qsb/svc/impl/RiskDgrServiceImpl.java
++++ B/java/com/hs/partner/qh/qhb/svc/impl/QhRiskDgrServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.svc.impl;
++package com.hs.partner.qh.qhb.svc.impl;
+@@ -11,3 +11,3 @@
+-import com.jh.partner.qs.qsb.rps.RiskDgrRepository;
+-import com.jh.partner.qs.qsb.svc.RiskDgrService;
+-import com.jh.partner.sys.base.BaseService;
++import com.hs.partner.qh.qhb.rps.QhRiskDgrRepository;
++import com.hs.partner.qh.qhb.svc.QhRiskDgrService;
++import com.hs.partner.sys.base.BaseService;
+@@ -33 +33 @@
+-public class RiskDgrServiceImpl extends BaseService implements RiskDgrService {
++public class QhRiskDgrServiceImpl extends BaseService implements QhRiskDgrService {
+@@ -38 +38 @@
+-    private RiskDgrRepository rpsRiskDgr;
++    private QhRiskDgrRepository rpsRiskDgr;
+--- JH/java/com/jh/partner/qs/qsb/svc/impl/RiskLstServiceImpl.java
++++ B/java/com/hs/partner/qh/qhb/svc/impl/QhRiskLstServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.svc.impl;
++package com.hs.partner.qh.qhb.svc.impl;
+@@ -11,3 +11,3 @@
+-import com.jh.partner.qs.qsb.rps.RiskLstRepository;
+-import com.jh.partner.qs.qsb.svc.RiskLstService;
+-import com.jh.partner.sys.base.BaseService;
++import com.hs.partner.qh.qhb.rps.QhRiskLstRepository;
++import com.hs.partner.qh.qhb.svc.QhRiskLstService;
++import com.hs.partner.sys.base.BaseService;
+@@ -33 +33 @@
+-public class RiskLstServiceImpl extends BaseService implements RiskLstService {
++public class QhRiskLstServiceImpl extends BaseService implements QhRiskLstService {
+@@ -38 +38 @@
+-    private RiskLstRepository rpsRiskLst;
++    private QhRiskLstRepository rpsRiskLst;
+--- JH/java/com/jh/partner/qs/qsb/web/RiskChkController.java
++++ B/java/com/hs/partner/qh/qhb/web/QhRiskChkController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.web;
++package com.hs.partner.qh.qhb.web;
+@@ -19,3 +19,3 @@
+-import com.jh.partner.qs.qsb.svc.RiskChkService;
+-import com.jh.partner.sys.base.BaseController;
+-import com.jh.partner.sys.security.service.AccountVO;
++import com.hs.partner.qh.qhb.svc.QhRiskChkService;
++import com.hs.partner.sys.base.BaseController;
++import com.hs.partner.sys.security.service.AccountVO;
+@@ -41,2 +41,2 @@
+-@RequestMapping(value = "/qsb")
+-public class RiskChkController extends BaseController {
++@RequestMapping(value = "/qhb")
++public class QhRiskChkController extends BaseController {
+@@ -47 +47 @@
+-    private RiskChkService svcRiskChk;
++    private QhRiskChkService svcRiskChk;
+@@ -65 +65 @@
+-        return "qs/qsb/riskChk";
++        return "qh/qhb/riskChk";
+--- JH/java/com/jh/partner/qs/qsb/web/RiskDgrController.java
++++ B/java/com/hs/partner/qh/qhb/web/QhRiskDgrController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.web;
++package com.hs.partner.qh.qhb.web;
+@@ -20,3 +20,3 @@
+-import com.jh.partner.qs.qsb.svc.RiskDgrService;
+-import com.jh.partner.sys.base.BaseController;
+-import com.jh.partner.sys.security.service.AccountVO;
++import com.hs.partner.qh.qhb.svc.QhRiskDgrService;
++import com.hs.partner.sys.base.BaseController;
++import com.hs.partner.sys.security.service.AccountVO;
+@@ -42,2 +42,2 @@
+-@RequestMapping(value = "/qsb")
+-public class RiskDgrController extends BaseController {
++@RequestMapping(value = "/qhb")
++public class QhRiskDgrController extends BaseController {
+@@ -48 +48 @@
+-    private RiskDgrService svcRiskDgr;
++    private QhRiskDgrService svcRiskDgr;
+@@ -66 +66 @@
+-        return "qs/qsb/riskDgrMainList";
++        return "qh/qhb/riskDgrMainList";
+@@ -82 +82 @@
+-        return "qs/qsb/riskDgrMng";
++        return "qh/qhb/riskDgrMng";
+--- JH/java/com/jh/partner/qs/qsb/web/RiskLstController.java
++++ B/java/com/hs/partner/qh/qhb/web/QhRiskLstController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsb.web;
++package com.hs.partner.qh.qhb.web;
+@@ -18,3 +18,3 @@
+-import com.jh.partner.qs.qsb.svc.RiskLstService;
+-import com.jh.partner.sys.base.BaseController;
+-import com.jh.partner.sys.security.service.AccountVO;
++import com.hs.partner.qh.qhb.svc.QhRiskLstService;
++import com.hs.partner.sys.base.BaseController;
++import com.hs.partner.sys.security.service.AccountVO;
+@@ -40,2 +40,2 @@
+-@RequestMapping(value = "/qsb")
+-public class RiskLstController extends BaseController {
++@RequestMapping(value = "/qhb")
++public class QhRiskLstController extends BaseController {
+@@ -46 +46 @@
+-    private RiskLstService svcRiskLst;
++    private QhRiskLstService svcRiskLst;
+@@ -64 +64 @@
+-        return "qs/qsb/riskLst";
++        return "qh/qhb/riskLst";
+--- JH/java/com/jh/partner/qs/qsc/rps/NcrActRsltCoRepository.java
++++ B/java/com/hs/partner/qh/qhc/rps/QhNcrActRsltCoRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsc.rps;
++package com.hs.partner.qh.qhc.rps;
+@@ -26 +26 @@
+-public interface NcrActRsltCoRepository {
++public interface QhNcrActRsltCoRepository {
+--- JH/java/com/jh/partner/qs/qsc/svc/NcrActRsltCoService.java
++++ B/java/com/hs/partner/qh/qhc/svc/QhNcrActRsltCoService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsc.svc;
++package com.hs.partner.qh.qhc.svc;
+@@ -23 +23 @@
+-public interface NcrActRsltCoService {
++public interface QhNcrActRsltCoService {
+--- JH/java/com/jh/partner/qs/qsc/svc/impl/NcrActRsltCoServiceImpl.java
++++ B/java/com/hs/partner/qh/qhc/svc/impl/QhNcrActRsltCoServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsc.svc.impl;
++package com.hs.partner.qh.qhc.svc.impl;
+@@ -11,5 +11,5 @@
+-import com.jh.partner.co.file.svc.FileService;
+-import com.jh.partner.co.file.vo.FileInfoVO;
+-import com.jh.partner.qs.qsc.rps.NcrActRsltCoRepository;
+-import com.jh.partner.qs.qsc.svc.NcrActRsltCoService;
+-import com.jh.partner.sys.utility.BaseUtils;
++import com.hs.partner.co.file.svc.FileService;
++import com.hs.partner.co.file.vo.FileInfoVO;
++import com.hs.partner.qh.qhc.rps.QhNcrActRsltCoRepository;
++import com.hs.partner.qh.qhc.svc.QhNcrActRsltCoService;
++import com.hs.partner.sys.utility.BaseUtils;
+@@ -35 +35 @@
+-public class NcrActRsltCoServiceImpl extends BaseUtils implements NcrActRsltCoService {
++public class QhNcrActRsltCoServiceImpl extends BaseUtils implements QhNcrActRsltCoService {
+@@ -40 +40 @@
+-    private NcrActRsltCoRepository rpsNcrActRsltCo;
++    private QhNcrActRsltCoRepository rpsNcrActRsltCo;
+--- JH/java/com/jh/partner/qs/qsc/web/NcrActRsltCoController.java
++++ B/java/com/hs/partner/qh/qhc/web/QhNcrActRsltCoController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsc.web;
++package com.hs.partner.qh.qhc.web;
+@@ -15,2 +15,2 @@
+-import com.jh.partner.qs.qsc.svc.NcrActRsltCoService;
+-import com.jh.partner.sys.base.BaseController;
++import com.hs.partner.qh.qhc.svc.QhNcrActRsltCoService;
++import com.hs.partner.sys.base.BaseController;
+@@ -37,2 +37,2 @@
+-@RequestMapping(value = "/qsc")
+-public class NcrActRsltCoController  extends BaseController  {
++@RequestMapping(value = "/qhc")
++public class QhNcrActRsltCoController  extends BaseController  {
+@@ -42 +42 @@
+-    private NcrActRsltCoService svcNcrActRsltCo;
++    private QhNcrActRsltCoService svcNcrActRsltCo;
+@@ -58 +58 @@
+-        return "qs/qsc/ncrActRsltLstCo";
++        return "qh/qhc/ncrActRsltLstCo";
+@@ -72 +72 @@
+-        return "qs/qsc/ncrActRsltRegCo";
++        return "qh/qhc/ncrActRsltRegCo";
+--- JH/java/com/jh/partner/qs/qsz/rps/QsMainRepository.java
++++ B/java/com/hs/partner/qh/qhz/rps/QhMainRepository.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsz.rps;
++package com.hs.partner.qh.qhz.rps;
+@@ -9 +9 @@
+-public interface QsMainRepository {
++public interface QhMainRepository {
+--- JH/java/com/jh/partner/qs/qsz/svc/QsMainService.java
++++ B/java/com/hs/partner/qh/qhz/svc/QhMainService.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsz.svc;
++package com.hs.partner.qh.qhz.svc;
+@@ -6 +6 @@
+-public interface QsMainService {
++public interface QhMainService {
+--- JH/java/com/jh/partner/qs/qsz/svc/impl/QsMainServiceImpl.java
++++ B/java/com/hs/partner/qh/qhz/svc/impl/QhMainServiceImpl.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsz.svc.impl;
++package com.hs.partner.qh.qhz.svc.impl;
+@@ -12,2 +12,2 @@
+-import com.jh.partner.qs.qsz.rps.QsMainRepository;
+-import com.jh.partner.qs.qsz.svc.QsMainService;
++import com.hs.partner.qh.qhz.rps.QhMainRepository;
++import com.hs.partner.qh.qhz.svc.QhMainService;
+@@ -16 +16 @@
+-public class QsMainServiceImpl implements QsMainService{
++public class QhMainServiceImpl implements QhMainService{
+@@ -20 +20 @@
+-    private QsMainRepository qsMainRepository;
++    private QhMainRepository qsMainRepository;
+--- JH/java/com/jh/partner/qs/qsz/web/QsMainController.java
++++ B/java/com/hs/partner/qh/qhz/web/QhMainController.java
+@@ -1 +1 @@
+-package com.jh.partner.qs.qsz.web;
++package com.hs.partner.qh.qhz.web;
+@@ -17,4 +17,4 @@
+-import com.jh.partner.qs.qsz.svc.QsMainService;
+-import com.jh.partner.sys.base.BaseController;
+-import com.jh.partner.sys.security.service.AccountVO;
+-import com.jh.partner.sys.utility.BaseUtils;
++import com.hs.partner.qh.qhz.svc.QhMainService;
++import com.hs.partner.sys.base.BaseController;
++import com.hs.partner.sys.security.service.AccountVO;
++import com.hs.partner.sys.utility.BaseUtils;
+@@ -42,2 +42,2 @@
+-@RequestMapping(value = "/qsz")
+-public class QsMainController extends BaseController {
++@RequestMapping(value = "/qhz")
++public class QhMainController extends BaseController {
+@@ -47 +47 @@
+-    private QsMainService qsMainService;
++    private QhMainService qsMainService;
+@@ -63 +63 @@
+-        return "/qs/qsz/dashBoardQs";
++        return "/qh/qhz/dashBoardQs";
+@@ -166 +166 @@
+-        return "qs/qsz/anncBrdDtl";
++        return "qh/qhz/anncBrdDtl";
+@@ -179 +179 @@
+-        return "/qs/qsz/anncBrdList";
++        return "/qh/qhz/anncBrdList";
+--- JH/resources/sqlmap/mybatis/qs/qsa/AddRiskCo.xml
++++ B/resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsa.rps.AddRiskCoRepository">
++<mapper namespace="com.hs.partner.qh.qha.rps.QhAddRiskCoRepository">
+@@ -10 +10 @@
+-        { CALL PQSA_ADDRISK_ORD_Q(
++        { CALL PQHA_ADDRISK_ORD_Q(
+@@ -26 +26 @@
+-        { CALL PQSA_ADDRISK_ORD_Q(
++        { CALL PQHA_ADDRISK_ORD_Q(
+@@ -45 +45 @@
+-        { CALL PQSA_ADDRISK_ORD_CO_S(
++        { CALL PQHA_ADDRISK_ORD_CO_S(
+@@ -70 +70 @@
+-        { CALL PQSA_ADDRISK_ORD_CO_S(
++        { CALL PQHA_ADDRISK_ORD_CO_S(
+@@ -95 +95 @@
+-        { CALL PQSA_ADDRISK_ORD_W(
++        { CALL PQHA_ADDRISK_ORD_W(
+--- JH/resources/sqlmap/mybatis/qs/qsa/RiskNcrActRsltCo.xml
++++ B/resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsa.rps.RiskNcrActRsltCoRepository">
++<mapper namespace="com.hs.partner.qh.qha.rps.QhRiskNcrActRsltCoRepository">
+@@ -10 +10 @@
+-        { CALL PQSA_NCR_REP_Q(
++        { CALL PQHA_NCR_REP_Q(
+@@ -24 +24 @@
+-        { CALL PQSA_NCR_REP_Q(
++        { CALL PQHA_NCR_REP_Q(
+@@ -41 +41 @@
+-        { CALL PQSA_RISK_NCR_ACT_RSLT_CO_S(
++        { CALL PQHA_RISK_NCR_ACT_RSLT_CO_S(
+@@ -66 +66 @@
+-        { CALL PQSA_RISK_NCR_ACT_RSLT_CO_S(
++        { CALL PQHA_RISK_NCR_ACT_RSLT_CO_S(
+@@ -91 +91 @@
+-        { CALL PQSA_RISK_NCR_ACT_RSLT_CO_S(
++        { CALL PQHA_RISK_NCR_ACT_RSLT_CO_S(
+@@ -115 +115 @@
+-        { CALL PQSA_NCR_REP_APRV_W(
++        { CALL PQHA_NCR_REP_APRV_W(
+--- JH/resources/sqlmap/mybatis/qs/qsa/RiskSchdMngCo.xml
++++ B/resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsa.rps.RiskSchdMngCoRepository">
++<mapper namespace="com.hs.partner.qh.qha.rps.QhRiskSchdMngCoRepository">
+@@ -12 +12 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -30 +30 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -48 +48 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -66 +66 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -84 +84 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -102 +102 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -120 +120 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+@@ -139 +139 @@
+-        {CALL PQSA_RISK_VNDR_ATFL_S(
++        {CALL PQHA_RISK_VNDR_ATFL_S(
+@@ -145 +145 @@
+-             ,#{PLN_DGR}          -- 차수구분코드(QS005)
++             ,#{PLN_DGR}          -- 차수구분코드(QH005)
+@@ -156 +156 @@
+-        {CALL PQSA_RISK_CHK_S(
++        {CALL PQHA_RISK_CHK_S(
+@@ -162 +162 @@
+-             ,#{PLN_DGR}          -- 차수구분코드(QS005)
++             ,#{PLN_DGR}          -- 차수구분코드(QH005)
+@@ -170,26 +170,26 @@
+-             ,#{DISS_SHP}         -- 재해형태(QS036)
+-             ,#{RISK_FREQ}        -- 빈도레벨(QS003)
+-             ,#{RISK_APRV}        -- 강도레벨(QS004)
+-             ,#{RISK_CRIT}        -- 위험성레벨(QS063)
+-             ,#{RISK_GRD}         -- 위험등급(QS024)
+-             ,#{PRRT_REG}         -- 중점등록(QS002)
+-             ,#{RISK_FREQ2}        -- 빈도레벨(QS003)
+-             ,#{RISK_APRV2}        -- 강도레벨(QS004)
+-             ,#{RISK_CRIT2}        -- 위험성레벨(QS063)
+-             ,#{RISK_GRD2}         -- 위험등급(QS024)
+-             ,#{RISK_FREQ3}        -- 빈도레벨(QS003)
+-             ,#{RISK_APRV3}        -- 강도레벨(QS004)
+-             ,#{RISK_CRIT3}        -- 위험성레벨(QS063)
+-             ,#{RISK_GRD3}         -- 위험등급(QS024)
+-             ,#{RISK_FREQ4}        -- 빈도레벨(QS003)
+-             ,#{RISK_APRV4}        -- 강도레벨(QS004)
+-             ,#{RISK_CRIT4}        -- 위험성레벨(QS063)
+-             ,#{RISK_GRD4}         -- 위험등급(QS024)
+-             ,#{RISK_FREQ5}        -- 빈도레벨(QS003)
+-             ,#{RISK_APRV5}        -- 강도레벨(QS004)
+-             ,#{RISK_CRIT5}        -- 위험성레벨(QS063)
+-             ,#{RISK_GRD5}         -- 위험등급(QS024)
+-             ,#{RISK_FREQ6}        -- 빈도레벨(QS003)
+-             ,#{RISK_APRV6}        -- 강도레벨(QS004)
+-             ,#{RISK_CRIT6}        -- 위험성레벨(QS063)
+-             ,#{RISK_GRD6}         -- 위험등급(QS024)
++             ,#{DISS_SHP}         -- 재해형태(QH036)
++             ,#{RISK_FREQ}        -- 빈도레벨(QH003)
++             ,#{RISK_APRV}        -- 강도레벨(QH004)
++             ,#{RISK_CRIT}        -- 위험성레벨(QH063)
++             ,#{RISK_GRD}         -- 위험등급(QH024)
++             ,#{PRRT_REG}         -- 중점등록(QH002)
++             ,#{RISK_FREQ2}        -- 빈도레벨(QH003)
++             ,#{RISK_APRV2}        -- 강도레벨(QH004)
++             ,#{RISK_CRIT2}        -- 위험성레벨(QH063)
++             ,#{RISK_GRD2}         -- 위험등급(QH024)
++             ,#{RISK_FREQ3}        -- 빈도레벨(QH003)
++             ,#{RISK_APRV3}        -- 강도레벨(QH004)
++             ,#{RISK_CRIT3}        -- 위험성레벨(QH063)
++             ,#{RISK_GRD3}         -- 위험등급(QH024)
++             ,#{RISK_FREQ4}        -- 빈도레벨(QH003)
++             ,#{RISK_APRV4}        -- 강도레벨(QH004)
++             ,#{RISK_CRIT4}        -- 위험성레벨(QH063)
++             ,#{RISK_GRD4}         -- 위험등급(QH024)
++             ,#{RISK_FREQ5}        -- 빈도레벨(QH003)
++             ,#{RISK_APRV5}        -- 강도레벨(QH004)
++             ,#{RISK_CRIT5}        -- 위험성레벨(QH063)
++             ,#{RISK_GRD5}         -- 위험등급(QH024)
++             ,#{RISK_FREQ6}        -- 빈도레벨(QH003)
++             ,#{RISK_APRV6}        -- 강도레벨(QH004)
++             ,#{RISK_CRIT6}        -- 위험성레벨(QH063)
++             ,#{RISK_GRD6}         -- 위험등급(QH024)
+@@ -219 +219 @@
+-        {CALL PQSB_CTPUNT_CHKITM_S(
++        {CALL PQHB_CTPUNT_CHKITM_S(
+@@ -227,5 +227,5 @@
+-             ,#{DISS_SHP}    -- 재해형태(QS036)
+-             ,#{RISK_FREQ}   -- 빈도레벨(QS003)
+-             ,#{RISK_APRV}   -- 강도레벨(QS004)
+-             ,#{RISK_CRIT}   -- 위험성레벨(QS063)
+-             ,#{RISK_GRD}    -- 위험등급(QS024)
++             ,#{DISS_SHP}    -- 재해형태(QH036)
++             ,#{RISK_FREQ}   -- 빈도레벨(QH003)
++             ,#{RISK_APRV}   -- 강도레벨(QH004)
++             ,#{RISK_CRIT}   -- 위험성레벨(QH063)
++             ,#{RISK_GRD}    -- 위험등급(QH024)
+@@ -244 +244 @@
+-        {CALL PQSA_RISK_AB_S(
++        {CALL PQHA_RISK_AB_S(
+@@ -259 +259 @@
+-        {CALL PQSA_RISK_CHK_B(
++        {CALL PQHA_RISK_CHK_B(
+@@ -297 +297 @@
+-          { CALL PQSB_RISK_SCHD_MNG_CO_Q(
++          { CALL PQHB_RISK_SCHD_MNG_CO_Q(
+--- JH/resources/sqlmap/mybatis/qs/qsa/SafeCostReg.xml
++++ B/resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsa.rps.SafeCostRegRepository">
++<mapper namespace="com.hs.partner.qh.qha.rps.QhSafeCostRegRepository">
+@@ -11 +11 @@
+-        { CALL PQSA_SAFECOST_REG_CO_Q(
++        { CALL PQHA_SAFECOST_REG_CO_Q(
+@@ -26,2 +26,2 @@
+-                 , ITM_DIV      -- 항목구분 (공통코드 QS026)
+-                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                 , ITM_DIV      -- 항목구분 (공통코드 QH026)
++                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -47 +47 @@
+-            FROM TQSA_SAFECOST_ARSLT_CO
++            FROM TQHA_SAFECOST_ARSLT_CO
+@@ -58,2 +58,2 @@
+-                 , ITM_DIV      -- 항목구분 (공통코드 QS026)
+-                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                 , ITM_DIV      -- 항목구분 (공통코드 QH026)
++                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -77 +77 @@
+-            FROM TQSA_SAFECOST_ARSLT_CO
++            FROM TQHA_SAFECOST_ARSLT_CO
+@@ -88,2 +88,2 @@
+-                 , ITM_DIV      -- 항목구분 (공통코드 QS026)
+-                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                 , ITM_DIV      -- 항목구분 (공통코드 QH026)
++                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -109 +109 @@
+-            FROM TQSA_SAFECOST_ARSLT_CO
++            FROM TQHA_SAFECOST_ARSLT_CO
+@@ -120,2 +120,2 @@
+-                   , ITM_DIV      -- 항목구분 (공통코드 QS026)
+-                   , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                   , ITM_DIV      -- 항목구분 (공통코드 QH026)
++                   , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -138 +138 @@
+-              FROM TQSA_SAFECOST_ARSLT_CO
++              FROM TQHA_SAFECOST_ARSLT_CO
+@@ -149,2 +149,2 @@
+-                 , ITM_DIV      -- 항목구분 (공통코드 QS026)
+-                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                 , ITM_DIV      -- 항목구분 (공통코드 QH026)
++                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -168 +168 @@
+-            FROM TQSA_SAFECOST_ARSLT_CO
++            FROM TQHA_SAFECOST_ARSLT_CO
+@@ -179,2 +179,2 @@
+-                 , ITM_DIV      -- 항목구분 (공통코드 QS026)
+-                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                 , ITM_DIV      -- 항목구분 (공통코드 QH026)
++                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -197 +197 @@
+-            FROM TQSA_SAFECOST_ARSLT_CO
++            FROM TQHA_SAFECOST_ARSLT_CO
+@@ -208,2 +208,2 @@
+-                 , ITM_DIV        -- 항목구분 (공통코드 QS026)
+-                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QS026') AS ITM_DIV_NM
++                 , ITM_DIV        -- 항목구분 (공통코드 QH026)
++                 , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = ITM_DIV AND HRNK_CD = 'QH026') AS ITM_DIV_NM
+@@ -229 +229 @@
+-            FROM TQSA_SAFECOST_ARSLT_CO
++            FROM TQHA_SAFECOST_ARSLT_CO
+@@ -244 +244 @@
+-        {CALL PQSA_SAFECOST_ARSLT_CO_S
++        {CALL PQHA_SAFECOST_ARSLT_CO_S
+@@ -294 +294 @@
+-        MERGE   INTO TQSA_SAFECOST_MMARSLT_CO
++        MERGE   INTO TQHA_SAFECOST_MMARSLT_CO
+@@ -340 +340 @@
+-        { CALL PQSA_SAFECOST_MMARSLT_CO_W(
++        { CALL PQHA_SAFECOST_MMARSLT_CO_W(
+--- JH/resources/sqlmap/mybatis/qs/qsa/SafeWorkReqCo.xml
++++ B/resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsa.rps.SafeWorkReqCoRepository">
++<mapper namespace="com.hs.partner.qh.qha.rps.QhSafeWorkReqCoRepository">
+@@ -65 +65 @@
+-          FROM TQSA_SAFE_PERREQ A 
++          FROM TQHA_SAFE_PERREQ A 
+@@ -144 +144 @@
+-          FROM TQSA_SAFE_PERREQ A
++          FROM TQHA_SAFE_PERREQ A
+@@ -162,2 +162,2 @@
+-          FROM TQSA_SAFE_PERREQ_OBJ A
+-             , TQSA_SAFE_PERM_CD B
++          FROM TQHA_SAFE_PERREQ_OBJ A
++             , TQHA_SAFE_PERM_CD B
+@@ -178,2 +178,2 @@
+-          FROM TQSA_SAFE_PERREQ_OBJLST A
+-             , TQSA_SAFE_PERM_CPLN B
++          FROM TQHA_SAFE_PERREQ_OBJLST A
++             , TQHA_SAFE_PERM_CPLN B
+@@ -194 +194 @@
+-          FROM TQSA_SAFE_PERM_CD
++          FROM TQHA_SAFE_PERM_CD
+@@ -206 +206 @@
+-          FROM TQSA_SAFE_PERM_CPLN
++          FROM TQHA_SAFE_PERM_CPLN
+@@ -217 +217 @@
+-        {CALL PQSA_SAFE_PERREQ_S(
++        {CALL PQHA_SAFE_PERREQ_S(
+@@ -264 +264 @@
+-        {CALL PQSA_SAFE_PERREQ_OBJ_S(
++        {CALL PQHA_SAFE_PERREQ_OBJ_S(
+@@ -281 +281 @@
+-        {CALL PQSA_SAFE_PERREQ_OBJLST_S(
++        {CALL PQHA_SAFE_PERREQ_OBJLST_S(
+@@ -297 +297 @@
+-        {CALL PQSA_SAFE_AB_S(
++        {CALL PQHA_SAFE_AB_S(
+@@ -318 +318 @@
+-           FROM TQSA_SAFE_PERREQ
++           FROM TQHA_SAFE_PERREQ
+--- JH/resources/sqlmap/mybatis/qs/qsb/RiskChk.xml
++++ B/resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsb.rps.RiskChkRepository">
++<mapper namespace="com.hs.partner.qh.qhb.rps.QhRiskChkRepository">
+@@ -10 +10 @@
+-        { CALL PQSB_RISK_CHK_Q(
++        { CALL PQHB_RISK_CHK_Q(
+@@ -26 +26 @@
+-        { CALL PQSB_RISK_CHK_S(
++        { CALL PQHB_RISK_CHK_S(
+@@ -32 +32 @@
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -40,4 +40,4 @@
+-              ,#{RISK_FREQ           ,jdbcType=VARCHAR}  -- 빈도(QS09003) 작성
+-              ,#{RISK_APRV           ,jdbcType=VARCHAR}  -- 강도(QS09004) 작성
+-              ,#{RISK_CRIT           ,jdbcType=VARCHAR}  -- 위험성(QS09001) 작성
+-              ,#{RISK_GRD           ,jdbcType=VARCHAR}  -- 위험등급(QS09002) 작성
++              ,#{RISK_FREQ           ,jdbcType=VARCHAR}  -- 빈도(QH09003) 작성
++              ,#{RISK_APRV           ,jdbcType=VARCHAR}  -- 강도(QH09004) 작성
++              ,#{RISK_CRIT           ,jdbcType=VARCHAR}  -- 위험성(QH09001) 작성
++              ,#{RISK_GRD           ,jdbcType=VARCHAR}  -- 위험등급(QH09002) 작성
+@@ -45,4 +45,4 @@
+-              ,#{RISK_FREQ2           ,jdbcType=VARCHAR}  -- 개선후_빈도(QS09003) 작성
+-              ,#{RISK_APRV2           ,jdbcType=VARCHAR}  -- 개선후_강도(QS09004) 작성
+-              ,#{RISK_CRIT2           ,jdbcType=VARCHAR}  -- 개선후_위험성(QS09001) 작성
+-              ,#{RISK_GRD2           ,jdbcType=VARCHAR}  -- 개선후_위험등급(QS09002) 작성
++              ,#{RISK_FREQ2           ,jdbcType=VARCHAR}  -- 개선후_빈도(QH09003) 작성
++              ,#{RISK_APRV2           ,jdbcType=VARCHAR}  -- 개선후_강도(QH09004) 작성
++              ,#{RISK_CRIT2           ,jdbcType=VARCHAR}  -- 개선후_위험성(QH09001) 작성
++              ,#{RISK_GRD2           ,jdbcType=VARCHAR}  -- 개선후_위험등급(QH09002) 작성
+@@ -59 +59 @@
+-       { CALL PQSB_RISK_CHK_W(
++       { CALL PQHB_RISK_CHK_W(
+@@ -65 +65 @@
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -75 +75 @@
+-       { CALL PQSB_RISK_VNDR_W(
++       { CALL PQHB_RISK_VNDR_W(
+@@ -81 +81 @@
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+--- JH/resources/sqlmap/mybatis/qs/qsb/RiskDgr.xml
++++ B/resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsb.rps.RiskDgrRepository">
++<mapper namespace="com.hs.partner.qh.qhb.rps.QhRiskDgrRepository">
+@@ -10 +10 @@
+-        { CALL PQSB_RISK_DGR_Q(
++        { CALL PQHB_RISK_DGR_Q(
+@@ -23 +23 @@
+-        { CALL PQSB_RISK_LST_Q(
++        { CALL PQHB_RISK_LST_Q(
+@@ -27 +27 @@
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -39 +39 @@
+-        { CALL PQSB_RISK_DGR_Q(
++        { CALL PQHB_RISK_DGR_Q(
+@@ -52 +52 @@
+-        { CALL PQSB_RISK_DGR_Q(
++        { CALL PQHB_RISK_DGR_Q(
+@@ -66 +66 @@
+-        { CALL PQSB_RISK_VNDR_Q(
++        { CALL PQHB_RISK_VNDR_Q(
+@@ -83 +83 @@
+-        { CALL PQSB_RISK_USER_LIST_Q(
++        { CALL PQHB_RISK_USER_LIST_Q(
+@@ -96,5 +96,5 @@
+-        { CALL PQSB_RISK_NAM_Q(
+-               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
+-              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
+-              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++        { CALL PQHB_RISK_NAM_Q(
++               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
++              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
++              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -112 +112 @@
+-       { CALL PQSB_RISK_VNDR_Q(
++       { CALL PQHB_RISK_VNDR_Q(
+@@ -129,7 +129,7 @@
+-        { CALL PQSB_RISK_DGR_S(
+-               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
+-              ,#{WRK_ID           ,jdbcType=VARCHAR}  -- 아이디
+-              ,#{WRK_IP           ,jdbcType=VARCHAR}  -- 아이피
+-              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
+-              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++        { CALL PQHB_RISK_DGR_S(
++               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
++              ,#{WRK_ID           ,jdbcType=VARCHAR}  -- 아이디
++              ,#{WRK_IP           ,jdbcType=VARCHAR}  -- 아이피
++              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
++              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -165,7 +165,7 @@
+-        { CALL PQSB_RISK_VNDR_S(
+-               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
+-              ,#{WRK_ID           ,jdbcType=VARCHAR}  -- 아이디
+-              ,#{WRK_IP           ,jdbcType=VARCHAR}  -- 아이피
+-              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
+-              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++        { CALL PQHB_RISK_VNDR_S(
++               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
++              ,#{WRK_ID           ,jdbcType=VARCHAR}  -- 아이디
++              ,#{WRK_IP           ,jdbcType=VARCHAR}  -- 아이피
++              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
++              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -189,7 +189,7 @@
+-        { CALL PQSB_RISK_NAM_S(
+-               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
+-              ,#{WRK_ID           ,jdbcType=VARCHAR}  -- 아이디
+-              ,#{WRK_IP           ,jdbcType=VARCHAR}  -- 아이피
+-              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
+-              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++        { CALL PQHB_RISK_NAM_S(
++               #{WRK_TP           ,jdbcType=VARCHAR}  -- 작업종류
++              ,#{WRK_ID           ,jdbcType=VARCHAR}  -- 아이디
++              ,#{WRK_IP           ,jdbcType=VARCHAR}  -- 아이피
++              ,#{SIT_CD           ,jdbcType=VARCHAR}  -- 현장코드
++              ,#{PLN_YM           ,jdbcType=VARCHAR}  -- 계획년월
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -198,0 +199 @@
++              ,#{EMPE_NO_PRV       ,jdbcType=VARCHAR}  -- 이전 사원번호 (QH 프로시저 P_EMPE_NO_PRV에 맞춰 추가)
+@@ -208 +209 @@
+-        { CALL PQSB_RISK_DGR_W(
++        { CALL PQHB_RISK_DGR_W(
+@@ -215,0 +217,2 @@
++              ,#{APRS_STR_DT      ,jdbcType=VARCHAR}  -- 평가시작일 (QH 프로시저 P_APRS_STR_DT에 맞춰 추가)
++              ,#{APRS_END_DT      ,jdbcType=VARCHAR}  -- 평가종료일 (QH 프로시저 P_APRS_END_DT에 맞춰 추가)
+--- JH/resources/sqlmap/mybatis/qs/qsb/RiskLst.xml
++++ B/resources/sqlmap/mybatis/qh/qhb/RiskLst.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsb.rps.RiskLstRepository">
++<mapper namespace="com.hs.partner.qh.qhb.rps.QhRiskLstRepository">
+@@ -10 +10 @@
+-        { CALL PQSB_RISK_LST_Q(
++        { CALL PQHB_RISK_LST_Q(
+@@ -30 +30 @@
+-         { CALL PQSB_RISK_LST_S(
++         { CALL PQHB_RISK_LST_S(
+@@ -36 +36 @@
+-              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QS005) 1 1차,2 2차
++              ,#{PLN_DGR           ,jdbcType=VARCHAR}  -- 차수구분코드(QH005) 1 1차,2 2차
+@@ -45,5 +45,5 @@
+-              ,#{DISS_SHP           ,jdbcType=VARCHAR}  -- 재해형태(QS036)
+-              ,#{RISK_FREQ           ,jdbcType=VARCHAR}  -- 확정_빈도(QS09003) 작성
+-              ,#{RISK_APRV           ,jdbcType=VARCHAR}  -- 확정_강도(QS09004) 작성
+-              ,#{RISK_CRIT           ,jdbcType=VARCHAR}  -- 확정_위험성(QS09001) 작성
+-              ,#{RISK_GRD           ,jdbcType=VARCHAR}  -- 확정_위험등급(QS09002) 작성
++              ,#{DISS_SHP           ,jdbcType=VARCHAR}  -- 재해형태(QH036)
++              ,#{RISK_FREQ           ,jdbcType=VARCHAR}  -- 확정_빈도(QH09003) 작성
++              ,#{RISK_APRV           ,jdbcType=VARCHAR}  -- 확정_강도(QH09004) 작성
++              ,#{RISK_CRIT           ,jdbcType=VARCHAR}  -- 확정_위험성(QH09001) 작성
++              ,#{RISK_GRD           ,jdbcType=VARCHAR}  -- 확정_위험등급(QH09002) 작성
+--- JH/resources/sqlmap/mybatis/qs/qsc/NcrActRsltCo.xml
++++ B/resources/sqlmap/mybatis/qh/qhc/NcrActRsltCo.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsc.rps.NcrActRsltCoRepository">
++<mapper namespace="com.hs.partner.qh.qhc.rps.QhNcrActRsltCoRepository">
+@@ -69,2 +69,2 @@
+-             , A.OCUR_CSE -- 발생원인 공통코드 발생원인(QS022)
+-             , ( SELECT CD_NM FROM TCOA_COMCODE WHERE HRNK_CD = 'QS022' AND COM_CD = A.OCUR_CSE ) AS OCUR_CSE_EXP
++             , A.OCUR_CSE -- 발생원인 공통코드 발생원인(QH022)
++             , ( SELECT CD_NM FROM TCOA_COMCODE WHERE HRNK_CD = 'QH022' AND COM_CD = A.OCUR_CSE ) AS OCUR_CSE_EXP
+@@ -144 +144 @@
+-             ,#{OCUR_CSE}          -- 발생원인(QS022)
++             ,#{OCUR_CSE}          -- 발생원인(QH022)
+--- JH/resources/sqlmap/mybatis/qs/qsz/QsMain.xml
++++ B/resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.qs.qsz.rps.QsMainRepository">
++<mapper namespace="com.hs.partner.qh.qhz.rps.QhMainRepository">
+@@ -23 +23 @@
+-                  FROM TQSA_ADDRISK_ORD
++                  FROM TQHA_ADDRISK_ORD
+@@ -35 +35 @@
+-                  FROM TQSA_ADDRISK_ORD
++                  FROM TQHA_ADDRISK_ORD
+@@ -65 +65 @@
+-                  FROM TQSA_NCR_REP
++                  FROM TQHA_NCR_REP
+@@ -77 +77 @@
+-                  FROM TQSA_NCR_REP
++                  FROM TQHA_NCR_REP
+@@ -140 +140 @@
+-        FROM TQSB_RISK_VNDR A
++        FROM TQHB_RISK_VNDR A
+@@ -154 +154 @@
+-        FROM TQSA_SAFECOST_MMARSLT_CO A
++        FROM TQHA_SAFECOST_MMARSLT_CO A
+@@ -168 +168 @@
+-        FROM TQSA_SAFE_PERREQ A
++        FROM TQHA_SAFE_PERREQ A
+@@ -181 +181 @@
+-        FROM TQSA_SAFE_PERREQ A
++        FROM TQHA_SAFE_PERREQ A
+@@ -196,2 +196,2 @@
+-            , A.BLT_DIV -- 공통코드(QS046)
+-            , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = A.BLT_DIV AND HRNK_CD = 'QS046') AS BLT_DIV_NM -- 공통코드명
++            , A.BLT_DIV -- 공통코드(QH046)
++            , (SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = A.BLT_DIV AND HRNK_CD = 'QH046') AS BLT_DIV_NM -- 공통코드명
+@@ -208 +208 @@
+-        FROM TQSA_SUBJECT A
++        FROM TQHA_SUBJECT A
+@@ -257 +257 @@
+-          FROM TQSA_SUBJECT A
++          FROM TQHA_SUBJECT A
+@@ -263 +263 @@
+-        UPDATE TQSA_SUBJECT
++        UPDATE TQHA_SUBJECT
+--- JH/webapp/WEB-INF/jsp/qs/qsa/addRiskLstCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/addRiskLstCo.jsp
+@@ -44 +44 @@
+-                    <tag:select oid="SEARCH_VNDR_MA_YN" grpCode="QS025" firstRow="N" style="width:100px;"></tag:select>
++                    <tag:select oid="SEARCH_VNDR_MA_YN" grpCode="QH025" firstRow="N" style="width:100px;"></tag:select>
+@@ -175 +175 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -258 +258 @@
+-            var enumVndrMaYn = JSON.parse(<tag:ibEnum grpCd="QS025"></tag:ibEnum>) // 조치여부 구분
++            var enumVndrMaYn = JSON.parse(<tag:ibEnum grpCd="QH025"></tag:ibEnum>) // 조치여부 구분
+@@ -351 +351 @@
+-                        gfnMovePage({ url      : "/qsa/addRiskRegCo"
++                        gfnMovePage({ url      : "/qha/addRiskRegCo"
+@@ -407 +407 @@
+-            var param = {  url      : "/qsa/getGrd_AddRiskLstCoList"
++            var param = {  url      : "/qha/getGrd_AddRiskLstCoList"
+--- JH/webapp/WEB-INF/jsp/qs/qsa/addRiskRegCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/addRiskRegCo.jsp
+@@ -180 +180 @@
+-                                                    <tag:select oid="VNDR_MA_YN" grpCode="QS025" style="width:100px;" cls="required" msg="조치여부"></tag:select>
++                                                    <tag:select oid="VNDR_MA_YN" grpCode="QH025" style="width:100px;" cls="required" msg="조치여부"></tag:select>
+@@ -302 +302 @@
+-    setActiveMenu("qsa/addRiskLstCo");
++    setActiveMenu("qha/addRiskLstCo");
+@@ -505 +505 @@
+-            var param = {  reqUrl   : "/qsa/getFrm_AddRiskRegCoList"
++            var param = {  reqUrl   : "/qha/getFrm_AddRiskRegCoList"
+@@ -525 +525 @@
+-            var param = { reqUrl   : "/qsa/setFrm_AddRiskRegCoList"
++            var param = { reqUrl   : "/qha/setFrm_AddRiskRegCoList"
+@@ -548 +548 @@
+-            var param = { reqUrl   : "/qsa/setFrm_AddRiskSendSms"
++            var param = { reqUrl   : "/qha/setFrm_AddRiskSendSms"
+@@ -565 +565 @@
+-            var param = { reqUrl   : "/qsa/setFrm_AddRiskCoAprvReject"
++            var param = { reqUrl   : "/qha/setFrm_AddRiskCoAprvReject"
+@@ -759 +759 @@
+-            gfnMovePage({ url      : "/qsa/addRiskLstCo"
++            gfnMovePage({ url      : "/qha/addRiskLstCo"
+--- JH/webapp/WEB-INF/jsp/qs/qsa/riskItmRegCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/riskItmRegCo.jsp
+@@ -174 +174 @@
+-                        <tag:select oid="SRCH_SHEET5_PLN_DGR" grpCode="QS005" firstRow="N" style="width:60px;" cls="required" msg="차수"></tag:select>&nbsp;
++                        <tag:select oid="SRCH_SHEET5_PLN_DGR" grpCode="QH005" firstRow="N" style="width:60px;" cls="required" msg="차수"></tag:select>&nbsp;
+@@ -198 +198 @@
+-    setActiveMenu("qsa/riskSchdMngCo");
++    setActiveMenu("qha/riskSchdMngCo");
+@@ -240,5 +240,5 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -687,5 +687,5 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -742,5 +742,5 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -864,5 +864,5 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -952 +952 @@
+-            var param = { url      : "/qsa/getGrd_RiskItmRegCoList"
++            var param = { url      : "/qha/getGrd_RiskItmRegCoList"
+@@ -960 +960 @@
+-            var param = { url      : "/qsa/setGrd_RiskItmRegCoList"
++            var param = { url      : "/qha/setGrd_RiskItmRegCoList"
+@@ -970 +970 @@
+-            var param = { url      : "/qsa/getGrd_CtpDtlList"
++            var param = { url      : "/qha/getGrd_CtpDtlList"
+@@ -984 +984 @@
+-            var param = { url      : "/qsa/getGrd_RiskItmCoDtlList"
++            var param = { url      : "/qha/getGrd_RiskItmCoDtlList"
+@@ -1000 +1000 @@
+-            var param = { url      : "/qsa/getGrd_RiskItmCstmCoDtlList"
++            var param = { url      : "/qha/getGrd_RiskItmCstmCoDtlList"
+@@ -1012 +1012 @@
+-            var param = { url      : "/qsa/setGrd_RiskItmCstmCoDtlList"
++            var param = { url      : "/qha/setGrd_RiskItmCstmCoDtlList"
+@@ -1023 +1023 @@
+-            var param = { url      : "/qsa/getGrd_PrePlnDgrCopyList"
++            var param = { url      : "/qha/getGrd_PrePlnDgrCopyList"
+@@ -1034 +1034 @@
+-            var param = { reqUrl   : "/qsa/setFrm_PrePlnDgrCopy"
++            var param = { reqUrl   : "/qha/setFrm_PrePlnDgrCopy"
+@@ -1048 +1048 @@
+-            var param = { reqUrl   : "/qsa/getFrm_ApprSbm"
++            var param = { reqUrl   : "/qha/getFrm_ApprSbm"
+@@ -1073 +1073 @@
+-            var param = { reqUrl   : "/qsa/setFrm_ApprSbm"
++            var param = { reqUrl   : "/qha/setFrm_ApprSbm"
+@@ -1145 +1145 @@
+-            gfnMovePage({ url      : "/qsa/riskSchdMngCo"
++            gfnMovePage({ url      : "/qha/riskSchdMngCo"
+@@ -1280 +1280 @@
+-                                 , rptName    : "/QS/riskItmRegCo.ozr"               // OZR 파일 경로(ozr 파일이 저장되어 있느 파일경로를 입력) ex) /업무단폴더명/ozr파일명
++                                 , rptName    : "/QH/riskItmRegCo.ozr"               // OZR 파일 경로(ozr 파일이 저장되어 있느 파일경로를 입력) ex) /업무단폴더명/ozr파일명
+--- JH/webapp/WEB-INF/jsp/qs/qsa/riskNcrActRsltLstCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/riskNcrActRsltLstCo.jsp
+@@ -44 +44 @@
+-                    <tag:select oid="SEARCH_VNDR_MA_YN" grpCode="QS025" firstRow="N" style="width:100px;"></tag:select>
++                    <tag:select oid="SEARCH_VNDR_MA_YN" grpCode="QH025" firstRow="N" style="width:100px;"></tag:select>
+@@ -175 +175 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -343 +343 @@
+-                        gfnMovePage({ url      : "/qsa/riskNcrActRsltRegCo"
++                        gfnMovePage({ url      : "/qha/riskNcrActRsltRegCo"
+@@ -397 +397 @@
+-            var param = {  url      : "/qsa/getGrd_RiskNcrActRsltLstCoList"
++            var param = {  url      : "/qha/getGrd_RiskNcrActRsltLstCoList"
+--- JH/webapp/WEB-INF/jsp/qs/qsa/riskNcrActRsltRegCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/riskNcrActRsltRegCo.jsp
+@@ -175 +175 @@
+-                                                    <tag:select oid="VNDR_MA_YN" grpCode="QS025" style="width:100px;" cls="required" msg="조치여부"></tag:select>
++                                                    <tag:select oid="VNDR_MA_YN" grpCode="QH025" style="width:100px;" cls="required" msg="조치여부"></tag:select>
+@@ -304 +304 @@
+-    setActiveMenu("qsa/riskNcrActRsltLstCo");
++    setActiveMenu("qha/riskNcrActRsltLstCo");
+@@ -507 +507 @@
+-            var param = {  reqUrl   : "/qsa/getFrm_RiskNcrActRsltRegCoList"
++            var param = {  reqUrl   : "/qha/getFrm_RiskNcrActRsltRegCoList"
+@@ -525 +525 @@
+-            var param = {  reqUrl   : "/qsa/setFrm_RiskNcrActRsltRegCoList"
++            var param = {  reqUrl   : "/qha/setFrm_RiskNcrActRsltRegCoList"
+@@ -548 +548 @@
+-            var param = { reqUrl   : "/qsa/setFrm_RiskNcrAprvReq"
++            var param = { reqUrl   : "/qha/setFrm_RiskNcrAprvReq"
+@@ -708 +708 @@
+-            gfnMovePage({ url      : "/qsa/riskNcrActRsltLstCo"
++            gfnMovePage({ url      : "/qha/riskNcrActRsltLstCo"
+--- JH/webapp/WEB-INF/jsp/qs/qsa/riskSchdMngCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/riskSchdMngCo.jsp
+@@ -44 +44 @@
+-                    <tag:select oid="SEARCH_PLN_DGR" grpCode="QS005" firstRow="N"></tag:select>
++                    <tag:select oid="SEARCH_PLN_DGR" grpCode="QH005" firstRow="N"></tag:select>
+@@ -131 +131 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -283 +283 @@
+-                        gfnMovePage({ url      : "/qsa/riskItmRegCo"
++                        gfnMovePage({ url      : "/qha/riskItmRegCo"
+@@ -373 +373 @@
+-            var param = {  url      : "/qsa/getGrd_RiskSchdMngCoList"
++            var param = {  url      : "/qha/getGrd_RiskSchdMngCoList"
+@@ -390 +390 @@
+-             var param = { url      : "/qsa/setGrd_RiskSchdMngCoList"
++             var param = { url      : "/qha/setGrd_RiskSchdMngCoList"
+--- JH/webapp/WEB-INF/jsp/qs/qsa/safeCostReg1Co.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/safeCostReg1Co.jsp
+@@ -425 +425 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${USR_ID}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${USR_ID}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -1356 +1356 @@
+-            var param = { reqUrl   : "/qsa/getFrm_SafeCostRegCo1"
++            var param = { reqUrl   : "/qha/getFrm_SafeCostRegCo1"
+@@ -1370 +1370 @@
+-            var param = {  url      : "/qsa/getGrd_SafeCostRegCo1Lst"
++            var param = {  url      : "/qha/getGrd_SafeCostRegCo1Lst"
+@@ -1387 +1387 @@
+-            var param = { reqUrl     : "/qsa/setFrm_SafeCostReg"
++            var param = { reqUrl     : "/qha/setFrm_SafeCostReg"
+@@ -1406 +1406 @@
+-                var param = { url      : "/qsa/setGrd_SafeCostReg"
++                var param = { url      : "/qha/setGrd_SafeCostReg"
+@@ -1435 +1435 @@
+-            var param = { reqUrl   : "/qsa/setFrm_SafeCostRegCo1AprvReject"
++            var param = { reqUrl   : "/qha/setFrm_SafeCostRegCo1AprvReject"
+@@ -1720 +1720 @@
+-            var rptName = "/QS/" + "safeCostRegCoAprv" + ".ozr";
++            var rptName = "/QH/" + "safeCostRegCoAprv" + ".ozr";
+--- JH/webapp/WEB-INF/jsp/qs/qsa/safeWorkReqLstCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/safeWorkReqLstCo.jsp
+@@ -108 +108 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -243 +243 @@
+-                        gfnMovePage({ url      : "/qsa/safeWorkReqRegCo"
++                        gfnMovePage({ url      : "/qha/safeWorkReqRegCo"
+@@ -274 +274 @@
+-            var param = {  url      : "/qsa/getGrd_SafeWorkReqLstCoList"
++            var param = {  url      : "/qha/getGrd_SafeWorkReqLstCoList"
+@@ -287 +287 @@
+-            var param = { reqUrl   : "/qsa/setFrm_SafeWorkReqCoInst"
++            var param = { reqUrl   : "/qha/setFrm_SafeWorkReqCoInst"
+@@ -305 +305 @@
+-                gfnMovePage({ url      : "/qsa/safeWorkReqRegCo"
++                gfnMovePage({ url      : "/qha/safeWorkReqRegCo"
+--- JH/webapp/WEB-INF/jsp/qs/qsa/safeWorkReqRegCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qha/safeWorkReqRegCo.jsp
+@@ -401 +401 @@
+-    setActiveMenu("qsa/safeWorkReqLstCo");
++    setActiveMenu("qha/safeWorkReqLstCo");
+@@ -451 +451 @@
+-            {bindId:"MNG_SUPR_NM", type:"Form", module:"QS", moduleDiv:"SITE_USER_INFO", id:"cfd_MngSuprInfo", title:"현장별 사용자", fn:[["USR_NM","MNG_SUPR_NM"],["USR_ID","MNG_SUPR"]], subParm:function(){return "SIT_CD="+$("#SEARCH_SIT_CD").val()}},
++            {bindId:"MNG_SUPR_NM", type:"Form", module:"QH", moduleDiv:"SITE_USER_INFO", id:"cfd_MngSuprInfo", title:"현장별 사용자", fn:[["USR_NM","MNG_SUPR_NM"],["USR_ID","MNG_SUPR"]], subParm:function(){return "SIT_CD="+$("#SEARCH_SIT_CD").val()}},
+@@ -847 +847 @@
+-            var param = {  reqUrl   : "/qsa/getFrm_SafeWorkReqRegCoList"
++            var param = {  reqUrl   : "/qha/getFrm_SafeWorkReqRegCoList"
+@@ -859 +859 @@
+-            var param = {  reqUrl   : "/qsa/setFrm_SafeWorkReqRegCoList"
++            var param = {  reqUrl   : "/qha/setFrm_SafeWorkReqRegCoList"
+@@ -873 +873 @@
+-            var param = { url       : "/qsa/getGrd_SafeWorkObjList"
++            var param = { url       : "/qha/getGrd_SafeWorkObjList"
+@@ -887 +887 @@
+-            var param = { url       : "/qsa/setGrd_SafeWorkObjList"
++            var param = { url       : "/qha/setGrd_SafeWorkObjList"
+@@ -900 +900 @@
+-            var param = { url       : "/qsa/getGrd_SafeWorkObjDtlList"
++            var param = { url       : "/qha/getGrd_SafeWorkObjDtlList"
+@@ -912 +912 @@
+-             var param = { url      : "/qsa/setGrd_SafeWorkObjDtlList"
++             var param = { url      : "/qha/setGrd_SafeWorkObjDtlList"
+@@ -923 +923 @@
+-            var param = { url       : "/qsa/getGrd_SafeWorkObjCdList"
++            var param = { url       : "/qha/getGrd_SafeWorkObjCdList"
+@@ -934 +934 @@
+-            var param = { url       : "/qsa/getGrd_SafeWorkObjDtlCdList"
++            var param = { url       : "/qha/getGrd_SafeWorkObjDtlCdList"
+@@ -945 +945 @@
+-            var param = { reqUrl   : "/qsa/setFrm_PerReqWorkCmpl"
++            var param = { reqUrl   : "/qha/setFrm_PerReqWorkCmpl"
+@@ -1112 +1112 @@
+-            gfnMovePage({ url      : "/qsa/safeWorkReqLstCo"
++            gfnMovePage({ url      : "/qha/safeWorkReqLstCo"
+@@ -1264 +1264 @@
+-            var rptName = "/QS/" + "safeWorkRegAppr" + ".ozr";
++            var rptName = "/QH/" + "safeWorkRegAppr" + ".ozr";
+--- JH/webapp/WEB-INF/jsp/qs/qsb/riskChk.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhb/riskChk.jsp
+@@ -168,3 +168,3 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -335 +335 @@
+-            var param = { url      : "/qsb/getGrd_RiskChk"
++            var param = { url      : "/qhb/getGrd_RiskChk"
+@@ -346 +346 @@
+-            var param = { url      : "/qsb/setGrd_RiskChk"
++            var param = { url      : "/qhb/setGrd_RiskChk"
+@@ -356 +356 @@
+-            var param = { reqUrl   : "/qsb/setFrm_SbmRiskChk"
++            var param = { reqUrl   : "/qhb/setFrm_SbmRiskChk"
+@@ -374 +374 @@
+-            var param = { reqUrl   : "/qsb/setFrm_SbmRiskVndr"
++            var param = { reqUrl   : "/qhb/setFrm_SbmRiskVndr"
+@@ -392 +392 @@
+-           var param = { reqUrl   : "/qsb/getFrm_ApprLine"
++           var param = { reqUrl   : "/qhb/getFrm_ApprLine"
+@@ -408 +408 @@
+-           var param = { reqUrl   : "/qsb/getFrm_RiskVndr"
++           var param = { reqUrl   : "/qhb/getFrm_RiskVndr"
+@@ -451 +451 @@
+-            gfnMovePage({ url      : "/qsb/riskDgrMng"
++            gfnMovePage({ url      : "/qhb/riskDgrMng"
+@@ -667 +667 @@
+-var QS090 = JSON.parse(<tag:ibEnum wrkTp="QS" grpCd="QS_CHRC_VAL" extFd="QS09001"></tag:ibEnum>);
++var QH090 = JSON.parse(<tag:ibEnum wrkTp="QH" grpCd="QH_CHRC_VAL" extFd="QH09001"></tag:ibEnum>);
+@@ -680 +680 @@
+-    var opKey = (QS090 && QS090.EnumKeys) ? QS090.EnumKeys[1] : null; //tag:ibEnum [0] 이 공백이라 [1]부터 사용
++    var opKey = (QH090 && QH090.EnumKeys) ? QH090.EnumKeys[1] : null; //tag:ibEnum [0] 이 공백이라 [1]부터 사용
+--- JH/webapp/WEB-INF/jsp/qs/qsb/riskDgrMainList.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhb/riskDgrMainList.jsp
+@@ -129 +129 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SIT_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SIT_CD","SIT_CD"],["SIT_NM","SIT_NM"]], subParm:function(){return "CUST_CD="+"${sCustCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -143 +143 @@
+-            var enumPlnDgr = JSON.parse(<tag:ibEnum grpCd="QS005"></tag:ibEnum>) // 계획차수 구분
++            var enumPlnDgr = JSON.parse(<tag:ibEnum grpCd="QH005"></tag:ibEnum>) // 계획차수 구분
+@@ -251 +251 @@
+-                        gfnMovePage({ url      : "/qsb/riskDgrMng"
++                        gfnMovePage({ url      : "/qhb/riskDgrMng"
+@@ -326,2 +326,2 @@
+-            var QS036 = JSON.parse(<tag:ibEnum grpCd="QS036"/>);
+-            var QS09002 = JSON.parse(<tag:ibEnum grpCd="QS09002"/>);
++            var QH036 = JSON.parse(<tag:ibEnum grpCd="QH036"/>);
++            var QH09002 = JSON.parse(<tag:ibEnum grpCd="QH09002"/>);
+@@ -341 +341 @@
+-               ,{Name:"DISS_SHP",           Type:"Enum",  Align:"center", MinWidth:100, RelWidth:1, Visible:1, CanEdit:0, Size:10  , Header:"재해형태", Enum: QS036.Enum, EnumKeys: QS036.EnumKeys ,ColMerge:0}
++               ,{Name:"DISS_SHP",           Type:"Enum",  Align:"center", MinWidth:100, RelWidth:1, Visible:1, CanEdit:0, Size:10  , Header:"재해형태", Enum: QH036.Enum, EnumKeys: QH036.EnumKeys ,ColMerge:0}
+@@ -346 +346 @@
+-               ,{Name:"RISK_GRD",           Type:"Enum",  Align:"center", MinWidth:50, RelWidth:1, Visible:1, CanEdit:0, Size:10  , Header:"등급" , Enum: QS09002.Enum, EnumKeys: QS09002.EnumKeys ,ColMerge:0}
++               ,{Name:"RISK_GRD",           Type:"Enum",  Align:"center", MinWidth:50, RelWidth:1, Visible:1, CanEdit:0, Size:10  , Header:"등급" , Enum: QH09002.Enum, EnumKeys: QH09002.EnumKeys ,ColMerge:0}
+@@ -352 +352 @@
+-               ,{Name:"PLN_DGR",            Type:"Text",  Align:"left",   MinWidth:100, RelWidth:1, Visible:0, CanEdit:0, Size:10  , Required:1 , Header:"차수구분코드(QS005) 1 1차,2 2차" }
++               ,{Name:"PLN_DGR",            Type:"Text",  Align:"left",   MinWidth:100, RelWidth:1, Visible:0, CanEdit:0, Size:10  , Required:1 , Header:"차수구분코드(QH005) 1 1차,2 2차" }
+@@ -412 +412 @@
+-            var param = { url      : "/qsb/getGrd_RiskDgrMainList"
++            var param = { url      : "/qhb/getGrd_RiskDgrMainList"
+@@ -426 +426 @@
+-            var param = { url      : "/qsb/getGrd_RiskChkMainList"
++            var param = { url      : "/qhb/getGrd_RiskChkMainList"
+@@ -444 +444 @@
+-            var param = { url      : "/qsb/setGrd_RiskDgrList"
++            var param = { url      : "/qhb/setGrd_RiskDgrList"
+--- JH/webapp/WEB-INF/jsp/qs/qsb/riskDgrMng.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhb/riskDgrMng.jsp
+@@ -391 +391 @@
+-            {bindId:"SIT_CD", type:"Form", module:"QS", moduleDiv:"QS_DEPT_H_CD_AUTH", id:"cfd_SiteCd", title:"현장코드", fn:[["DEPT_CD","SIT_CD"],["DEPT_NM","SIT_NM"]]},
++            {bindId:"SIT_CD", type:"Form", module:"QH", moduleDiv:"QH_DEPT_H_CD_AUTH", id:"cfd_SiteCd", title:"현장코드", fn:[["DEPT_CD","SIT_CD"],["DEPT_NM","SIT_NM"]]},
+@@ -486 +486 @@
+-                            {bindId:evtParam.sheet,type:"Grid",module:"QS",moduleDiv:"VNDR_INFO_SITE",id:"cfd_vndrCd", title:"협력업체",  fn:[["CUST_CD","CUST_CD"],["CUST_NM","CUST_NM"],["VNDR_SEQ","VNDR_SEQ"],["CTP_CD","CTP_CD"],["CTP_NM","CTP_NM"]]
++                            {bindId:evtParam.sheet,type:"Grid",module:"QH",moduleDiv:"VNDR_INFO_SITE",id:"cfd_vndrCd", title:"협력업체",  fn:[["CUST_CD","CUST_CD"],["CUST_NM","CUST_NM"],["VNDR_SEQ","VNDR_SEQ"],["CTP_CD","CTP_CD"],["CTP_NM","CTP_NM"]]
+@@ -577 +577 @@
+-            var param = {  reqUrl   : "/qsb/getFrm_RiskDgrDtl"
++            var param = {  reqUrl   : "/qhb/getFrm_RiskDgrDtl"
+@@ -592 +592 @@
+-            var param = { url      : "/qsb/getGrd_RiskVndrList"
++            var param = { url      : "/qhb/getGrd_RiskVndrList"
+@@ -612 +612 @@
+-            var param = { url      : "/qsb/setGrd_RiskVndrList"
++            var param = { url      : "/qhb/setGrd_RiskVndrList"
+@@ -624 +624 @@
+-            var param = { url      : "/qsb/getGrd_RiskUserList"
++            var param = { url      : "/qhb/getGrd_RiskUserList"
+@@ -640 +640 @@
+-           var param = { reqUrl   : "/qsb/getFrm_ApprLine"
++           var param = { reqUrl   : "/qhb/getFrm_ApprLine"
+@@ -656 +656 @@
+-            var param = { reqUrl   : "/qsb/setFrm_RiskApprReq"
++            var param = { reqUrl   : "/qhb/setFrm_RiskApprReq"
+@@ -715 +715 @@
+-            gfnMovePage({ url      : "/qsb/riskDgrMainList"
++            gfnMovePage({ url      : "/qhb/riskDgrMainList"
+@@ -738 +738 @@
+-            gfnMovePage({ url      : "/qsb/riskChk"
++            gfnMovePage({ url      : "/qhb/riskChk"
+@@ -763 +763 @@
+-            gfnMovePage({ url      : "/qsb/riskLst"
++            gfnMovePage({ url      : "/qhb/riskLst"
+@@ -829 +829 @@
+-            if($("#JB_CD").val() == "QS07703"){ 
++            if($("#JB_CD").val() == "QH07703"){ 
+@@ -842 +842 @@
+-            else if($("#JB_CD").val() == "QS07702"){
++            else if($("#JB_CD").val() == "QH07702"){
+@@ -1098 +1098 @@
+-        var response = await fetch('/qsb/setFrm_ApprLine', {
++        var response = await fetch('/qhb/setFrm_ApprLine', {
+--- JH/webapp/WEB-INF/jsp/qs/qsb/riskLst.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhb/riskLst.jsp
+@@ -172 +172 @@
+-                        <tag:select oid="SHEET5_PLN_DGR" grpCode="QS005" firstRow="S" style="width:60px;" cls="required" msg="차수"></tag:select>&nbsp;
++                        <tag:select oid="SHEET5_PLN_DGR" grpCode="QH005" firstRow="S" style="width:60px;" cls="required" msg="차수"></tag:select>&nbsp;
+@@ -240,6 +240,6 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QS063"></tag:ibEnum>) // 위험성등급 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QH063"></tag:ibEnum>) // 위험성등급 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -605,6 +605,6 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QS063"></tag:ibEnum>) // 위험성등급 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QH063"></tag:ibEnum>) // 위험성등급 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -661,6 +661,6 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QS063"></tag:ibEnum>) // 위험성등급 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QH063"></tag:ibEnum>) // 위험성등급 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -744,6 +744,6 @@
+-            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QS003"></tag:ibEnum>) // 위험빈도 구분
+-            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QS004"></tag:ibEnum>) // 위험강도 구분
+-            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QS063"></tag:ibEnum>) // 위험성등급 구분
+-            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QS024"></tag:ibEnum>)  // 위험등급 구분
+-            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QS002"></tag:ibEnum>)  // 중점등록 구분
+-            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QS036"></tag:ibEnum>)  // 재해형태 구분
++            var enumRiskFreq = JSON.parse(<tag:ibEnum grpCd="QH003"></tag:ibEnum>) // 위험빈도 구분
++            var enumRiskAprv = JSON.parse(<tag:ibEnum grpCd="QH004"></tag:ibEnum>) // 위험강도 구분
++            var enumRiskCrit = JSON.parse(<tag:ibEnum grpCd="QH063"></tag:ibEnum>) // 위험성등급 구분
++            var enumRiskGrd = JSON.parse(<tag:ibEnum grpCd="QH024"></tag:ibEnum>)  // 위험등급 구분
++            var enumPrrtReg = JSON.parse(<tag:ibEnum grpCd="QH002"></tag:ibEnum>)  // 중점등록 구분
++            var enumDissShp = JSON.parse(<tag:ibEnum grpCd="QH036"></tag:ibEnum>)  // 재해형태 구분
+@@ -832 +832 @@
+-            var param = { url      : "/qsb/getGrd_RiskLst"
++            var param = { url      : "/qhb/getGrd_RiskLst"
+@@ -840 +840 @@
+-            var param = { url      : "/qsb/setGrd_RiskLst"
++            var param = { url      : "/qhb/setGrd_RiskLst"
+@@ -850 +850 @@
+-            var param = { url      : "/qsa/getGrd_CtpDtlListCo"
++            var param = { url      : "/qha/getGrd_CtpDtlListCo"
+@@ -864 +864 @@
+-            var param = { url      : "/qsa/getGrd_RiskItmCoDtlList"
++            var param = { url      : "/qha/getGrd_RiskItmCoDtlList"
+@@ -879 +879 @@
+-            var param = { url      : "/qsa/getGrd_RiskItmCstmCoDtlList"
++            var param = { url      : "/qha/getGrd_RiskItmCstmCoDtlList"
+@@ -891 +891 @@
+-            var param = { url      : "/qsa/setGrd_RiskItmCstmCoDtlList"
++            var param = { url      : "/qha/setGrd_RiskItmCstmCoDtlList"
+@@ -902 +902 @@
+-            var param = { url      : "/qsa/getGrd_PrePlnDgrCopyList"
++            var param = { url      : "/qha/getGrd_PrePlnDgrCopyList"
+@@ -913 +913 @@
+-            var param = { reqUrl   : "/qsa/setFrm_PrePlnDgrCopy"
++            var param = { reqUrl   : "/qha/setFrm_PrePlnDgrCopy"
+@@ -970 +970 @@
+-            gfnMovePage({ url      : "/qsb/riskDgrMng"
++            gfnMovePage({ url      : "/qhb/riskDgrMng"
+@@ -1078 +1078 @@
+-                                 , rptName    : "/QS/riskItmRegCo.ozr"               // OZR 파일 경로(ozr 파일이 저장되어 있느 파일경로를 입력) ex) /업무단폴더명/ozr파일명
++                                 , rptName    : "/QH/riskItmRegCo.ozr"               // OZR 파일 경로(ozr 파일이 저장되어 있느 파일경로를 입력) ex) /업무단폴더명/ozr파일명
+--- JH/webapp/WEB-INF/jsp/qs/qsc/ncrActRsltLstCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhc/ncrActRsltLstCo.jsp
+@@ -101 +101 @@
+-            {bindId:"SITE_CD", type:"Form", module:"QS", moduleDiv:"VNDR_REG_SITE_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SITE_CD","SITE_CD"],["SITE_NM","SITE_NM"]], subParm:function(){return "VNDR_CD="+"${sVndrCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
++            {bindId:"SITE_CD", type:"Form", module:"QH", moduleDiv:"VNDR_REG_SITE_CD", id:"cfd_SiteCd", title:"현장코드", fn:[["SITE_CD","SITE_CD"],["SITE_NM","SITE_NM"]], subParm:function(){return "VNDR_CD="+"${sVndrCd}"+"&USR_ID="+"${sUsrId}"+"&VNDR_SEQ="+"${sVndrSeq}"}}
+@@ -168 +168 @@
+-                        gfnMovePage({ url      : "/qsc/ncrActRsltRegCo"
++                        gfnMovePage({ url      : "/qhc/ncrActRsltRegCo"
+@@ -199 +199 @@
+-            var param = {  url      : "/qsc/getGrd_NcrActRsltLstCoList"
++            var param = {  url      : "/qhc/getGrd_NcrActRsltLstCoList"
+--- JH/webapp/WEB-INF/jsp/qs/qsc/ncrActRsltRegCo.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhc/ncrActRsltRegCo.jsp
+@@ -279 +279 @@
+-    setActiveMenu("qsc/ncrActRsltLstCo");
++    setActiveMenu("qhc/ncrActRsltLstCo");
+@@ -471 +471 @@
+-            var param = {  reqUrl   : "/qsc/getFrm_NcrActRsltRegCoList"
++            var param = {  reqUrl   : "/qhc/getFrm_NcrActRsltRegCoList"
+@@ -489 +489 @@
+-            var param = {  reqUrl   : "/qsc/setFrm_NcrActRsltRegCoList"
++            var param = {  reqUrl   : "/qhc/setFrm_NcrActRsltRegCoList"
+@@ -512 +512 @@
+-            var param = { reqUrl   : "/qsc/setFrm_NcrActRsltAprv"
++            var param = { reqUrl   : "/qhc/setFrm_NcrActRsltAprv"
+@@ -673 +673 @@
+-            gfnMovePage({ url      : "/qsc/ncrActRsltLstCo"
++            gfnMovePage({ url      : "/qhc/ncrActRsltLstCo"
+--- JH/webapp/WEB-INF/jsp/qs/qsz/anncBrdList.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhz/anncBrdList.jsp
+@@ -146 +146 @@
+-                                           , url    : "/qsz/anncBrdDtl"             //iframe에 들어갈 페이지 url
++                                           , url    : "/qhz/anncBrdDtl"             //iframe에 들어갈 페이지 url
+@@ -196 +196 @@
+-            var param = {  url     :"/qsz/getGrd_AnncBrd"
++            var param = {  url     :"/qhz/getGrd_AnncBrd"
+--- JH/webapp/WEB-INF/jsp/qs/qsz/dashBoardQs.jsp
++++ B/webapp/WEB-INF/jsp/qh/qhz/dashBoardQs.jsp
+@@ -244 +244 @@
+-                                { url      : "/qsa/addRiskLstCo" + param
++                                { url      : "/qha/addRiskLstCo" + param
+@@ -376 +376 @@
+-                                    { url      : "/qsa/riskNcrActRsltLstCo" + param
++                                    { url      : "/qha/riskNcrActRsltLstCo" + param
+@@ -384 +384 @@
+-                                    { url      : "/qsc/ncrActRsltLstCo" + param
++                                    { url      : "/qhc/ncrActRsltLstCo" + param
+@@ -447 +447 @@
+-//                         gfnOpenWindow({url:'/qsz/anncBrdDtl?BLT_NO=' + evtParam.row.BLT_NO
++//                         gfnOpenWindow({url:'/qhz/anncBrdDtl?BLT_NO=' + evtParam.row.BLT_NO
+@@ -460 +460 @@
+-                            , url : "/qsz/anncBrdDtl"                        // iframe에 들어갈 페이지 url
++                            , url : "/qhz/anncBrdDtl"                        // iframe에 들어갈 페이지 url
+@@ -525 +525 @@
+-                                { url      : "/qsb/riskDgrMainList" + param
++                                { url      : "/qhb/riskDgrMainList" + param
+@@ -722 +722 @@
+-            var param = { url       : "/qsz/getGrd_AddRisk"
++            var param = { url       : "/qhz/getGrd_AddRisk"
+@@ -730 +730 @@
+-            var param = { url       : "/qsz/getGrd_NcrRpt"
++            var param = { url       : "/qhz/getGrd_NcrRpt"
+@@ -738 +738 @@
+-            var param = { url       : "/qsz/getGrd_AnncBrd"
++            var param = { url       : "/qhz/getGrd_AnncBrd"
+@@ -746 +746 @@
+-            var param = { url       : "/qsz/getGrd_RiskBrd"
++            var param = { url       : "/qhz/getGrd_RiskBrd"
+@@ -757 +757 @@
+-            var param = { reqUrl   : "/qsz/getFrm_qsDashBoardTopInfo"
++            var param = { reqUrl   : "/qhz/getFrm_qsDashBoardTopInfo"
+@@ -776 +776 @@
+-                    { url      : "/qsa/riskSchdMngCo" + param
++                    { url      : "/qha/riskSchdMngCo" + param
+@@ -786 +786 @@
+-                    { url      : "/qsa/safeWorkReqLstCo" + param
++                    { url      : "/qha/safeWorkReqLstCo" + param
+@@ -795 +795 @@
+-                    { url      : "/qsa/safeCostReg1Co" + param
++                    { url      : "/qha/safeCostReg1Co" + param
+@@ -807 +807 @@
+-                                , url : "/qsz/anncBrdList"                      // iframe에 들어갈 페이지 url
++                                , url : "/qhz/anncBrdList"                      // iframe에 들어갈 페이지 url
+--- JH/webapp/resources/js/module/qs.lib.js
++++ B/webapp/resources/js/module/qh.lib.js
+@@ -11 +11 @@
+- * Function Prefix : qsfnMethod
++ * Function Prefix : qhfnMethod
+@@ -27 +27 @@
+-function qsfnCodeFindInit(codeItem) {
++function qhfnCodeFindInit(codeItem) {
+--- JH/webapp/WEB-INF/jsp/include/navQS.jsp
++++ B/webapp/WEB-INF/jsp/include/navQH.jsp
+@@ -7,3 +7,3 @@
+-        <li><a href='qsz/dashBoardQs'><i class="fa-solid fa-chalkboard-user"></i><span class='menu-item-parent'>HOME</span></a></li>
+-        <!-- <li><a href='qsa/riskSchdMngCo'><span class='menu-item-parent'>위험성평가등록</span></a></li> -->
+-        <li><a href='qsb/riskDgrMainList'><span class='menu-item-parent'>위험성평가등록</span></a></li>
++        <li><a href='qhz/dashBoardQs'><i class="fa-solid fa-chalkboard-user"></i><span class='menu-item-parent'>HOME</span></a></li>
++        <!-- <li><a href='qha/riskSchdMngCo'><span class='menu-item-parent'>위험성평가등록</span></a></li> -->
++        <li><a href='qhb/riskDgrMainList'><span class='menu-item-parent'>위험성평가등록</span></a></li>
+@@ -11,5 +11,5 @@
+-        <li><a href='qsa/addRiskLstCo'><span class='menu-item-parent'>추가위험발굴</span></a></li>
+-        <li><a href='qsa/riskNcrActRsltLstCo'><span class='menu-item-parent'>안전부적합보고서</span></a></li>
+-        <!-- <li><a href='qsa/safeWorkReqLstCo'><span class='menu-item-parent'>안전작업허가</span></a></li> -->
+-        <li><a href='qsa/safeCostReg1Co'><i class="fa-solid fa-pen-to-square"></i><span class='menu-item-parent'>산업안전보건관리비</span></a></li>
+-        <!-- <li><a href='qsc/ncrActRsltLstCo'><span class='menu-item-parent'>품질부적합보고서</span></a></li> -->
++        <li><a href='qha/addRiskLstCo'><span class='menu-item-parent'>추가위험발굴</span></a></li>
++        <li><a href='qha/riskNcrActRsltLstCo'><span class='menu-item-parent'>안전부적합보고서</span></a></li>
++        <!-- <li><a href='qha/safeWorkReqLstCo'><span class='menu-item-parent'>안전작업허가</span></a></li> -->
++        <li><a href='qha/safeCostReg1Co'><i class="fa-solid fa-pen-to-square"></i><span class='menu-item-parent'>산업안전보건관리비</span></a></li>
++        <!-- <li><a href='qhc/ncrActRsltLstCo'><span class='menu-item-parent'>품질부적합보고서</span></a></li> -->
+--- JH/resources/sqlmap/mybatis/co/codefind/QsCodeFind.xml
++++ B/resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.co.comcode.rps.FindCodeRepository">
++<mapper namespace="com.hs.partner.co.comcode.rps.FindCodeRepository">
+@@ -18 +18 @@
+-    <select id="get_QS_CodeFindList" resultType="map">
++    <select id="get_QH_CodeFindList" resultType="map">
+@@ -43 +43 @@
+-                  FROM TQSB_VNDRNAM A
++                  FROM TQHB_VNDRNAM A
+@@ -62 +62 @@
+-                  FROM TQSA_CTP
++                  FROM TQHA_CTP
+@@ -111 +111 @@
+-                   FROM TQSB_VNDRNAM A
++                   FROM TQHB_VNDRNAM A
+@@ -168 +168 @@
+-                  FROM TQSA_VNDR A
++                  FROM TQHA_VNDR A
+@@ -205 +205 @@
+-                    FROM TQSA_VNDR A
++                    FROM TQHA_VNDR A
+@@ -222 +222 @@
+-                     ,(SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = T1.JB_CD AND HRNK_CD = 'QS077' AND USE_YN = '1') AS JB_NM
++                     ,(SELECT CD_NM FROM TCOA_COMCODE WHERE COM_CD = T1.JB_CD AND HRNK_CD = 'QH077' AND USE_YN = '1') AS JB_NM
+@@ -224 +224 @@
+-                  FROM TQSA_SITENAM T1 
++                  FROM TQHA_SITENAM T1 
+@@ -237 +237 @@
+-    <select id="get_QS_CodeFindList_Proc" statementType="CALLABLE" resultType="map">
++    <select id="get_QH_CodeFindList_Proc" statementType="CALLABLE" resultType="map">
+--- JH/resources/sqlmap/mybatis/co/selectbox/QsSelectBind.xml
++++ B/resources/sqlmap/mybatis/co/selectbox/QhSelectBind.xml
+@@ -4 +4 @@
+-<mapper namespace="com.jh.partner.co.comcode.rps.FindCodeRepository">
++<mapper namespace="com.hs.partner.co.comcode.rps.FindCodeRepository">
+@@ -8 +8 @@
+-    <select id="get_QS_SelectBindList" resultType="java.util.HashMap">
++    <select id="get_QH_SelectBindList" resultType="java.util.HashMap">
+@@ -23 +23 @@
+-            <when test="GRP_CD == 'QS_CTP_CD'.toString() ">
++            <when test="GRP_CD == 'QH_CTP_CD'.toString() ">
+@@ -27 +27 @@
+-                  FROM TQSA_CTP
++                  FROM TQHA_CTP
+@@ -33 +33 @@
+-            <when test="GRP_CD == 'QS_CTPUNT'.toString() ">
++            <when test="GRP_CD == 'QH_CTPUNT'.toString() ">
+@@ -37 +37 @@
+-                  FROM TQSA_CTPUNT
++                  FROM TQHA_CTPUNT
+@@ -42 +42 @@
+-            <when test="GRP_CD == 'QS_CHRC_VAL'.toString() ">
++            <when test="GRP_CD == 'QH_CHRC_VAL'.toString() ">
+--- B/java/com/hs/partner/co/comcode/rps/FindCodeRepository.java
++++ B/java/com/hs/partner/co/comcode/rps/FindCodeRepository.java
+@@ -37,2 +37,3 @@
+     List<Map<String,Object>> get_QS_CodeFindList(Map<String, Object> map); // 안전
++    List<Map<String,Object>> get_QH_CodeFindList(Map<String, Object> map); // 안전
+     List<Map<String,Object>> get_GC_CodeFindList(Map<String, Object> map); // 일반
+@@ -49,2 +50,3 @@
+     List<Map<String,Object>> get_QS_CodeFindList_Proc(Map<String, Object> map); // 안전
++    List<Map<String,Object>> get_QH_CodeFindList_Proc(Map<String, Object> map); // 안전
+     List<Map<String,Object>> get_GC_CodeFindList_Proc(Map<String, Object> map); // 일반
+@@ -61,2 +63,3 @@
+     List<Map<String,Object>> get_QS_SelectBindList(Map<String, Object> map); // 안전
++    List<Map<String,Object>> get_QH_SelectBindList(Map<String, Object> map); // 안전
+ 
+--- B/webapp/WEB-INF/jsp/include/scriptInclude.jsp
++++ B/webapp/WEB-INF/jsp/include/scriptInclude.jsp
+@@ -109,2 +109,3 @@
+     <script type="text/javascript" src="/resources/js/module/qs.lib.js?ver=${script_version}"></script>
++    <script type="text/javascript" src="/resources/js/module/qh.lib.js?ver=${script_version}"></script>
+     <script type="text/javascript" src="/resources/js/module/mm.lib.js?ver=${script_version}"></script>
+--- B/webapp/resources/js/app.createcodefinder.js
++++ B/webapp/resources/js/app.createcodefinder.js
+@@ -150,2 +150,5 @@
+                     break;
++                case "QH":
++                    init_sheet = qhfnCodeFindInit(initdata.moduleDiv);
++                    break;
+                 /*-----------------------------------------------------------------------------
+@@ -330,2 +333,5 @@
+                     init_sheet = qsfnCodeFindInit(initdata.moduleDiv);
++                    break;
++                case "QH":
++                    init_sheet = qhfnCodeFindInit(initdata.moduleDiv);
+                     break;
+--- B/webapp/WEB-INF/jsp/index.jsp
++++ B/webapp/WEB-INF/jsp/index.jsp
+@@ -83,2 +83,3 @@
+                 <c:when test="${sysTp eq 'QS'}"><jsp:include page="/WEB-INF/jsp/include/navQS.jsp"></jsp:include></c:when>
++                <c:when test="${sysTp eq 'QH'}"><jsp:include page="/WEB-INF/jsp/include/navQH.jsp"></jsp:include></c:when>
+             </c:choose>

@@ -1,0 +1,25 @@
+[OK] 새 파일 72개 존재 72
+[OK] 새 파일 내용 = 변환 결과 
+[OK] 줄바꿈 보존 
+[OK] 수정(M)은 공통 파일 4개뿐 ['ptn/src/main/java/com/hs/partner/co/comcode/rps/FindCodeRepository.java', 'ptn/src/main/webapp/WEB-INF/jsp/include/scriptInclude.jsp', 'ptn/src/main/webapp/WEB-INF/jsp/index.jsp', 'ptn/src/main/webapp/resources/js/app.createcodefinder.js']
+[OK] 새 파일(??)은 대상 경로뿐 72
+[OK] 공통 파일 diff는 추가만 []
+[OK] 남은 이름 0건: com.jh.partner []
+[OK] 남은 이름 0건: "/qsX []
+[OK] 남은 이름 0건: qs/qsX []
+[OK] 남은 이름 0건: href='qs []
+[OK] 남은 이름 0건: "qsX/ []
+[OK] 남은 이름 0건: /QS/ []
+[OK] 남은 이름 0건: module:"QS" []
+[OK] 남은 이름 0건: wrkTp="QS" []
+[OK] 남은 이름 0건: get_QS_ []
+[OK] 남은 이름 0건: qsfn []
+[OK] 남은 이름 0건: QS_ items []
+[OK] 남은 DB 이름 = VQSZ 2 + 미매핑 3 ['PQSC_NCR_AB_S', 'PQSC_NCR_REP_S', 'TQSC_NCR_REP', 'VQSZ_SITEINFO', 'VQSZ_TRADE']
+[OK] qhfnCodeFindInit 정의 1곳(qh.lib.js) ['qh.lib.js']
+[OK] get_QH_ SQL ID 각 1개 {'get_QH_CodeFindList': 1, 'get_QH_CodeFindList_Proc': 1, 'get_QH_SelectBindList': 1}
+[OK] FindCodeRepository 선언 3개 
+[OK] 새 클래스 이름 유일 []
+[OK] 코드찾기 항목 짝 (예외: QH_DEPT_H_CD_AUTH, VNDR_REG_SITE_CD) used=['QH_DEPT_H_CD_AUTH', 'SITE_USER_INFO', 'VNDR_INFO_SITE', 'VNDR_REG_SITE_CD', 'VNDR_REG_SIT_CD'] missing=['QH_DEPT_H_CD_AUTH', 'VNDR_REG_SITE_CD']
+[OK] 셀렉트 항목 짝 used=['QH_CHRC_VAL'] missing=[]
+RESULT: OK

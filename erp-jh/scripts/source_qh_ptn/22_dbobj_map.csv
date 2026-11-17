@@ -1,0 +1,55 @@
+﻿JH_NAME,ACTION,NEW_NAME,FILE_CNT,FILES
+PQSA_ADDRISK_ORD_CO_S,CREATE,PQHA_ADDRISK_ORD_CO_S,1,resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+PQSA_ADDRISK_ORD_Q,CREATE,PQHA_ADDRISK_ORD_Q,1,resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+PQSA_ADDRISK_ORD_W,CREATE,PQHA_ADDRISK_ORD_W,1,resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+PQSA_NCR_REP_APRV_W,CREATE,PQHA_NCR_REP_APRV_W,1,resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+PQSA_NCR_REP_Q,CREATE,PQHA_NCR_REP_Q,1,resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+PQSA_RISK_AB_S,CREATE,PQHA_RISK_AB_S,1,resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+PQSA_RISK_CHK_B,CREATE,PQHA_RISK_CHK_B,1,resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+PQSA_RISK_CHK_S,CREATE,PQHA_RISK_CHK_S,1,resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+PQSA_RISK_NCR_ACT_RSLT_CO_S,CREATE,PQHA_RISK_NCR_ACT_RSLT_CO_S,1,resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+PQSA_RISK_VNDR_ATFL_S,CREATE,PQHA_RISK_VNDR_ATFL_S,1,resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+PQSA_SAFECOST_ARSLT_CO_S,CREATE,PQHA_SAFECOST_ARSLT_CO_S,1,resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+PQSA_SAFECOST_MMARSLT_CO_W,CREATE,PQHA_SAFECOST_MMARSLT_CO_W,1,resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+PQSA_SAFECOST_REG_CO_Q,CREATE,PQHA_SAFECOST_REG_CO_Q,1,resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+PQSA_SAFE_AB_S,CREATE,PQHA_SAFE_AB_S,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+PQSA_SAFE_PERREQ_OBJLST_S,CREATE,PQHA_SAFE_PERREQ_OBJLST_S,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+PQSA_SAFE_PERREQ_OBJ_S,CREATE,PQHA_SAFE_PERREQ_OBJ_S,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+PQSA_SAFE_PERREQ_S,CREATE,PQHA_SAFE_PERREQ_S,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+PQSB_CTPUNT_CHKITM_S,CREATE,PQHB_CTPUNT_CHKITM_S,1,resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+PQSB_RISK_CHK_Q,CREATE,PQHB_RISK_CHK_Q,1,resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+PQSB_RISK_CHK_S,CREATE,PQHB_RISK_CHK_S,1,resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+PQSB_RISK_CHK_W,CREATE,PQHB_RISK_CHK_W,1,resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+PQSB_RISK_DGR_Q,CREATE,PQHB_RISK_DGR_Q,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_DGR_S,CREATE,PQHB_RISK_DGR_S,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_DGR_W,CREATE,PQHB_RISK_DGR_W,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_LST_Q,CREATE,PQHB_RISK_LST_Q,2,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml resources/sqlmap/mybatis/qh/qhb/RiskLst.xml
+PQSB_RISK_LST_S,CREATE,PQHB_RISK_LST_S,1,resources/sqlmap/mybatis/qh/qhb/RiskLst.xml
+PQSB_RISK_NAM_Q,CREATE,PQHB_RISK_NAM_Q,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_NAM_S,CREATE,PQHB_RISK_NAM_S,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_SCHD_MNG_CO_Q,CREATE,PQHB_RISK_SCHD_MNG_CO_Q,1,resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+PQSB_RISK_USER_LIST_Q,CREATE,PQHB_RISK_USER_LIST_Q,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_VNDR_Q,CREATE,PQHB_RISK_VNDR_Q,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_VNDR_S,CREATE,PQHB_RISK_VNDR_S,1,resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+PQSB_RISK_VNDR_W,CREATE,PQHB_RISK_VNDR_W,1,resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+PQSC_NCR_AB_S,NOT_MAPPED,PQSC_NCR_AB_S,1,resources/sqlmap/mybatis/qh/qhc/NcrActRsltCo.xml
+PQSC_NCR_REP_S,NOT_MAPPED,PQSC_NCR_REP_S,1,resources/sqlmap/mybatis/qh/qhc/NcrActRsltCo.xml
+TQSA_ADDRISK_ORD,CREATE,TQHA_ADDRISK_ORD,1,resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+TQSA_CTP,CREATE,TQHA_CTP,2,resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml resources/sqlmap/mybatis/co/selectbox/QhSelectBind.xml
+TQSA_CTPUNT,CREATE,TQHA_CTPUNT,1,resources/sqlmap/mybatis/co/selectbox/QhSelectBind.xml
+TQSA_NCR_REP,CREATE,TQHA_NCR_REP,1,resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+TQSA_SAFECOST_ARSLT_CO,CREATE,TQHA_SAFECOST_ARSLT_CO,1,resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+TQSA_SAFECOST_MMARSLT_CO,CREATE,TQHA_SAFECOST_MMARSLT_CO,2,resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+TQSA_SAFE_PERM_CD,CREATE,TQHA_SAFE_PERM_CD,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+TQSA_SAFE_PERM_CPLN,CREATE,TQHA_SAFE_PERM_CPLN,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+TQSA_SAFE_PERREQ,CREATE,TQHA_SAFE_PERREQ,2,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+TQSA_SAFE_PERREQ_OBJ,CREATE,TQHA_SAFE_PERREQ_OBJ,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+TQSA_SAFE_PERREQ_OBJLST,CREATE,TQHA_SAFE_PERREQ_OBJLST,1,resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+TQSA_SITENAM,CREATE,TQHA_SITENAM,1,resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml
+TQSA_SUBJECT,CREATE,TQHA_SUBJECT,1,resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+TQSA_VNDR,CREATE,TQHA_VNDR,1,resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml
+TQSB_RISK_VNDR,CREATE,TQHB_RISK_VNDR,1,resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+TQSB_VNDRNAM,CREATE,TQHB_VNDRNAM,1,resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml
+TQSC_NCR_REP,NOT_MAPPED,TQSC_NCR_REP,2,resources/sqlmap/mybatis/qh/qhc/NcrActRsltCo.xml resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+VQSZ_SITEINFO,NOT_MAPPED,VQSZ_SITEINFO,2,resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml resources/sqlmap/mybatis/qh/qhz/QsMain.xml
+VQSZ_TRADE,NOT_MAPPED,VQSZ_TRADE,2,resources/sqlmap/mybatis/co/codefind/QhCodeFind.xml resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml

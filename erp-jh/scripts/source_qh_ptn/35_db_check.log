@@ -1,0 +1,44 @@
+[NG] PCOA_SMS_INTERFACE               mapper= 13 db=None MISSING   resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[NG] PCOA_SMS_INTERFACE               mapper= 13 db=None MISSING   resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+[NG] PQHA_ADDRISK_ORD_CO_S            mapper= 16 db=17 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+[NG] PQHA_ADDRISK_ORD_Q               mapper=  9 db=10 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+[OK] PQHA_ADDRISK_ORD_W               mapper=  8 db=8 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/AddRiskCo.xml
+[OK] PQHA_NCR_REP_APRV_W              mapper=  5 db=5 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+[NG] PQHA_NCR_REP_Q                   mapper=  7 db=8 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+[OK] PQHA_RISK_AB_S                   mapper=  7 db=7 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[NG] PQHA_RISK_CHK_B                  mapper= 10 db=10 PROCEDURE INVALID  resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[OK] PQHA_RISK_CHK_S                  mapper= 55 db=55 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[NG] PQHA_RISK_NCR_ACT_RSLT_CO_S      mapper= 16 db=17 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskNcrActRsltCo.xml
+[NG] PQHA_RISK_VNDR_ATFL_S            mapper=  8 db=9 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[NG] PQHA_SAFECOST_ARSLT_CO_S         mapper= 41 db=39 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+[OK] PQHA_SAFECOST_MMARSLT_CO_W       mapper=  8 db=8 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+[NG] PQHA_SAFECOST_REG_CO_Q           mapper=  5 db=6 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeCostReg.xml
+[OK] PQHA_SAFE_AB_S                   mapper=  8 db=8 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+[OK] PQHA_SAFE_PERREQ_OBJLST_S        mapper=  8 db=8 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+[OK] PQHA_SAFE_PERREQ_OBJ_S           mapper=  9 db=9 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+[OK] PQHA_SAFE_PERREQ_S               mapper= 39 db=39 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/SafeWorkReqCo.xml
+[OK] PQHB_CTPUNT_CHKITM_S             mapper= 17 db=17 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[OK] PQHB_RISK_CHK_Q                  mapper=  7 db=7 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+[NG] PQHB_RISK_CHK_S                  mapper= 26 db=26 PROCEDURE INVALID  resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+[OK] PQHB_RISK_CHK_W                  mapper= 10 db=10 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+[OK] PQHB_RISK_DGR_Q                  mapper=  7 db=7 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[OK] PQHB_RISK_DGR_S                  mapper= 28 db=28 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[NG] PQHB_RISK_DGR_W                  mapper=  7 db=9 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[OK] PQHB_RISK_LST_Q                  mapper= 10 db=10 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[OK] PQHB_RISK_LST_Q                  mapper= 10 db=10 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskLst.xml
+[OK] PQHB_RISK_LST_S                  mapper= 22 db=22 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskLst.xml
+[OK] PQHB_RISK_NAM_Q                  mapper=  8 db=8 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[NG] PQHB_RISK_NAM_S                  mapper= 13 db=14 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[NG] PQHB_RISK_SCHD_MNG_CO_Q          mapper=  8 db=9 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qha/RiskSchdMngCo.xml
+[OK] PQHB_RISK_USER_LIST_Q            mapper=  5 db=5 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[OK] PQHB_RISK_VNDR_Q                 mapper=  9 db=9 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[OK] PQHB_RISK_VNDR_S                 mapper= 16 db=16 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskDgr.xml
+[OK] PQHB_RISK_VNDR_W                 mapper=  9 db=9 PROCEDURE VALID  resources/sqlmap/mybatis/qh/qhb/RiskChk.xml
+[NG] PQSC_NCR_AB_S                    mapper=  6 db=None MISSING   resources/sqlmap/mybatis/qh/qhc/NcrActRsltCo.xml
+[NG] PQSC_NCR_REP_S                   mapper= 35 db=None MISSING   resources/sqlmap/mybatis/qh/qhc/NcrActRsltCo.xml
+procedures: 36, NG: 16
+[unmapped] PQSC_NCR_AB_S: NOT FOUND in VPLUS202611A
+[unmapped] PQSC_NCR_REP_S: NOT FOUND in VPLUS202611A
+[unmapped] TQSC_NCR_REP: NOT FOUND in VPLUS202611A
+[unmapped] VQSZ_TRADE: ('VIEW', 'VALID')
+[unmapped] VQSZ_SITEINFO: ('VIEW', 'VALID')

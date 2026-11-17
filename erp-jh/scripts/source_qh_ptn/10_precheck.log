@@ -1,0 +1,11 @@
+source files: 72 (qs dirs 68, extra 4)
+target already exists: 0 []
+qh dirs existing: []
+Qh* classes existing: 0
+new class names colliding with B: []
+git status lines: 0 []
+common file exists: java/com/hs/partner/co/comcode/rps/FindCodeRepository.java True
+common file exists: webapp/WEB-INF/jsp/include/scriptInclude.jsp True
+common file exists: webapp/resources/js/app.createcodefinder.js True
+common file exists: webapp/WEB-INF/jsp/index.jsp True
+RESULT: OK
