@@ -14,6 +14,38 @@
 
 ---
 
+## 2026-11-18
+
+- `docs/계정별-권한-테스트-시나리오.md` 화면 권한·버튼 권한 중심으로 재작성
+  - 대상 경로: `erp-h/docs/계정별-권한-테스트-시나리오.md`
+  - 근거: CS 화면 소스 `products-erp-h/app/src/main/resources/pages/cs/*.js` 버튼 선언 · erp-h 라벨 데이터 · hmp `components-react.js` 프리셋 버튼 등급(BUTTON_PRESETS)·버튼 표시 모드(`ui.auth.button.mode` 기본 disabled) · 화면별 권한 정의표
+  - 변경: 판정 규칙(화면 권한·버튼 종류별 요구 조건) · 계정별 화면 권한 시나리오 · CS 23화면·공통/시스템 12화면 버튼×계정 표 · 등급 1 계정에서 활성되는 등급 조건 없는 업무 버튼(★) 8건 · 서버 차단 7건 · 부록 A 유지
+  - 비고: 이전 판의 데이터 범위·역할 겹침·기간 시나리오는 제외(버튼 중심 요청)
+- `docs/계정별-권한-테스트-시나리오.md` 화면 경로 추가
+  - 대상 경로: `erp-h/docs/계정별-권한-테스트-시나리오.md`
+  - 근거: 작업대장 v3 메뉴 단계 · `P5-menu-system-full-projection.tsv`(11/11 실측 메뉴) · `sqlh-service-20261109.psv` 부모 메뉴(CS 화면)
+  - 변경: 시나리오 화면 칸 92곳을 「메뉴 경로 (화면ID)」로 바꿈 · 부록 A 메뉴 묶음 → 메뉴 경로 · 12장에 관리 화면 경로 · E-07 을 업무그룹 관리(ca-biz-group) 기준으로 수정(biz-group 은 서버 API 묶음)
+- `docs/계정별-권한-테스트-시나리오.md` 역할별 상세 시나리오로 확대
+  - 대상 경로: `erp-h/docs/계정별-권한-테스트-시나리오.md`
+  - 근거: `products-erp-h/db/common-admin/P3-plan-role-service.tsv` 역할×화면 전체 · 서비스명 `db/common-admin/input/sqlh-service-20261109.psv`
+  - 변경: 시나리오 유형 11종(메뉴·등급 1·2·3·미부여·직접 호출·범위·역할 겹침·기간·팝업·엑셀) · 계정 8개 시나리오 106건 · 계정 비교·권한 변경 시나리오 · 부록 A(CS 61화면×계정 등급)·B(관리·개발 메뉴 묶음별 등급)
+- `docs/계정별-권한-테스트-시나리오.md` 생성
+  - 대상 경로: `erp-h/docs/계정별-권한-테스트-시나리오.md`
+  - 근거: `products-erp-h/db/common-admin/P3-plan-role-service.tsv`(역할×화면 부여 계획) · `TEST-USERS.md` · 화면별 권한 정의표
+  - 이유: 시험 계정별(erpadmin·h.dev01·h.csadm·h.cs01·h.cs02·h.cs03·h.site01·h.bizadm) 메뉴·등급·서버 차단·데이터 범위 시나리오 작성 요청
+- `docs/계정별-권한-테스트-순서.md` 생성
+  - 대상 경로: `erp-h/docs/계정별-권한-테스트-순서.md`
+  - 근거: `products-erp-h/docs/work/common-admin/dev-guide/TEST-USERS.md` · 화면별 권한 정의표 · `docs/계정-권한-흐름도.md`
+  - 이유: 시험 계정별 권한 테스트 순서(준비 → 실효 메뉴 사전 확인 → 로그인 → 메뉴 → 화면 등급 → 서버 차단 → 데이터 범위 → 기록) 문서화 요청
+- `docs/계정-권한-흐름도.md` 생성
+  - 대상 경로: `erp-h/docs/계정-권한-흐름도.md`
+  - 근거: `products-erp-h/docs/work/common-admin/dev-guide/PLATFORM.md` §4~§6 · `BRIEFING-20261110.md` §2 · hmp core 판정 클래스 존재 확인
+  - 이유: 계정 하나에 권한을 정의·부여하고 로그인·메뉴·화면·API·데이터 범위에 적용되는 흐름을 mermaid 흐름도로 정리 요청
+- `docs/계정-권한-흐름도.md` 화면 조작 순서로 재작성
+  - 대상 경로: `erp-h/docs/계정-권한-흐름도.md`
+  - 근거: hmp `pages/role/role-service.js`·`user-role.js` 화면 구성과 라벨(core `11_label.sql`) · 화면별 권한 정의표
+  - 이유: 내부 구조 설명 대신 메뉴를 눌러 따라 할 수 있는 순서도·설명 요청(역할 만들기 → 메뉴·등급 연결 → 계정 부여 → 실효 메뉴 미리 보기 → 그 계정으로 확인 → 점검표)
+
 ## 2026-11-12
 
 - `docs/공통관리-작업대장.md` 생성
