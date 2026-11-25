@@ -14,6 +14,25 @@
 
 ---
 
+## 2026-11-25
+
+- A/S관리 테스트생성 화면 메뉴 등록 SQL 초안 추가(미실행)
+  - 대상 경로: `erp-h/scripts/as-mgmt-test-register.sql`
+  - 이유: 사용자 요청 — 분석서 기반 새 화면을 A/S관리와 같은 메뉴(MENU_CS_REG_AS) 아래 등록하기 위함
+  - 내용: program · service(정렬 15) · service_i18n · role_service(cs_csChkMng 권한 복사) · 되돌리기 절
+  - 비고: 메뉴·권한 등록은 리드 담당(VIBE-CODING §2)이라 파일로만 준비 · 화면 파일 `pages/cs/asMngTest.js` 는 MCP 조회 도구 미연결로 lookup_gate 에 막혀 미작성
+
+- A/S관리 화면 분석서 HTML 판 추가(사람이 읽기 쉬운 형태)
+  - 대상 경로: `erp-h/scripts/as-mgmt-screen-analysis.html`
+  - 이유: 사용자 요청 — 같은 분석 내용을 화면 구성 모형 · 업무 흐름 · 진행상태 변화 · 버튼 활성 조건 중심으로 재구성
+  - 비고: 내용 원천은 같은 폴더 `as-mgmt-screen-analysis.md`(구현용 상세 명세로 유지)
+
+- A/S관리 화면 분석서 추가
+  - 대상 경로: `erp-h/scripts/as-mgmt-screen-analysis.md`
+  - 이유: 분석서를 기준으로 A/S관리 화면을 새로 구현하기 위함(사용자 요청)
+  - 근거: `products-erp-h/app/src/main/resources/pages/cs/csChkMng.js` · `CsChkMngController.java` · `CsIntakeController.java` · `AsAcpDtlsService.java` · `CsIntakeService.java` · `erp-csc-csChkMngListQ.xml` · `erp-csc-csChkMngSave.xml` · 코드·서비스 시드
+  - 내용: 화면 배치 · 조회조건 · 목록 컬럼 · 상세 필드와 잠금 조건 · 버튼 활성 조건 · 다이얼로그 9종 · 저장 흐름과 서버 검증 · API 26종 · 테이블 · 코드 그룹 · 모드별 차이 · 구현 규칙 · 확인 필요 사항
+
 ## 2026-11-18
 
 - `docs/계정별-권한-테스트-시나리오.md` 화면 권한·버튼 권한 중심으로 재작성
